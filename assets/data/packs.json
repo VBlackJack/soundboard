@@ -5,6 +5,12 @@
       "name": "Kaamelott",
       "manifest": "packs/kaamelott/pack.json",
       "defaultTheme": "drakul"
+    },
+    {
+      "id": "dikkenek",
+      "name": "Dikkenek",
+      "manifest": "packs/dikkenek/pack.json",
+      "defaultTheme": "wormwood"
     }
   ]
 }

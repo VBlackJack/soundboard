@@ -1,0 +1,750 @@
+{
+  "id": "dikkenek",
+  "name": "Dikkenek",
+  "defaultTheme": "wormwood",
+  "soundsBase": "sounds/dikkenek/",
+  "characters": [
+    "Dikkenek"
+  ],
+  "count": 123,
+  "sounds": [
+    {
+      "file": "achever_50e.mp3",
+      "title": "Achever 50e",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "adieu_petit_lapin.mp3",
+      "title": "Adieu petit lapin",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "albator.mp3",
+      "title": "Albator",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "arrete_un_bus.mp3",
+      "title": "Arrete un bus",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "aucune_allure.mp3",
+      "title": "Aucune allure",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "autant_de_biere.mp3",
+      "title": "Autant de biere",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "bercee_trop_pret_du_mur.mp3",
+      "title": "Bercee trop pret du mur",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "boire_un_verre.mp3",
+      "title": "Boire un verre",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "boite_a_gants.mp3",
+      "title": "Boite a gants",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "bonjour_sabine.mp3",
+      "title": "Bonjour sabine",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "bouche_fermée.mp3",
+      "title": "Bouche fermée",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "bout_weekend.mp3",
+      "title": "Bout weekend",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "ca_change_des_magasines.mp3",
+      "title": "Ca change des magasines",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "ca_depend.mp3",
+      "title": "Ca depend",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "ca_va_suffir.mp3",
+      "title": "Ca va suffir",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "cabine_publique.mp3",
+      "title": "Cabine publique",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "cacher.mp3",
+      "title": "Cacher",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "camion_poubelle.mp3",
+      "title": "Camion poubelle",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "carjacker.mp3",
+      "title": "Carjacker",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "casser_une_jambe.mp3",
+      "title": "Casser une jambe",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "cendrier.mp3",
+      "title": "Cendrier",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "centre_vacances.mp3",
+      "title": "Centre vacances",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "chanteur_de_rap.mp3",
+      "title": "Chanteur de rap",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "chercher_le_poney.mp3",
+      "title": "Chercher le poney",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "chips.mp3",
+      "title": "Chips",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "cinema_porno.mp3",
+      "title": "Cinema porno",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "classe_verte.mp3",
+      "title": "Classe verte",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "conasse_va.mp3",
+      "title": "Conasse va",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "couilles.mp3",
+      "title": "Couilles",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "coup_de_boule.mp3",
+      "title": "Coup de boule",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "cracher_lama.mp3",
+      "title": "Cracher lama",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "deux_bieres.mp3",
+      "title": "Deux bieres",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "deux_clude.mp3",
+      "title": "Deux clude",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "dites_pas_action.mp3",
+      "title": "Dites pas action",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "dur_comme_boulot.mp3",
+      "title": "Dur comme boulot",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "education_minimum.mp3",
+      "title": "Education minimum",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "elle_est_morte.mp3",
+      "title": "Elle est morte",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "elle_sait_dire_merci.mp3",
+      "title": "Elle sait dire merci",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "embrasse_mere.mp3",
+      "title": "Embrasse mere",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "encore_une_petite.mp3",
+      "title": "Encore une petite",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "enlever_le_bas.mp3",
+      "title": "Enlever le bas",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "epais_frein.mp3",
+      "title": "Epais frein",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "epilee_pas_epilee.mp3",
+      "title": "Epilee pas epilee",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "etudiants_tv.mp3",
+      "title": "Etudiants tv",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "excessivement_enervant.mp3",
+      "title": "Excessivement enervant",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "excuse_toi.mp3",
+      "title": "Excuse toi",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "flamande_bien_gaulee.mp3",
+      "title": "Flamande bien gaulee",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "gang_bang.mp3",
+      "title": "Gang bang",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "grand_amour.mp3",
+      "title": "Grand amour",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "gretta.mp3",
+      "title": "Gretta",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "he_ket.mp3",
+      "title": "He ket",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "iad.mp3",
+      "title": "Iad",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "identite_sexuelles.mp3",
+      "title": "Identite sexuelles",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "idiot.mp3",
+      "title": "Idiot",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "il_est_moche.mp3",
+      "title": "Il est moche",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "il_est_tout_a_fait_fou.mp3",
+      "title": "Il est tout a fait fou",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "interesse_numero.mp3",
+      "title": "Interesse numero",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "jalousie.mp3",
+      "title": "Jalousie",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "jamais_deux_sans_trois.mp3",
+      "title": "Jamais deux sans trois",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "japonaise_gueule.mp3",
+      "title": "Japonaise gueule",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "je_suis_claudy.mp3",
+      "title": "Je suis claudy",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "je_veux_quitter_cette_ville.mp3",
+      "title": "Je veux quitter cette ville",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "juge_pas.mp3",
+      "title": "Juge pas",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "kinder.mp3",
+      "title": "Kinder",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "king_de_la_route.mp3",
+      "title": "King de la route",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "king_kong.mp3",
+      "title": "King kong",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "la_mousse.mp3",
+      "title": "La mousse",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "laides.mp3",
+      "title": "Laides",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "licenciement.mp3",
+      "title": "Licenciement",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "mal_baisee.mp3",
+      "title": "Mal baisee",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "mal_reveillee.mp3",
+      "title": "Mal reveillee",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "materiellement_pas_le_temps.mp3",
+      "title": "Materiellement pas le temps",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "messieurs_dame_bonjour.mp3",
+      "title": "Messieurs dame bonjour",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "michael_jackson.mp3",
+      "title": "Michael jackson",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "mignon_cochon.mp3",
+      "title": "Mignon cochon",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "moche.mp3",
+      "title": "Moche",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "negocier_nichons.mp3",
+      "title": "Negocier nichons",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "noir_et_blanc.mp3",
+      "title": "Noir et blanc",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "offrir_cailloux.mp3",
+      "title": "Offrir cailloux",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "ont_pas_rate.mp3",
+      "title": "Ont pas rate",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "original.mp3",
+      "title": "Original",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "ou_tu_sors.mp3",
+      "title": "Ou tu sors",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "pas_de_tututututu.mp3",
+      "title": "Pas de tututututu",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "pas_emporter.mp3",
+      "title": "Pas emporter",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "paye_partie.mp3",
+      "title": "Paye partie",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "petite_culotte.mp3",
+      "title": "Petite culotte",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "petite_soeur.mp3",
+      "title": "Petite soeur",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "photo_de_charme.mp3",
+      "title": "Photo de charme",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "place_poularte_croisette.mp3",
+      "title": "Place poularte croisette",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "plait_pas_tout_le_monde.mp3",
+      "title": "Plait pas tout le monde",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "poli_ou_pas_poli.mp3",
+      "title": "Poli ou pas poli",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "prendre_ta_raclee.mp3",
+      "title": "Prendre ta raclee",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "ptite_bite.mp3",
+      "title": "Ptite bite",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "quel_clete.mp3",
+      "title": "Quel clete",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "quest_ce_qui_a.mp3",
+      "title": "Quest ce qui a",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "qui_veux_jouer_au_mort.mp3",
+      "title": "Qui veux jouer au mort",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "remixer.mp3",
+      "title": "Remixer",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "reussir_a_rien_foutre.mp3",
+      "title": "Reussir a rien foutre",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "rime_rame_tartine.mp3",
+      "title": "Rime rame tartine",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "rolland_garros.mp3",
+      "title": "Rolland garros",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "schouf_fleau.mp3",
+      "title": "Schouf fleau",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "sent_la_merde.mp3",
+      "title": "Sent la merde",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "si_je_te_dis.mp3",
+      "title": "Si je te dis",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "soleil.mp3",
+      "title": "Soleil",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "tas_vu_ca.mp3",
+      "title": "Tas vu ca",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "tchouk.mp3",
+      "title": "Tchouk",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "tendu_comme_une_crampe.mp3",
+      "title": "Tendu comme une crampe",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "terminer_bonsoir.mp3",
+      "title": "Terminer bonsoir",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "tomber_sus.mp3",
+      "title": "Tomber sus",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "touche_les_seins.mp3",
+      "title": "Touche les seins",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "tout_negociable.mp3",
+      "title": "Tout negociable",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "trou_de_balle.mp3",
+      "title": "Trou de balle",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "tu_bois_pas_tout.mp3",
+      "title": "Tu bois pas tout",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "tu_ne_me_vois_pas.mp3",
+      "title": "Tu ne me vois pas",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "un_petit_clic.mp3",
+      "title": "Un petit clic",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "une_ptite_vedett.mp3",
+      "title": "Une ptite vedett",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "va_te_faire_refaire.mp3",
+      "title": "Va te faire refaire",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "venir_vers_moi.mp3",
+      "title": "Venir vers moi",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "vieille_truie.mp3",
+      "title": "Vieille truie",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "vire_de_chez_vire.mp3",
+      "title": "Vire de chez vire",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "voiture_sport.mp3",
+      "title": "Voiture sport",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "vulgaire.mp3",
+      "title": "Vulgaire",
+      "character": "Dikkenek",
+      "episode": ""
+    },
+    {
+      "file": "yeux_de_cocker.mp3",
+      "title": "Yeux de cocker",
+      "character": "Dikkenek",
+      "episode": ""
+    }
+  ]
+}
