@@ -9,7 +9,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SoundBoard</title>
   <meta name="description" content="Soundboard web multi-thème, propulsé par ThemeForge." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="stylesheet" href="assets/css/app.css" />
 </head>
 <body>
@@ -24,49 +23,51 @@
       </div>
     </div>
 
-    <div class="controls">
-      <div class="search-wrap">
-        <input id="search" type="search" placeholder="Rechercher une réplique…"
-               autocomplete="off" aria-label="Rechercher une réplique" />
-      </div>
-
+    <div class="header-controls">
       <label class="select-wrap">
         <span class="select-label">Pack</span>
         <select id="pack-select" aria-label="Choisir un pack"></select>
       </label>
-
       <label class="select-wrap">
         <span class="select-label">Thème</span>
         <select id="theme-select" aria-label="Choisir un thème"></select>
       </label>
-
-      <button id="fav-toggle" class="icon-btn" type="button"
-              aria-pressed="false" title="Afficher seulement les favoris">
-        <span class="star" aria-hidden="true">&#9733;</span>
-        <span class="icon-btn-label">Favoris</span>
-      </button>
-
       <div class="volume-wrap" title="Volume">
         <span class="vol-icon" aria-hidden="true">&#128266;</span>
         <input id="volume" type="range" min="0" max="1" step="0.01" value="0.9"
                aria-label="Volume" />
       </div>
-
-      <button id="stop-all" class="stop-btn" type="button" title="Tout arrêter">
-        &#9632; Stop
+      <button id="stop-all" class="stop-btn" type="button" title="Tout arrêter (Échap)">
+        <span aria-hidden="true">&#9632;</span> Stop
       </button>
     </div>
   </header>
 
-  <nav id="char-filter" class="char-filter" aria-label="Filtrer par personnage"></nav>
+  <div class="toolbar">
+    <div class="search-hero">
+      <span class="search-icon" aria-hidden="true">&#128269;</span>
+      <input id="search" type="search" placeholder="Rechercher une réplique…  (touche /)"
+             autocomplete="off" aria-label="Rechercher une réplique" />
+    </div>
 
-  <main id="board" class="board" aria-live="polite"></main>
+    <div id="char-combo" class="char-combo"></div>
+
+    <button id="fav-toggle" class="icon-btn" type="button"
+            aria-pressed="false" title="Afficher seulement les favoris">
+      <span class="star" aria-hidden="true">&#9733;</span>
+      <span class="icon-btn-label">Favoris</span>
+    </button>
+
+    <span id="result-count" class="result-count muted" aria-live="polite"></span>
+  </div>
+
+  <main id="board" class="board"></main>
 
   <p id="empty-state" class="empty-state" hidden>Aucune réplique ne correspond.</p>
 
   <footer class="app-footer">
-    <span id="result-count" class="muted"></span>
-    <span class="muted">Thèmes : <strong>ThemeForge</strong> &middot; Sons : projet communautaire Kaamelott Soundboard</span>
+    <span class="muted">Thèmes : <strong>ThemeForge</strong></span>
+    <span class="muted">Sons : projet communautaire Kaamelott Soundboard</span>
   </footer>
 
   <script src="assets/js/app.js" defer></script>

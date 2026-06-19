@@ -15,14 +15,19 @@
     fav: (packId) => `soundboard.fav.${packId}`,
   };
 
-  // --- Tiny structured logger (console-backed). -------------------------
+  // Decorative palette used to color-code characters. Each entry is a CSS
+  // custom property defined by the active theme, so dots stay themable.
+  const CHAR_PALETTE = [
+    "--cyan", "--green", "--orange", "--pink",
+    "--purple", "--red", "--yellow", "--blue",
+  ];
+
   const log = {
     info: (...a) => console.info("[soundboard]", ...a),
     warn: (...a) => console.warn("[soundboard]", ...a),
     error: (...a) => console.error("[soundboard]", ...a),
   };
 
-  // --- DOM references. --------------------------------------------------
   const el = {
     packTitle: document.getElementById("pack-title"),
     packSubtitle: document.getElementById("pack-subtitle"),
@@ -32,13 +37,12 @@
     favToggle: document.getElementById("fav-toggle"),
     volume: document.getElementById("volume"),
     stopAll: document.getElementById("stop-all"),
-    charFilter: document.getElementById("char-filter"),
+    charCombo: document.getElementById("char-combo"),
     board: document.getElementById("board"),
     emptyState: document.getElementById("empty-state"),
     resultCount: document.getElementById("result-count"),
   };
 
-  // --- Application state. ------------------------------------------------
   const state = {
     themes: [],
     themeById: new Map(),
@@ -49,6 +53,7 @@
     audio: new Audio(),
     playingFile: null,
     rafId: 0,
+    combo: null, // { trigger, panel, search, list, label }
   };
 
   // ---------------------------------------------------------------------
@@ -103,13 +108,12 @@
     el.packSubtitle.textContent = `${state.pack.count} répliques`;
     el.packSelect.value = state.pack.id;
 
-    // Theme: stored preference wins, else the pack default.
     const stored = localStorage.getItem(STORE.theme);
     const themeId = state.themeById.has(stored) ? stored : entry.defaultTheme;
     applyTheme(themeId);
     el.themeSelect.value = themeId;
 
-    renderCharFilter();
+    buildCharCombo();
     render();
     log.info("pack loaded:", state.pack.id, state.pack.count, "sounds");
   }
@@ -120,14 +124,9 @@
   function applyTokens(tokens) {
     if (!tokens) return;
     const root = document.documentElement.style;
-    const map = {
-      radius: (k) => `--radius-${k}`,
-      spacing: (k) => `--space-${k}`,
-    };
+    const map = { radius: (k) => `--radius-${k}`, spacing: (k) => `--space-${k}` };
     for (const group of ["radius", "spacing"]) {
-      Object.entries(tokens[group] || {}).forEach(([k, v]) => {
-        root.setProperty(map[group](k), v);
-      });
+      Object.entries(tokens[group] || {}).forEach(([k, v]) => root.setProperty(map[group](k), v));
     }
   }
 
@@ -149,10 +148,11 @@
       const fam = (t.family === "Dark" || t.family === "Light") ? t.family : "Other";
       groups[fam].push(t);
     });
-    for (const [label, items] of Object.entries(groups)) {
+    const labels = { Dark: "Sombres", Light: "Clairs", Other: "Autres" };
+    for (const [key, items] of Object.entries(groups)) {
       if (!items.length) continue;
       const og = document.createElement("optgroup");
-      og.label = label === "Other" ? "Autres" : (label === "Dark" ? "Sombres" : "Clairs");
+      og.label = labels[key];
       items.forEach((t) => {
         const opt = document.createElement("option");
         opt.value = t.id;
@@ -175,37 +175,110 @@
   }
 
   // ---------------------------------------------------------------------
-  // Rendering
+  // Character combobox (searchable)
   // ---------------------------------------------------------------------
-  function renderCharFilter() {
-    el.charFilter.innerHTML = "";
+  function characterCounts() {
     const counts = new Map();
     state.pack.sounds.forEach((s) => {
       if (!s.character) return;
       counts.set(s.character, (counts.get(s.character) || 0) + 1);
     });
-
-    const makeChip = (label, value, count) => {
-      const chip = document.createElement("button");
-      chip.type = "button";
-      chip.className = "chip";
-      chip.setAttribute("aria-pressed", String(state.filters.character === value));
-      chip.innerHTML = `${escapeHtml(label)}` +
-        (count != null ? `<span class="chip-count">${count}</span>` : "");
-      chip.addEventListener("click", () => {
-        state.filters.character = state.filters.character === value ? null : value;
-        renderCharFilter();
-        render();
-      });
-      return chip;
-    };
-
-    el.charFilter.appendChild(makeChip("Tous", null, state.pack.count));
-    [...counts.entries()]
-      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-      .forEach(([name, n]) => el.charFilter.appendChild(makeChip(name, name, n)));
+    return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
   }
 
+  function buildCharCombo() {
+    el.charCombo.innerHTML = "";
+
+    const trigger = document.createElement("button");
+    trigger.type = "button";
+    trigger.className = "combo-trigger";
+    trigger.setAttribute("aria-haspopup", "listbox");
+    trigger.setAttribute("aria-expanded", "false");
+    trigger.innerHTML =
+      `<span class="combo-trigger-label">Tous les personnages</span>` +
+      `<span class="caret" aria-hidden="true">&#9662;</span>`;
+
+    const panel = document.createElement("div");
+    panel.className = "combo-panel";
+    panel.hidden = true;
+
+    const search = document.createElement("input");
+    search.type = "search";
+    search.className = "combo-search";
+    search.placeholder = "Filtrer un personnage…";
+    search.setAttribute("aria-label", "Filtrer un personnage");
+
+    const list = document.createElement("div");
+    list.className = "combo-list";
+    list.setAttribute("role", "listbox");
+
+    panel.append(search, list);
+    el.charCombo.append(trigger, panel);
+    state.combo = { trigger, panel, search, list, label: trigger.firstElementChild };
+
+    const makeOption = (name, value, count, colorVar) => {
+      const opt = document.createElement("button");
+      opt.type = "button";
+      opt.className = "combo-option";
+      opt.setAttribute("role", "option");
+      opt.dataset.value = value == null ? "" : value;
+      opt.dataset.name = name.toLowerCase();
+      opt.innerHTML =
+        `<span class="opt-dot" style="background:var(${colorVar})"></span>` +
+        `<span class="opt-name">${escapeHtml(name)}</span>` +
+        `<span class="opt-count">${count}</span>`;
+      opt.addEventListener("click", () => selectCharacter(value, name));
+      return opt;
+    };
+
+    list.appendChild(makeOption("Tous les personnages", null, state.pack.count, "--text-secondary"));
+    characterCounts().forEach(([name, n]) =>
+      list.appendChild(makeOption(name, name, n, charColorVar(name))));
+
+    updateComboSelection();
+
+    trigger.addEventListener("click", () => toggleCombo());
+    search.addEventListener("input", () => filterComboOptions(search.value.trim().toLowerCase()));
+  }
+
+  function filterComboOptions(query) {
+    state.combo.list.querySelectorAll(".combo-option").forEach((opt) => {
+      const keep = !query || opt.dataset.value === "" || opt.dataset.name.includes(query);
+      opt.style.display = keep ? "" : "none";
+    });
+  }
+
+  function toggleCombo(forceOpen) {
+    const open = forceOpen != null ? forceOpen : state.combo.panel.hidden;
+    state.combo.panel.hidden = !open;
+    state.combo.trigger.setAttribute("aria-expanded", String(open));
+    if (open) {
+      state.combo.search.value = "";
+      filterComboOptions("");
+      state.combo.search.focus();
+    }
+  }
+
+  function selectCharacter(value, name) {
+    state.filters.character = value;
+    updateComboSelection();
+    toggleCombo(false);
+    state.combo.trigger.focus();
+    render();
+  }
+
+  function updateComboSelection() {
+    const current = state.filters.character;
+    state.combo.label.textContent = current || "Tous les personnages";
+    state.combo.list.querySelectorAll(".combo-option").forEach((opt) => {
+      const val = opt.dataset.value || null;
+      opt.setAttribute("aria-selected", String(val === current));
+    });
+  }
+
+  // ---------------------------------------------------------------------
+  // Rendering
+  // ---------------------------------------------------------------------
   function matchesFilters(sound) {
     const f = state.filters;
     if (f.favOnly && !state.favorites.has(sound.file)) return false;
@@ -225,7 +298,7 @@
     el.board.appendChild(frag);
 
     el.emptyState.hidden = list.length !== 0;
-    el.resultCount.textContent = `${list.length} / ${state.pack.count} répliques`;
+    el.resultCount.textContent = `${list.length} / ${state.pack.count}`;
   }
 
   function buildCard(sound) {
@@ -233,15 +306,21 @@
     card.type = "button";
     card.className = "sound" + (sound.file === state.playingFile ? " playing" : "");
     card.dataset.file = sound.file;
-    card.title = sound.episode || "";
+    card.title = sound.episode ? `${sound.title}\n${sound.episode}` : sound.title;
+    if (sound.character) {
+      card.style.setProperty("--char-color", `var(${charColorVar(sound.character)})`);
+    }
 
     const isFav = state.favorites.has(sound.file);
+    const playing = sound.file === state.playingFile;
     card.innerHTML = `
       <span class="fav-btn" role="button" aria-pressed="${isFav}"
             aria-label="Favori" title="Favori">${isFav ? "&#9733;" : "&#9734;"}</span>
       <span class="sound-title">${escapeHtml(sound.title)}</span>
       <span class="sound-meta">
-        <span class="sound-char">${escapeHtml(sound.character || "")}</span>
+        <span class="char-dot" aria-hidden="true"></span>
+        <span class="sound-char">${escapeHtml(sound.character || "—")}</span>
+        <span class="play-icon" aria-hidden="true">${playing ? "&#10074;&#10074;" : "&#9654;"}</span>
       </span>
       <span class="progress"></span>`;
 
@@ -264,10 +343,7 @@
     state.playingFile = sound.file;
     markPlaying(sound.file, true);
 
-    state.audio.play().catch((err) => {
-      log.error("playback error:", err);
-      stopPlayback();
-    });
+    state.audio.play().catch((err) => { log.error("playback error:", err); stopPlayback(); });
     trackProgress();
   }
 
@@ -283,6 +359,8 @@
     const card = el.board.querySelector(`.sound[data-file="${cssEscape(file)}"]`);
     if (!card) return;
     card.classList.toggle("playing", on);
+    const icon = card.querySelector(".play-icon");
+    if (icon) icon.innerHTML = on ? "&#10074;&#10074;" : "&#9654;";
     if (!on) { const p = card.querySelector(".progress"); if (p) p.style.width = "0"; }
   }
 
@@ -317,15 +395,13 @@
     if (state.favorites.has(file)) state.favorites.delete(file);
     else state.favorites.add(file);
     persistFavorites();
-    if (state.filters.favOnly) render();
-    else {
-      const card = el.board.querySelector(`.sound[data-file="${cssEscape(file)}"]`);
-      const btn = card && card.querySelector(".fav-btn");
-      if (btn) {
-        const on = state.favorites.has(file);
-        btn.setAttribute("aria-pressed", String(on));
-        btn.innerHTML = on ? "&#9733;" : "&#9734;";
-      }
+    if (state.filters.favOnly) { render(); return; }
+    const card = el.board.querySelector(`.sound[data-file="${cssEscape(file)}"]`);
+    const btn = card && card.querySelector(".fav-btn");
+    if (btn) {
+      const on = state.favorites.has(file);
+      btn.setAttribute("aria-pressed", String(on));
+      btn.innerHTML = on ? "&#9733;" : "&#9734;";
     }
   }
 
@@ -350,10 +426,20 @@
       localStorage.setItem(STORE.volume, el.volume.value);
     });
     state.audio.addEventListener("ended", stopPlayback);
+
+    document.addEventListener("click", (e) => {
+      if (state.combo && !state.combo.panel.hidden && !el.charCombo.contains(e.target)) {
+        toggleCombo(false);
+      }
+    });
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") stopPlayback();
+      if (e.key === "Escape") {
+        if (state.combo && !state.combo.panel.hidden) { toggleCombo(false); state.combo.trigger.focus(); }
+        else stopPlayback();
+      }
       if (e.key === "/" && document.activeElement !== el.search) {
-        e.preventDefault(); el.search.focus();
+        e.preventDefault();
+        el.search.focus();
       }
     });
   }
@@ -366,6 +452,11 @@
   // ---------------------------------------------------------------------
   // Utilities
   // ---------------------------------------------------------------------
+  function charColorVar(name) {
+    let h = 0;
+    for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0;
+    return CHAR_PALETTE[h % CHAR_PALETTE.length];
+  }
   function camelToKebab(s) { return s.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase(); }
   function escapeHtml(s) {
     return String(s).replace(/[&<>"']/g, (c) =>
