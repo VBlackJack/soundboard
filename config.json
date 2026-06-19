@@ -1,0 +1,5 @@
+{
+  "sounds_json_url": "https://raw.githubusercontent.com/2ec0b4/kaamelott-soundboard/master/sounds/sounds.json",
+  "sounds_base_url": "https://kaamelott-soundboard.2ec0b4.fr/sounds/",
+  "output_directory": "sounds"
+}

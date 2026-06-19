@@ -1,0 +1,30 @@
+SoundBoard
+Copyright 2026 Julien Bombled
+
+This product includes software developed by Julien Bombled, licensed under the
+Apache License, Version 2.0 (see LICENSE).
+
+================================================================================
+Third-party content and attributions
+================================================================================
+
+1. Theme palettes (visual design)
+   The color palettes shipped in assets/data/themes.json are generated from the
+   ThemeForge framework (Julien Bombled, Apache 2.0). The canonical "Dracula"
+   and "Drakul" palettes reproduce/derive from the Dracula Theme by Zeno Rocha
+   (https://draculatheme.com), licensed under the MIT License. See the
+   ThemeForge NOTICE file for the full canonical attribution record.
+
+2. Audio clips (Kaamelott)
+   The .mp3 audio clips under sounds/ are excerpts from the French television
+   series "Kaamelott", created by Alexandre Astier. They are the property of
+   their respective rights holders (CALT / M6 / Alexandre Astier). They are NOT
+   covered by the Apache 2.0 license of this repository and are included here
+   for personal, non-commercial, fan use only.
+
+   The sound registry (titles, characters, episodes) and the original clip
+   collection originate from the community project "kaamelott-soundboard"
+   (https://github.com/2ec0b4/kaamelott-soundboard).
+
+   If you are a rights holder and wish a clip to be removed, please open an
+   issue on the repository.

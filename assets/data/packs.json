@@ -1,0 +1,10 @@
+{
+  "packs": [
+    {
+      "id": "kaamelott",
+      "name": "Kaamelott",
+      "manifest": "packs/kaamelott/pack.json",
+      "defaultTheme": "drakul"
+    }
+  ]
+}

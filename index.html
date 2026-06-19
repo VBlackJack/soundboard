@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+  Copyright 2026 Julien Bombled
+  Licensed under the Apache License, Version 2.0. See LICENSE / NOTICE.
+-->
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SoundBoard</title>
+  <meta name="description" content="Soundboard web multi-thème, propulsé par ThemeForge." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="assets/css/app.css" />
+</head>
+<body>
+  <a class="skip-link" href="#board">Aller au tableau de sons</a>
+
+  <header class="app-header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">&#9836;</span>
+      <div class="brand-text">
+        <h1 id="pack-title">SoundBoard</h1>
+        <p id="pack-subtitle" class="muted"></p>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="Rechercher une réplique…"
+               autocomplete="off" aria-label="Rechercher une réplique" />
+      </div>
+
+      <label class="select-wrap">
+        <span class="select-label">Pack</span>
+        <select id="pack-select" aria-label="Choisir un pack"></select>
+      </label>
+
+      <label class="select-wrap">
+        <span class="select-label">Thème</span>
+        <select id="theme-select" aria-label="Choisir un thème"></select>
+      </label>
+
+      <button id="fav-toggle" class="icon-btn" type="button"
+              aria-pressed="false" title="Afficher seulement les favoris">
+        <span class="star" aria-hidden="true">&#9733;</span>
+        <span class="icon-btn-label">Favoris</span>
+      </button>
+
+      <div class="volume-wrap" title="Volume">
+        <span class="vol-icon" aria-hidden="true">&#128266;</span>
+        <input id="volume" type="range" min="0" max="1" step="0.01" value="0.9"
+               aria-label="Volume" />
+      </div>
+
+      <button id="stop-all" class="stop-btn" type="button" title="Tout arrêter">
+        &#9632; Stop
+      </button>
+    </div>
+  </header>
+
+  <nav id="char-filter" class="char-filter" aria-label="Filtrer par personnage"></nav>
+
+  <main id="board" class="board" aria-live="polite"></main>
+
+  <p id="empty-state" class="empty-state" hidden>Aucune réplique ne correspond.</p>
+
+  <footer class="app-footer">
+    <span id="result-count" class="muted"></span>
+    <span class="muted">Thèmes : <strong>ThemeForge</strong> &middot; Sons : projet communautaire Kaamelott Soundboard</span>
+  </footer>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
