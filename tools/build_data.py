@@ -14,30 +14,35 @@
 # limitations under the License.
 #
 
-"""
-Generates the static data files consumed by the SoundBoard web app.
+"""Generate the ThemeForge themes file and, optionally, the Kaamelott pack.
 
-Outputs (relative to the repository root):
-  * assets/data/themes.json   -- all ThemeForge palettes as web tokens
-  * assets/data/packs.json     -- index of available content packs
-  * packs/<id>/pack.json        -- one manifest per content pack
+  * assets/data/themes.json  -- always regenerated from the ThemeForge variants
+  * packs/<id>/pack.json       -- only when --registry is given
+  * assets/data/packs.json     -- upserted (existing packs are preserved)
 
-The ThemeForge palettes are read from the sibling ThemeForge repository.
-Nothing is hardcoded: paths come from CLI arguments or sensible defaults
-resolved from the repository layout.
+Pack building and the packs index are delegated to sb_lib so that this script
+and import_pack.py stay consistent.
 """
+
+from __future__ import annotations
 
 import argparse
-import json
 import logging
 import os
 import re
 import sys
-from collections import Counter
+from typing import Any
+
+from sb_lib import (
+    build_pack,
+    load_packs_index,
+    records_from_json,
+    upsert_pack,
+    write_json,
+)
 
 LOG = logging.getLogger("build_data")
 
-# Slots we expose to the web layer, mapped from their XAML "<Name>Color" key.
 COLOR_SLOTS = (
     "Background", "Surface", "SurfaceAlt", "Accent", "AccentHover",
     "AccentPressed", "TextPrimary", "TextSecondary", "Border", "Success",
@@ -60,43 +65,34 @@ def _to_css_color(argb: str) -> str:
     if len(value) == 8:
         alpha = int(value[0:2], 16)
         rgb = value[2:]
-        if alpha == 255:
-            return f"#{rgb.upper()}"
-        return f"#{rgb.upper()}{value[0:2].upper()}"  # CSS #RRGGBBAA
+        return f"#{rgb.upper()}" if alpha == 255 else f"#{rgb.upper()}{value[0:2].upper()}"
     return f"#{value.upper()}"
 
 
-def parse_theme(path: str) -> dict:
+def parse_theme(path: str) -> dict[str, Any]:
     """Parse a single ThemeForge variant XAML into a web theme descriptor."""
     text = open(path, encoding="utf-8").read()
     colors_raw = {m.group("key"): m.group("val") for m in _COLOR_RE.finditer(text)}
     strings = {m.group("key"): m.group("val") for m in _STRING_RE.finditer(text)}
-
-    name = strings.get("ThemeDisplayName") or os.path.splitext(os.path.basename(path))[0]
-    family = strings.get("ThemeFamily", "Dark")
-
-    colors = {}
-    for slot in COLOR_SLOTS:
-        if slot in colors_raw:
-            key = slot[0].lower() + slot[1:]
-            colors[key] = _to_css_color(colors_raw[slot])
-
+    base = os.path.splitext(os.path.basename(path))[0]
+    colors = {
+        slot[0].lower() + slot[1:]: _to_css_color(colors_raw[slot])
+        for slot in COLOR_SLOTS if slot in colors_raw
+    }
     return {
-        "id": os.path.splitext(os.path.basename(path))[0].lower(),
-        "name": name,
-        "family": family,
+        "id": base.lower(),
+        "name": strings.get("ThemeDisplayName", base),
+        "family": strings.get("ThemeFamily", "Dark"),
         "colors": colors,
     }
 
 
-def build_themes(themes_dir: str) -> dict:
+def build_themes(themes_dir: str) -> dict[str, Any]:
     """Build the themes.json payload from every variant in themes_dir."""
     variants = []
     for entry in sorted(os.listdir(themes_dir)):
-        if not entry.endswith(".xaml"):
-            continue
         full = os.path.join(themes_dir, entry)
-        if os.path.isfile(full):
+        if entry.endswith(".xaml") and os.path.isfile(full):
             theme = parse_theme(full)
             variants.append(theme)
             LOG.info("theme parsed: %s (%d slots)", theme["name"], len(theme["colors"]))
@@ -110,53 +106,10 @@ def build_themes(themes_dir: str) -> dict:
     }
 
 
-def build_pack(registry_path: str, sounds_dir: str, pack_id: str,
-               pack_name: str, default_theme: str, sounds_base: str) -> dict:
-    """Build a content-pack manifest from a sound registry JSON file."""
-    registry = json.load(open(registry_path, encoding="utf-8"))
-    available = set(os.listdir(sounds_dir))
-
-    sounds = []
-    missing = []
-    char_counter: Counter = Counter()
-    for item in registry:
-        filename = item.get("file")
-        if not filename:
-            continue
-        if filename not in available:
-            missing.append(filename)
-            continue
-        character = (item.get("character") or "").strip()
-        sounds.append({
-            "file": filename,
-            "title": (item.get("title") or filename).strip(),
-            "character": character,
-            "episode": (item.get("episode") or "").strip(),
-        })
-        if character:
-            char_counter[character] += 1
-
-    if missing:
-        LOG.warning("%d registry entries missing from %s", len(missing), sounds_dir)
-
-    sounds.sort(key=lambda s: s["title"].lower())
-    characters = [c for c, _ in char_counter.most_common()]
-
-    return {
-        "id": pack_id,
-        "name": pack_name,
-        "defaultTheme": default_theme,
-        "soundsBase": sounds_base,
-        "characters": characters,
-        "count": len(sounds),
-        "sounds": sounds,
-    }
-
-
-def main(argv=None) -> int:
-    parser = argparse.ArgumentParser(description="Build SoundBoard data files.")
+def _parse_args(argv: list[str] | None) -> argparse.Namespace:
     here = os.path.dirname(os.path.abspath(__file__))
     repo = os.path.dirname(here)
+    parser = argparse.ArgumentParser(description="Build SoundBoard themes and the Kaamelott pack.")
     parser.add_argument("--repo", default=repo, help="SoundBoard repo root")
     parser.add_argument(
         "--themes-dir",
@@ -164,44 +117,47 @@ def main(argv=None) -> int:
                                               "ThemeForge.Theme", "Themes")),
         help="ThemeForge Themes directory",
     )
-    parser.add_argument("--registry", required=True, help="Sound registry JSON")
+    parser.add_argument("--registry", help="Kaamelott sounds.json (optional)")
     parser.add_argument("--pack-id", default="kaamelott")
     parser.add_argument("--pack-name", default="Kaamelott")
     parser.add_argument("--default-theme", default="drakul")
     parser.add_argument("--sounds-base", default="sounds/")
     parser.add_argument("--log-level", default="INFO")
-    args = parser.parse_args(argv)
+    return parser.parse_args(argv)
 
+
+def main(argv: list[str] | None = None) -> int:
+    args = _parse_args(argv)
     logging.basicConfig(level=args.log_level, format="%(levelname)s %(message)s")
 
     themes = build_themes(args.themes_dir)
-    data_dir = os.path.join(args.repo, "assets", "data")
-    os.makedirs(data_dir, exist_ok=True)
-    with open(os.path.join(data_dir, "themes.json"), "w", encoding="utf-8") as fh:
-        json.dump(themes, fh, ensure_ascii=False, indent=2)
+    write_json(os.path.join(args.repo, "assets", "data", "themes.json"), themes)
     LOG.info("wrote themes.json (%d themes)", len(themes["themes"]))
 
+    if not args.registry:
+        LOG.info("no --registry given; skipped pack generation")
+        return 0
+
     sounds_dir = os.path.join(args.repo, args.sounds_base.rstrip("/"))
-    pack = build_pack(args.registry, sounds_dir, args.pack_id, args.pack_name,
-                      args.default_theme, args.sounds_base)
-    pack_dir = os.path.join(args.repo, "packs", args.pack_id)
-    os.makedirs(pack_dir, exist_ok=True)
-    with open(os.path.join(pack_dir, "pack.json"), "w", encoding="utf-8") as fh:
-        json.dump(pack, fh, ensure_ascii=False, indent=2)
+    pack = build_pack(
+        records_from_json(args.registry), sounds_dir,
+        pack_id=args.pack_id, pack_name=args.pack_name,
+        default_theme=args.default_theme, sounds_base=args.sounds_base,
+    )
+    write_json(os.path.join(args.repo, "packs", args.pack_id, "pack.json"), pack)
     LOG.info("wrote pack '%s' (%d sounds, %d characters)",
              pack["id"], pack["count"], len(pack["characters"]))
 
-    packs_index = {
-        "packs": [{
-            "id": pack["id"],
-            "name": pack["name"],
-            "manifest": f"packs/{pack['id']}/pack.json",
-            "defaultTheme": pack["defaultTheme"],
-        }]
-    }
-    with open(os.path.join(data_dir, "packs.json"), "w", encoding="utf-8") as fh:
-        json.dump(packs_index, fh, ensure_ascii=False, indent=2)
-    LOG.info("wrote packs.json")
+    index_path = os.path.join(args.repo, "assets", "data", "packs.json")
+    index = load_packs_index(index_path)
+    upsert_pack(index, {
+        "id": pack["id"],
+        "name": pack["name"],
+        "manifest": f"packs/{pack['id']}/pack.json",
+        "defaultTheme": pack["defaultTheme"],
+    })
+    write_json(index_path, index)
+    LOG.info("updated packs.json (%d packs total)", len(index["packs"]))
     return 0
 
 

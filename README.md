@@ -61,7 +61,9 @@ SoundBoard/
 │   └── kaamelott/pack.json     Manifeste du pack (sons + métadonnées) (généré)
 ├── sounds/                     Fichiers .mp3
 ├── tools/
-│   ├── build_data.py           Génère themes.json / packs.json / pack.json
+│   ├── sb_lib.py               Helpers partagés (registre, build pack, upsert)
+│   ├── import_pack.py          Importe un pack (repo 2ec0b4 / JSON / CSV)
+│   ├── build_data.py           Génère themes.json + pack Kaamelott
 │   └── download_sounds.py      Télécharge les .mp3 depuis le registre
 ├── config.json                 URL du registre + dossier de sortie
 ├── LICENSE                     Apache 2.0 (code)
@@ -73,24 +75,38 @@ SoundBoard/
 
 ---
 
-## Ajouter un nouveau pack (ex. Star Wars)
+## Ajouter un nouveau pack (Star Wars, etc.)
 
-1. Déposer les `.mp3` dans `sounds/` (ou un sous-dossier propre au pack).
-2. Préparer un registre JSON `[{ "file", "title", "character", "episode" }, …]`.
-3. Générer le manifeste :
+Tout passe par `tools/import_pack.py`. Les sons d'un pack vivent sous
+`sounds/<pack-id>/` et `packs.json` est mis à jour sans écraser les packs
+existants.
 
-   ```bash
-   python3 tools/build_data.py \
-     --registry chemin/vers/registre_starwars.json \
-     --pack-id starwars --pack-name "Star Wars" \
-     --default-theme cinder --sounds-base sounds/
-   ```
+**Cas 1 — un soundboard GitHub au format 2ec0b4** (un `sounds/sounds.json` +
+les `.mp3` à côté). L'outil télécharge tout et génère le pack :
 
-4. Ajouter l'entrée du pack dans `assets/data/packs.json` (le script gère le
-   pack passé en argument ; pour cumuler plusieurs packs, conserver les entrées
-   existantes dans `packs.json`).
+```bash
+python3 tools/import_pack.py --from-repo owner/nom-du-repo \
+  --pack-id monpack --pack-name "Mon Pack" --default-theme drakul
+```
 
-Le pack apparaît alors dans le sélecteur **Pack** de l'interface.
+**Cas 2 — tes propres MP3 + un CSV.** Dépose les `.mp3` dans
+`sounds/<pack-id>/`, prépare un CSV `file,title,character,episode` puis :
+
+```bash
+python3 tools/import_pack.py --from-csv registre.csv --no-download \
+  --pack-id starwars --pack-name "Star Wars" --default-theme cinder
+```
+
+**Cas 3 — un `sounds.json` distant ou local** (même format que Kaamelott) :
+
+```bash
+python3 tools/import_pack.py --from-json https://.../sounds.json \
+  --sounds-url https://.../ --pack-id monpack --pack-name "Mon Pack"
+```
+
+Options utiles : `--sounds-base` (préfixe web, défaut `sounds/<pack-id>/`),
+`--branch` (pour `--from-repo`, défaut `master`), `--no-download` (n'aller
+chercher aucun fichier). Le pack apparaît ensuite dans le sélecteur **Pack**.
 
 ## Régénérer les thèmes / le pack Kaamelott
 

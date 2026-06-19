@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+.mypy_cache/
 
 # OS
 .DS_Store
