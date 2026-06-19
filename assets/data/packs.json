@@ -11,6 +11,12 @@
       "name": "Dikkenek",
       "manifest": "packs/dikkenek/pack.json",
       "defaultTheme": "wormwood"
+    },
+    {
+      "id": "starwars",
+      "name": "Star Wars",
+      "manifest": "packs/starwars/pack.json",
+      "defaultTheme": "cinder"
     }
   ]
 }

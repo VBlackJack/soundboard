@@ -1,0 +1,1357 @@
+{
+  "id": "starwars",
+  "name": "Star Wars",
+  "defaultTheme": "cinder",
+  "soundsBase": "sounds/starwars/",
+  "characters": [
+    "Star Wars",
+    "Anakin",
+    "Palpatine",
+    "Grievous",
+    "Padmé",
+    "Vader",
+    "Dooku",
+    "Obi-Wan"
+  ],
+  "count": 223,
+  "sounds": [
+    {
+      "file": "a_powerful_sith_you_will_become.mp3",
+      "title": "A powerful sith you will become",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "a_surprise_to_be_sure_but_a_welcome_one.mp3",
+      "title": "A surprise to be sure but a welcome one",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "aarrgghh.mp3",
+      "title": "Aarrgghh",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "ahh_yes.mp3",
+      "title": "Ahh yes",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "ahhhhhh.mp3",
+      "title": "Ahhhhhh",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "ahhhhhhh.mp3",
+      "title": "Ahhhhhhh",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "alien_vietnamese.mp3",
+      "title": "Alien vietnamese",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "anakin_help_me_help_me_arghhh.mp3",
+      "title": "Anakin help me help me arghhh",
+      "character": "Anakin",
+      "episode": ""
+    },
+    {
+      "file": "anakin_i_told_you_it_would_come_to_this.mp3",
+      "title": "Anakin i told you it would come to this",
+      "character": "Anakin",
+      "episode": ""
+    },
+    {
+      "file": "anakin_kills_dooku.mp3",
+      "title": "Anakin kills dooku",
+      "character": "Anakin",
+      "episode": ""
+    },
+    {
+      "file": "anakin_kills_droid.mp3",
+      "title": "Anakin kills droid",
+      "character": "Anakin",
+      "episode": ""
+    },
+    {
+      "file": "anakin_my_allegiance_is_to_the_republic_to_democracy.mp3",
+      "title": "Anakin my allegiance is to the republic to democracy",
+      "character": "Anakin",
+      "episode": ""
+    },
+    {
+      "file": "anakin_screams.mp3",
+      "title": "Anakin screams",
+      "character": "Anakin",
+      "episode": ""
+    },
+    {
+      "file": "and_this_time_you_wont_escape.mp3",
+      "title": "And this time you wont escape",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "and_you_will_be_able_to_save_your_wife_from_certain_death.mp3",
+      "title": "And you will be able to save your wife from certain death",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "apparently_not.mp3",
+      "title": "Apparently not",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "are_you_going_to_kill_me.mp3",
+      "title": "Are you going to kill me",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "are_you_threatening_me_master_jedi.mp3",
+      "title": "Are you threatening me master jedi",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "army_or_not_you_must_realize_you_are_doomed.mp3",
+      "title": "Army or not you must realize you are doomed",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "attack_kenobi.mp3",
+      "title": "Attack kenobi",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "autistic_screeching.mp3",
+      "title": "Autistic screeching",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "autistic_whirling.mp3",
+      "title": "Autistic whirling",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "back_away.mp3",
+      "title": "Back away",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "be_careful_of_the_jedi_anakin.mp3",
+      "title": "Be careful of the jedi anakin",
+      "character": "Anakin",
+      "episode": ""
+    },
+    {
+      "file": "be_thankful_viceroy_you_have_not_found_yourself_in_my_grip.mp3",
+      "title": "Be thankful viceroy you have not found yourself in my grip",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "bring_balance_to_the_force_not_leave_it_in_darkness.mp3",
+      "title": "Bring balance to the force not leave it in darkness",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "but_i_assure_you_my_resolve_has_never_been_stronger.mp3",
+      "title": "But i assure you my resolve has never been stronger",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "but_youre_not_sure_of_their_intentions_are_you.mp3",
+      "title": "But youre not sure of their intentions are you",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "chancellor.mp3",
+      "title": "Chancellor",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "chancellor_palpatine_sith_lords_are_our_speciality.mp3",
+      "title": "Chancellor palpatine sith lords are our speciality",
+      "character": "Palpatine",
+      "episode": ""
+    },
+    {
+      "file": "come_my_apprentice_learn_to_use_the_dark_side_of_the_force.mp3",
+      "title": "Come my apprentice learn to use the dark side of the force",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "crush_them.mp3",
+      "title": "Crush them",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "darth_plagueis_was_a_dark_lord_of_the_sith_so_powerful_and_so_wise_he_could_use_the_force.mp3",
+      "title": "Darth plagueis was a dark lord of the sith so powerful and so wise he could use the force",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "did_you_ever_hear_the_tragedy_of_darth_plagueis_the_wise.mp3",
+      "title": "Did you ever hear the tragedy of darth plagueis the wise",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "do_it.mp3",
+      "title": "Do it",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "do_you_have_a_plan_b.mp3",
+      "title": "Do you have a plan b",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "dont_bother_with_them.mp3",
+      "title": "Dont bother with them",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "dont_continue_to_be_a_pawn_of_the_jedi_council.mp3",
+      "title": "Dont continue to be a pawn of the jedi council",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "dont_lecture_me_obiwan.mp3",
+      "title": "Dont lecture me obiwan",
+      "character": "Obi-Wan",
+      "episode": ""
+    },
+    {
+      "file": "dont_let_him_kill_me.mp3",
+      "title": "Dont let him kill me",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "dont_listen_to_him_anakin_arghhh.mp3",
+      "title": "Dont listen to him anakin arghhh",
+      "character": "Anakin",
+      "episode": ""
+    },
+    {
+      "file": "dont_make_me_kill_you.mp3",
+      "title": "Dont make me kill you",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "dont_try_it.mp3",
+      "title": "Dont try it",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "dont_you_wonder_why_they_wont_make_you_a_jedi_master.mp3",
+      "title": "Dont you wonder why they wont make you a jedi master",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "euhhhhhh.mp3",
+      "title": "Euhhhhhh",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "ever_since_ive_known_you_youve_been_searching_for_a_life_greater_than_that_of_an_ordinary_jedi.mp3",
+      "title": "Ever since ive known you youve been searching for a life greater than that of an ordinary jedi",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "execute_order_66.mp3",
+      "title": "Execute order 66",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "for_a_safe_and_secure_society.mp3",
+      "title": "For a safe and secure society",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "gasp.mp3",
+      "title": "Gasp",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "general_kenobi_you_are_a_bold_one.mp3",
+      "title": "General kenobi you are a bold one",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "get_help_youre_no_match_for_him_hes_a_sith_lord.mp3",
+      "title": "Get help youre no match for him hes a sith lord",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "good.mp3",
+      "title": "Good",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "good_anakin_good.mp3",
+      "title": "Good anakin good",
+      "character": "Anakin",
+      "episode": ""
+    },
+    {
+      "file": "good_good.mp3",
+      "title": "Good good",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "good_twice_the_pride_double_the_fall.mp3",
+      "title": "Good twice the pride double the fall",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "greetings_young_jedi.mp3",
+      "title": "Greetings young jedi",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "grievous_coughs.mp3",
+      "title": "Grievous coughs",
+      "character": "Grievous",
+      "episode": ""
+    },
+    {
+      "file": "grievous_laughs.mp3",
+      "title": "Grievous laughs",
+      "character": "Grievous",
+      "episode": ""
+    },
+    {
+      "file": "grievous_laughs_deviously.mp3",
+      "title": "Grievous laughs deviously",
+      "character": "Grievous",
+      "episode": ""
+    },
+    {
+      "file": "he_became_so_powerful_the_only_thing_he_was_afraid_of_was_losing_his_power.mp3",
+      "title": "He became so powerful the only thing he was afraid of was losing his power",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "he_could_actually_save_people_from_death.mp3",
+      "title": "He could actually save people from death",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "he_could_save_others_from_death_but_not_himself.mp3",
+      "title": "He could save others from death but not himself",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "he_had_such_a_knowledge_of_the_dark_side_he_could_even_keep_the_ones_he_cared_about_from_dying.mp3",
+      "title": "He had such a knowledge of the dark side he could even keep the ones he cared about from dying",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "he_has_control_of_the_senate_and_the_courts_hes_too_dangerour_to_be_left_alive.mp3",
+      "title": "He has control of the senate and the courts hes too dangerour to be left alive",
+      "character": "Palpatine",
+      "episode": ""
+    },
+    {
+      "file": "he_is_here_we_are_being_held_hostage.mp3",
+      "title": "He is here we are being held hostage",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "he_is_the_traitor_ahhhhh.mp3",
+      "title": "He is the traitor ahhhhh",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "he_seems_to_be_all_right.mp3",
+      "title": "He seems to be all right",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "he_was_too_dangerous_to_be_kept_alive.mp3",
+      "title": "He was too dangerous to be kept alive",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "hello_there.mp3",
+      "title": "Hello there",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "henceforth_you_shall_be_known_as_darth_vader.mp3",
+      "title": "Henceforth you shall be known as darth vader",
+      "character": "Vader",
+      "episode": ""
+    },
+    {
+      "file": "hes_a_traitor.mp3",
+      "title": "Hes a traitor",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "his_fate_will_be_the_same_as_ours.mp3",
+      "title": "His fate will be the same as ours",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "how_do_you_know_the_ways_of_the_force.mp3",
+      "title": "How do you know the ways of the force",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_am_sending_you_to_the_mustafar_system_in_the_outer_rim.mp3",
+      "title": "I am sending you to the mustafar system in the outer rim",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_am_the_senate.mp3",
+      "title": "I am the senate",
+      "character": "Palpatine",
+      "episode": ""
+    },
+    {
+      "file": "i_can_feel_your_anger.mp3",
+      "title": "I can feel your anger",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_cant_hold_him_any_longer_i_i_i_i_cant_i_ive_become_too_weak.mp3",
+      "title": "I cant hold him any longer i i i i cant i ive become too weak",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_do_not_fear_the_dark_side_as_you_do.mp3",
+      "title": "I do not fear the dark side as you do",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_hate_you.mp3",
+      "title": "I hate you",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_have_brought_peace_freedom_justice_and_security_to_my_new_empire.mp3",
+      "title": "I have brought peace freedom justice and security to my new empire",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_have_the_high_ground.mp3",
+      "title": "I have the high ground",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_have_the_power_to_save_the_one_you_love.mp3",
+      "title": "I have the power to save the one you love",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_i_i_cant_hold_on_any_longer.mp3",
+      "title": "I i i cant hold on any longer",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_know_there_are_things_about_the_force_that_theyre_not_telling_me.mp3",
+      "title": "I know there are things about the force that theyre not telling me",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_know_whats_been_troubling_you.mp3",
+      "title": "I know whats been troubling you",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_know_you_would.mp3",
+      "title": "I know you would",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_love_you.mp3",
+      "title": "I love you",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_loved_you.mp3",
+      "title": "I loved you",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_need_him.mp3",
+      "title": "I need him",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_pledge_myself_to_your_teachings.mp3",
+      "title": "I pledge myself to your teachings",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_say_patience.mp3",
+      "title": "I say patience",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_see_through_the_lies_of_the_jedi.mp3",
+      "title": "I see through the lies of the jedi",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_sense_great_fear_in_you_skywalker.mp3",
+      "title": "I sense great fear in you skywalker",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_should_be_there_with_him.mp3",
+      "title": "I should be there with him",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_shouldnt.mp3",
+      "title": "I shouldnt",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_shouldnt_have_done_that_its_not_the_jedi_way.mp3",
+      "title": "I shouldnt have done that its not the jedi way",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_thought_not_its_not_a_story_the_jedi_would_tell_you.mp3",
+      "title": "I thought not its not a story the jedi would tell you",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_understand.mp3",
+      "title": "I understand",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_was_expecting_someone_with_your_reputation_to_be_a_little_older.mp3",
+      "title": "I was expecting someone with your reputation to be a little older",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_was_right.mp3",
+      "title": "I was right",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_will_deal_with_this_jedi_slime_myself.mp3",
+      "title": "I will deal with this jedi slime myself",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_will_do_what_i_must.mp3",
+      "title": "I will do what i must",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_will_do_whatever_you_ask.mp3",
+      "title": "I will do whatever you ask",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_will_quickly_discover_the_truth_of_all_this.mp3",
+      "title": "I will quickly discover the truth of all this",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_wish_i_knew.mp3",
+      "title": "I wish i knew",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "i_would_certainly_like_to.mp3",
+      "title": "I would certainly like to",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "if_one_is_to_understand_the_great_mystery_one_must_study_all_its_aspects.mp3",
+      "title": "If one is to understand the great mystery one must study all its aspects",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "if_you_wish_to_become_a_complete_and_wise_leader_you_must_embrace_a_larger_view_of_the_force.mp3",
+      "title": "If you wish to become a complete and wise leader you must embrace a larger view of the force",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "if_youre_not_with_me_then_youre_my_enemy.mp3",
+      "title": "If youre not with me then youre my enemy",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "im_going_to_end_this_once_and_for_all.mp3",
+      "title": "Im going to end this once and for all",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "im_going_to_turn_you_over_to_the_jedi_council.mp3",
+      "title": "Im going to turn you over to the jedi council",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "im_too_weak_dont_kill_me_please.mp3",
+      "title": "Im too weak dont kill me please",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "in_order_to_ensure_the_security_and_continuing_stability.mp3",
+      "title": "In order to ensure the security and continuing stability",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "in_the_name_of_the_galactic_senate_of_the_republic_you_are_under_arrest_chancellor.mp3",
+      "title": "In the name of the galactic senate of the republic you are under arrest chancellor",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "ironic.mp3",
+      "title": "Ironic",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "is_he_bringing_additional_warriors_he_didnt_say.mp3",
+      "title": "Is he bringing additional warriors he didnt say",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "is_it_possible_to_learn_this_power.mp3",
+      "title": "Is it possible to learn this power",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "it_gives_you_focus_makes_you_stronger.mp3",
+      "title": "It gives you focus makes you stronger",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "it_is_a_volcanic_planet_you_will_be_safe_there.mp3",
+      "title": "It is a volcanic planet you will be safe there",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "it_is_only_natural_he_cut_off_your_arm_you_wanted_revenge.mp3",
+      "title": "It is only natural he cut off your arm you wanted revenge",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "it_is_with_great_reluctance_that_i_have_agreed_to_this_calling.mp3",
+      "title": "It is with great reluctance that i have agreed to this calling",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "it_was_said_that_you_would_destroy_the_sith_not_join_them.mp3",
+      "title": "It was said that you would destroy the sith not join them",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "its_a_sith_legend.mp3",
+      "title": "Its a sith legend",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "its_not_the_jedi_way_he_must_live.mp3",
+      "title": "Its not the jedi way he must live",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "its_over_anakin.mp3",
+      "title": "Its over anakin",
+      "character": "Anakin",
+      "episode": ""
+    },
+    {
+      "file": "its_treason_then.mp3",
+      "title": "Its treason then",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "its_upsetting_to_me_to_see_that_the_council_doesnt_seem_to_fully_appreciate_your_talents.mp3",
+      "title": "Its upsetting to me to see that the council doesnt seem to fully appreciate your talents",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "ive_been_looking_forward_to_this.mp3",
+      "title": "Ive been looking forward to this",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "jedi_scum.mp3",
+      "title": "Jedi scum",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "just_help_me_save_padmes_life_i_cant_live_without_her.mp3",
+      "title": "Just help me save padmes life i cant live without her",
+      "character": "Padmé",
+      "episode": ""
+    },
+    {
+      "file": "keep_the_ship_in_orbit.mp3",
+      "title": "Keep the ship in orbit",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "kill_him_kill_him_now.mp3",
+      "title": "Kill him kill him now",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "know_the_power_of_the_dark_side.mp3",
+      "title": "Know the power of the dark side",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "learn_to_know_the_dark_side_of_the_force.mp3",
+      "title": "Learn to know the dark side of the force",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "leave_him_or_well_never_make_it.mp3",
+      "title": "Leave him or well never make it",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "let_her_go.mp3",
+      "title": "Let her go",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "let_her_go_anakin.mp3",
+      "title": "Let her go anakin",
+      "character": "Anakin",
+      "episode": ""
+    },
+    {
+      "file": "let_me_help_you.mp3",
+      "title": "Let me help you",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "let_me_help_you_to_know_the_subtleties_of_the_force.mp3",
+      "title": "Let me help you to know the subtleties of the force",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "liar.mp3",
+      "title": "Liar",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "listen_to_me.mp3",
+      "title": "Listen to me",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "magnificent_arent_they.mp3",
+      "title": "Magnificent arent they",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "make_them_suffer.mp3",
+      "title": "Make them suffer",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "more_and_more_i_get_the_feeling_that_im_being_excluded_from_the_council.mp3",
+      "title": "More and more i get the feeling that im being excluded from the council",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "my_mentor_taught_me_everything_about_the_force_even_the_nature_of_the_dark_side.mp3",
+      "title": "My mentor taught me everything about the force even the nature of the dark side",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "my_powers_have_doubled_since_the_last_time_we_met_count.mp3",
+      "title": "My powers have doubled since the last time we met count",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "no_no_no_you_will_die.mp3",
+      "title": "No no no you will die",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "no_nooooooo.mp3",
+      "title": "No nooooooo",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "not_from_a_jedi.mp3",
+      "title": "Not from a jedi",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "not_yet.mp3",
+      "title": "Not yet",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "now_we_must_leave.mp3",
+      "title": "Now we must leave",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "of_course_you_should.mp3",
+      "title": "Of course you should",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "oh_i_dont_think_so.mp3",
+      "title": "Oh i dont think so",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "only_a_sith_deals_in_absolutes.mp3",
+      "title": "Only a sith deals in absolutes",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "only_through_me_can_you_achieve_a_power_greater_than_any_jedi.mp3",
+      "title": "Only through me can you achieve a power greater than any jedi",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "patience.mp3",
+      "title": "Patience",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "power_to_save_padme.mp3",
+      "title": "Power to save padme",
+      "character": "Padmé",
+      "episode": ""
+    },
+    {
+      "file": "power_unlimited_power.mp3",
+      "title": "Power unlimited power",
+      "character": "Palpatine",
+      "episode": ""
+    },
+    {
+      "file": "r2d2_screams.mp3",
+      "title": "R2d2 screams",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "remember_what_you_told_me_about_your_mother.mp3",
+      "title": "Remember what you told me about your mother",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "safe_chancellor_palpatine_managed_to_escape_your_grip_general.mp3",
+      "title": "Safe chancellor palpatine managed to escape your grip general",
+      "character": "Palpatine",
+      "episode": ""
+    },
+    {
+      "file": "so_this_is_how_liberty_dies_with_thunderous_applause.mp3",
+      "title": "So this is how liberty dies with thunderous applause",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "tell_your_people_to_take_shelter_if_you_have_warriors_now_is_the_time.mp3",
+      "title": "Tell your people to take shelter if you have warriors now is the time",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "tenth_level_thousands_of_battle_droids.mp3",
+      "title": "Tenth level thousands of battle droids",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "that_wasnt_much_of_a_rescue.mp3",
+      "title": "That wasnt much of a rescue",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "the_attempt_on_my_life_has_left_me_scarred_and_deformed.mp3",
+      "title": "The attempt on my life has left me scarred and deformed",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "the_dark_side_of_the_force_is_a_pathway_to_many_abilities_some_consider_to_be_unnatural.mp3",
+      "title": "The dark side of the force is a pathway to many abilities some consider to be unnatural",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "the_force_is_strong_with_you.mp3",
+      "title": "The force is strong with you",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "the_jedi_are_taking_over.mp3",
+      "title": "The jedi are taking over",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "the_oppression_of_the_sith_will_never_return_you_have_lost.mp3",
+      "title": "The oppression of the sith will never return you have lost",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "the_senate_will_decide_your_fate.mp3",
+      "title": "The senate will decide your fate",
+      "character": "Palpatine",
+      "episode": ""
+    },
+    {
+      "file": "the_time_has_come.mp3",
+      "title": "The time has come",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "the_war_is_over_lord_sidious_promised_us_peace_we_only_want_ahhhhhhh.mp3",
+      "title": "The war is over lord sidious promised us peace we only want ahhhhhhh",
+      "character": "Palpatine",
+      "episode": ""
+    },
+    {
+      "file": "theres_no_war_here_unless_you_brought_it_with_you.mp3",
+      "title": "Theres no war here unless you brought it with you",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "they_are_watching_us.mp3",
+      "title": "They are watching us",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "they_dont_trust_you_anakin.mp3",
+      "title": "They dont trust you anakin",
+      "character": "Anakin",
+      "episode": ""
+    },
+    {
+      "file": "they_know_your_power_will_be_too_strong_to_control.mp3",
+      "title": "They know your power will be too strong to control",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "they_see_your_future.mp3",
+      "title": "They see your future",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "this_is_where_the_fun_begins.mp3",
+      "title": "This is where the fun begins",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "time_to_abandon_ship.mp3",
+      "title": "Time to abandon ship",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "to_cheat_death_is_a_power_only_one_has_achieved.mp3",
+      "title": "To cheat death is a power only one has achieved",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "try_not_to_upset_him.mp3",
+      "title": "Try not to upset him",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "unfortunately_he_taught_his_apprentice_everything_he_knew.mp3",
+      "title": "Unfortunately he taught his apprentice everything he knew",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "use_my_knowledge_i_beg_you.mp3",
+      "title": "Use my knowledge i beg you",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "wait_a_minute_how_did_this_happen_were_smarter_than_this.mp3",
+      "title": "Wait a minute how did this happen were smarter than this",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "we_have_a_job_to_do_anakin.mp3",
+      "title": "We have a job to do anakin",
+      "character": "Anakin",
+      "episode": ""
+    },
+    {
+      "file": "we_may_hope_that_master_kenobi_is_up_to_the_challenge.mp3",
+      "title": "We may hope that master kenobi is up to the challenge",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "welcome_lord_vader_weve_been_expecting_you.mp3",
+      "title": "Welcome lord vader weve been expecting you",
+      "character": "Vader",
+      "episode": ""
+    },
+    {
+      "file": "weve_been_waiting_for_you.mp3",
+      "title": "Weve been waiting for you",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "what_brings_you_to_our_remote_sanctuary.mp3",
+      "title": "What brings you to our remote sanctuary",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "what_did_you_say.mp3",
+      "title": "What did you say",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "what_happened_to_him.mp3",
+      "title": "What happened to him",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "what_have_i_done.mp3",
+      "title": "What have i done",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "wow_what_do_you_know.mp3",
+      "title": "Wow what do you know",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "yeah.mp3",
+      "title": "Yeah",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "you_are_under_arrest_my_lord.mp3",
+      "title": "You are under arrest my lord",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "you_cant_he_must_stand_trial.mp3",
+      "title": "You cant he must stand trial",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "you_did_well_anakin.mp3",
+      "title": "You did well anakin",
+      "character": "Anakin",
+      "episode": ""
+    },
+    {
+      "file": "you_fool_ive_been_trained_in_your_jedi_arts_by_count_dooku.mp3",
+      "title": "You fool ive been trained in your jedi arts by count dooku",
+      "character": "Dooku",
+      "episode": ""
+    },
+    {
+      "file": "you_have_allowed_this_dark_lord_to_twist_your_mind_until_now.mp3",
+      "title": "You have allowed this dark lord to twist your mind until now",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "you_have_done_that_yourself.mp3",
+      "title": "You have done that yourself",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "you_have_great_wisdom.mp3",
+      "title": "You have great wisdom",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "you_have_hate_you_have_anger_but_you_dont_use_them.mp3",
+      "title": "You have hate you have anger but you dont use them",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "you_know_the_dark_side.mp3",
+      "title": "You know the dark side",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "you_lose_general_kenobi.mp3",
+      "title": "You lose general kenobi",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "you_must_break_through_the_fog_of_lies_the_jedi_have_created_around_you.mp3",
+      "title": "You must break through the fog of lies the jedi have created around you",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "you_must_choose.mp3",
+      "title": "You must choose",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "you_turned_her_against_me.mp3",
+      "title": "You turned her against me",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "you_underestimate_my_power.mp3",
+      "title": "You underestimate my power",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "you_were_my_brother_anakin.mp3",
+      "title": "You were my brother anakin",
+      "character": "Anakin",
+      "episode": ""
+    },
+    {
+      "file": "you_were_the_chosen_one.mp3",
+      "title": "You were the chosen one",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "you_will_not_take_her_from_me.mp3",
+      "title": "You will not take her from me",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "you_will_try.mp3",
+      "title": "You will try",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "your_anger_and_your_lust_for_power_have_already_done_that.mp3",
+      "title": "Your anger and your lust for power have already done that",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "your_lightsabers_will_make_a_fine_addition_to_my_collection.mp3",
+      "title": "Your lightsabers will make a fine addition to my collection",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "your_move.mp3",
+      "title": "Your move",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "your_new_empire.mp3",
+      "title": "Your new empire",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "your_ship_is_waiting.mp3",
+      "title": "Your ship is waiting",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "your_swords_please_we_dont_want_to_make_a_mess_of_things_in_front_of_the_chancellor.mp3",
+      "title": "Your swords please we dont want to make a mess of things in front of the chancellor",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "youre_shorter_than_i_expected.mp3",
+      "title": "Youre shorter than i expected",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "youre_the_sith_lord.mp3",
+      "title": "Youre the sith lord",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "youre_welcome.mp3",
+      "title": "Youre welcome",
+      "character": "Star Wars",
+      "episode": ""
+    },
+    {
+      "file": "youre_with_him_you_brought_him_here_to_kill_me.mp3",
+      "title": "Youre with him you brought him here to kill me",
+      "character": "Star Wars",
+      "episode": ""
+    }
+  ]
+}

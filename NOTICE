@@ -35,5 +35,13 @@ Third-party content and attributions
    only. The clip collection originates from the community fan project
    (https://github.com/mathieucorcessin/dikkenek-soundboard).
 
+4. Audio clips (Star Wars)
+   The .mp3 audio clips under sounds/starwars/ are excerpts from the "Star Wars"
+   films created by George Lucas. They are the property of their respective
+   rights holders (Lucasfilm Ltd. / The Walt Disney Company). They are NOT
+   covered by the Apache 2.0 license of this repository and are included here
+   for personal, non-commercial, fan use only. The clip collection originates
+   from the community fan project (https://github.com/tee0402/StarWarsSoundboard).
+
    If you are a rights holder and wish a clip to be removed, please open an
    issue on the repository.
