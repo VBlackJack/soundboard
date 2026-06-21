@@ -1,0 +1,707 @@
+{
+  "id": "asterix",
+  "name": "Astérix & Obélix : Mission Cléopâtre",
+  "defaultTheme": "parchment",
+  "soundsBase": "sounds/asterix/",
+  "characters": [
+    "Numérobis",
+    "Amonbofis",
+    "Caius Céplus",
+    "César",
+    "Astérix",
+    "Obélix",
+    "Barbe Rouge",
+    "Itinéris",
+    "Otis",
+    "Cléopâtre",
+    "Nexusis",
+    "Panoramix"
+  ],
+  "count": 114,
+  "sounds": [
+    {
+      "file": "asterix063.mp3",
+      "title": "4 mois de retard",
+      "character": "Amonbofis",
+      "episode": ""
+    },
+    {
+      "file": "asterix024.mp3",
+      "title": "Abysus",
+      "character": "Barbe Rouge",
+      "episode": ""
+    },
+    {
+      "file": "asterix071.mp3",
+      "title": "Alea jacta est",
+      "character": "César",
+      "episode": ""
+    },
+    {
+      "file": "asterix020.mp3",
+      "title": "Alexandrin",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix015.mp3",
+      "title": "Allée avec statues",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix073.mp3",
+      "title": "Antivirus",
+      "character": "Caius Céplus",
+      "episode": ""
+    },
+    {
+      "file": "asterix060.mp3",
+      "title": "Argument à 2 sesterces",
+      "character": "Astérix",
+      "episode": ""
+    },
+    {
+      "file": "asterix094.mp3",
+      "title": "Arrête tes salamalecs",
+      "character": "Amonbofis",
+      "episode": ""
+    },
+    {
+      "file": "asterix067.mp3",
+      "title": "Ave César",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix061.mp3",
+      "title": "Bande de chacals",
+      "character": "Nexusis",
+      "episode": ""
+    },
+    {
+      "file": "asterix026.mp3",
+      "title": "Baracuda",
+      "character": "Astérix",
+      "episode": ""
+    },
+    {
+      "file": "asterix054.mp3",
+      "title": "Bruits de dromadaire",
+      "character": "Astérix",
+      "episode": ""
+    },
+    {
+      "file": "asterix052.mp3",
+      "title": "C comme Cléopâtre",
+      "character": "Panoramix",
+      "episode": ""
+    },
+    {
+      "file": "asterix114.mp3",
+      "title": "C'est la Gaulle",
+      "character": "Astérix",
+      "episode": ""
+    },
+    {
+      "file": "asterix105.mp3",
+      "title": "C'est qui le lion ?",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix101.mp3",
+      "title": "C'est un 2 chevaux",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix055.mp3",
+      "title": "C'est une péninsule",
+      "character": "Astérix",
+      "episode": ""
+    },
+    {
+      "file": "asterix039.mp3",
+      "title": "Camarades !",
+      "character": "Amonbofis",
+      "episode": ""
+    },
+    {
+      "file": "asterix059.mp3",
+      "title": "Ce tombeau...",
+      "character": "Nexusis",
+      "episode": ""
+    },
+    {
+      "file": "asterix038.mp3",
+      "title": "Chacun chez soi",
+      "character": "Amonbofis",
+      "episode": ""
+    },
+    {
+      "file": "asterix048.mp3",
+      "title": "Comme d'habitude ?",
+      "character": "César",
+      "episode": ""
+    },
+    {
+      "file": "asterix091.mp3",
+      "title": "Cours Amstéricsme",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix010.mp3",
+      "title": "De lÃ  Ã  de lÃ",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix027.mp3",
+      "title": "Demande d'accordance",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix005.mp3",
+      "title": "Des gens de Oran",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix037.mp3",
+      "title": "Des lentilles",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix012.mp3",
+      "title": "Des pouvoirs magiques",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix042.mp3",
+      "title": "Deux nouveaux messages",
+      "character": "Itinéris",
+      "episode": ""
+    },
+    {
+      "file": "asterix106.mp3",
+      "title": "Dire de profil",
+      "character": "Amonbofis",
+      "episode": ""
+    },
+    {
+      "file": "asterix092.mp3",
+      "title": "Double esquive",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix031.mp3",
+      "title": "Du sable ?",
+      "character": "Astérix",
+      "episode": ""
+    },
+    {
+      "file": "asterix109.mp3",
+      "title": "Elle m'a dans le nez",
+      "character": "César",
+      "episode": ""
+    },
+    {
+      "file": "asterix074.mp3",
+      "title": "Euh, 5",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix058.mp3",
+      "title": "Faut pas être gros",
+      "character": "Obélix",
+      "episode": ""
+    },
+    {
+      "file": "asterix095.mp3",
+      "title": "Feuille > pierre",
+      "character": "Amonbofis",
+      "episode": ""
+    },
+    {
+      "file": "asterix016.mp3",
+      "title": "Grands Jardins",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix040.mp3",
+      "title": "Gros raisins",
+      "character": "Astérix",
+      "episode": ""
+    },
+    {
+      "file": "asterix029.mp3",
+      "title": "Grosse fourmi",
+      "character": "Obélix",
+      "episode": ""
+    },
+    {
+      "file": "asterix110.mp3",
+      "title": "Guilis au ventre",
+      "character": "César",
+      "episode": ""
+    },
+    {
+      "file": "asterix044.mp3",
+      "title": "Ho ! Hisse !",
+      "character": "Obélix",
+      "episode": ""
+    },
+    {
+      "file": "asterix008.mp3",
+      "title": "Il est où le moigneau ?",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix076.mp3",
+      "title": "Ils sont fous",
+      "character": "Obélix",
+      "episode": ""
+    },
+    {
+      "file": "asterix035.mp3",
+      "title": "Imhotep à vous",
+      "character": "Otis",
+      "episode": ""
+    },
+    {
+      "file": "asterix001.mp3",
+      "title": "Je demande à voir",
+      "character": "César",
+      "episode": ""
+    },
+    {
+      "file": "asterix023.mp3",
+      "title": "Je suis le roi du monde",
+      "character": "Barbe Rouge",
+      "episode": ""
+    },
+    {
+      "file": "asterix089.mp3",
+      "title": "Je suis touché",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix057.mp3",
+      "title": "Je te capte plus",
+      "character": "Itinéris",
+      "episode": ""
+    },
+    {
+      "file": "asterix096.mp3",
+      "title": "Kung fu",
+      "character": "Amonbofis",
+      "episode": ""
+    },
+    {
+      "file": "asterix081.mp3",
+      "title": "L'empire contre-attaque",
+      "character": "Caius Céplus",
+      "episode": ""
+    },
+    {
+      "file": "asterix078.mp3",
+      "title": "La langouste",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix004.mp3",
+      "title": "La porte au plafond",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix014.mp3",
+      "title": "Libéré",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix033.mp3",
+      "title": "Liens capillaires",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix103.mp3",
+      "title": "Lion vs cafard 1",
+      "character": "Amonbofis",
+      "episode": ""
+    },
+    {
+      "file": "asterix104.mp3",
+      "title": "Lion vs cafard 2",
+      "character": "Amonbofis",
+      "episode": ""
+    },
+    {
+      "file": "asterix025.mp3",
+      "title": "Lumières d'Alexandrie",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix050.mp3",
+      "title": "Malcomix",
+      "character": "Caius Céplus",
+      "episode": ""
+    },
+    {
+      "file": "asterix070.mp3",
+      "title": "Mets lui une claque",
+      "character": "César",
+      "episode": ""
+    },
+    {
+      "file": "asterix056.mp3",
+      "title": "Moi, c'est Numérobis",
+      "character": "Itinéris",
+      "episode": ""
+    },
+    {
+      "file": "asterix018.mp3",
+      "title": "Moins 8000",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix030.mp3",
+      "title": "Mondial du boeuf",
+      "character": "Astérix",
+      "episode": ""
+    },
+    {
+      "file": "asterix028.mp3",
+      "title": "Moustachu mignon",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix090.mp3",
+      "title": "Médusé",
+      "character": "Barbe Rouge",
+      "episode": ""
+    },
+    {
+      "file": "asterix043.mp3",
+      "title": "Ne pas se laisser faire",
+      "character": "Panoramix",
+      "episode": ""
+    },
+    {
+      "file": "asterix009.mp3",
+      "title": "Nouvelle machine",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix111.mp3",
+      "title": "Omar",
+      "character": "Obélix",
+      "episode": ""
+    },
+    {
+      "file": "asterix079.mp3",
+      "title": "On est pas en Romanie",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix068.mp3",
+      "title": "On me voit 1",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix069.mp3",
+      "title": "On me voit 2",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix032.mp3",
+      "title": "Ouvriers qualifiés",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix034.mp3",
+      "title": "Papyrasse administrative",
+      "character": "Otis",
+      "episode": ""
+    },
+    {
+      "file": "asterix075.mp3",
+      "title": "Pas bien dessiné",
+      "character": "Caius Céplus",
+      "episode": ""
+    },
+    {
+      "file": "asterix041.mp3",
+      "title": "Pas contents !",
+      "character": "Itinéris",
+      "episode": ""
+    },
+    {
+      "file": "asterix045.mp3",
+      "title": "Pas de Palais",
+      "character": "Amonbofis",
+      "episode": ""
+    },
+    {
+      "file": "asterix017.mp3",
+      "title": "Petit géranium",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix072.mp3",
+      "title": "Peu importe leurs noms",
+      "character": "Caius Céplus",
+      "episode": ""
+    },
+    {
+      "file": "asterix112.mp3",
+      "title": "Phare à On 1",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix113.mp3",
+      "title": "Phare à On 2",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix062.mp3",
+      "title": "Plein d'idées",
+      "character": "Amonbofis",
+      "episode": ""
+    },
+    {
+      "file": "asterix102.mp3",
+      "title": "Pourquoi on dit yah",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix097.mp3",
+      "title": "Pouyave Numérobis",
+      "character": "Amonbofis",
+      "episode": ""
+    },
+    {
+      "file": "asterix019.mp3",
+      "title": "Pénétration dans l'air",
+      "character": "Obélix",
+      "episode": ""
+    },
+    {
+      "file": "asterix065.mp3",
+      "title": "Raviver le feu",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix107.mp3",
+      "title": "Rendre à vous même",
+      "character": "Caius Céplus",
+      "episode": ""
+    },
+    {
+      "file": "asterix011.mp3",
+      "title": "Sac et crocodile",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix077.mp3",
+      "title": "Scène violente",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix084.mp3",
+      "title": "Si... Non...",
+      "character": "Amonbofis",
+      "episode": ""
+    },
+    {
+      "file": "asterix006.mp3",
+      "title": "Sol bizarre",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix021.mp3",
+      "title": "Souquez les artémuses",
+      "character": "Barbe Rouge",
+      "episode": ""
+    },
+    {
+      "file": "asterix085.mp3",
+      "title": "Tirez sur nous",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix087.mp3",
+      "title": "Toujours lÃ",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix083.mp3",
+      "title": "Toute cette violence",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix003.mp3",
+      "title": "Travaux à l'heure",
+      "character": "César",
+      "episode": ""
+    },
+    {
+      "file": "asterix007.mp3",
+      "title": "Trois fois quatre",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix002.mp3",
+      "title": "Trois mois",
+      "character": "Cléopâtre",
+      "episode": ""
+    },
+    {
+      "file": "asterix082.mp3",
+      "title": "Trop calme",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix080.mp3",
+      "title": "Très déçu",
+      "character": "Caius Céplus",
+      "episode": ""
+    },
+    {
+      "file": "asterix064.mp3",
+      "title": "Très tiède",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix013.mp3",
+      "title": "Un droïde",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix051.mp3",
+      "title": "Un nom de héros",
+      "character": "Caius Céplus",
+      "episode": ""
+    },
+    {
+      "file": "asterix066.mp3",
+      "title": "Un rêve",
+      "character": "Caius Céplus",
+      "episode": ""
+    },
+    {
+      "file": "asterix036.mp3",
+      "title": "Une bonne situation ?",
+      "character": "Otis",
+      "episode": ""
+    },
+    {
+      "file": "asterix053.mp3",
+      "title": "Va Asterimsme",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix047.mp3",
+      "title": "Veni Vedi Vici",
+      "character": "César",
+      "episode": ""
+    },
+    {
+      "file": "asterix093.mp3",
+      "title": "Violence du moine",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix088.mp3",
+      "title": "Vous voulez ma mort",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix086.mp3",
+      "title": "Vous êtes des Romaines",
+      "character": "Numérobis",
+      "episode": ""
+    },
+    {
+      "file": "asterix022.mp3",
+      "title": "À l'abordage",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix049.mp3",
+      "title": "Ça sonne large",
+      "character": "César",
+      "episode": ""
+    },
+    {
+      "file": "asterix098.mp3",
+      "title": "Ça va, Imhotep 1",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix099.mp3",
+      "title": "Ça va, Imhotep 2",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix100.mp3",
+      "title": "Ça va, Imhotep 3",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "asterix046.mp3",
+      "title": "Érimététéké !",
+      "character": "Amonbofis",
+      "episode": ""
+    },
+    {
+      "file": "asterix108.mp3",
+      "title": "Être sport",
+      "character": "Cléopâtre",
+      "episode": ""
+    }
+  ]
+}

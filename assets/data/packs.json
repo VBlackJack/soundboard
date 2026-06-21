@@ -29,6 +29,12 @@
       "name": "La Classe Américaine",
       "manifest": "packs/classe_americaine/pack.json",
       "defaultTheme": "parchment"
+    },
+    {
+      "id": "asterix",
+      "name": "Astérix & Obélix : Mission Cléopâtre",
+      "manifest": "packs/asterix/pack.json",
+      "defaultTheme": "parchment"
     }
   ]
 }
