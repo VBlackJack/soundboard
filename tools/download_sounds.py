@@ -19,13 +19,15 @@ Module for downloading audio files from the Kaamelott Soundboard.
 Reads settings from config.json and downloads missing sound files.
 """
 
+from __future__ import annotations
+
 import json
 import os
 import urllib.request
 import sys
 
 
-def load_config(config_path):
+def load_config(config_path: str) -> dict[str, str]:
     """
     Loads configuration settings from a JSON file.
     """
@@ -34,10 +36,11 @@ def load_config(config_path):
         sys.exit(1)
 
     with open(config_path, "r", encoding="utf-8") as f:
-        return json.load(f)
+        config: dict[str, str] = json.load(f)
+    return config
 
 
-def download_file(url, output_path):
+def download_file(url: str, output_path: str) -> bool:
     """
     Downloads a single file from url and saves it to output_path.
     """
@@ -49,13 +52,13 @@ def download_file(url, output_path):
         return False
 
 
-def main():
+def main() -> None:
     config_file = "config.json"
     config = load_config(config_file)
 
-    sounds_json_url = config.get("sounds_json_url")
-    sounds_base_url = config.get("sounds_base_url")
-    output_dir = config.get("output_directory")
+    sounds_json_url = config["sounds_json_url"]
+    sounds_base_url = config["sounds_base_url"]
+    output_dir = config["output_directory"]
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
