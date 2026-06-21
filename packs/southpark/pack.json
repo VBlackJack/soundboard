@@ -1,0 +1,810 @@
+{
+  "id": "southpark",
+  "name": "South Park",
+  "defaultTheme": "tarn",
+  "soundsBase": "sounds/southpark/",
+  "characters": [
+    "Cartman",
+    "M. Garisson",
+    "Chef",
+    "Kyle",
+    "Stan",
+    "Terrance & Philippe",
+    "M. Mackey",
+    "Mme Crapsbee",
+    "Officier Barbrady",
+    "Oncle Jimbo",
+    "Barbady",
+    "Grand père",
+    "Jésus",
+    "Kenny",
+    "M. Hankey",
+    "Mme Cartman",
+    "Randy Marsh",
+    "Saddam Hussein",
+    "Wendy"
+  ],
+  "count": 130,
+  "sounds": [
+    {
+      "file": "south_park127.mp3",
+      "title": "Alerte au gogole !",
+      "character": "M. Garisson",
+      "episode": ""
+    },
+    {
+      "file": "south_park110.mp3",
+      "title": "Aller au cabinet",
+      "character": "Officier Barbrady",
+      "episode": ""
+    },
+    {
+      "file": "south_park057.mp3",
+      "title": "Allez vous faire",
+      "character": "Chef",
+      "episode": ""
+    },
+    {
+      "file": "south_park011.mp3",
+      "title": "Arme alien",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park037.mp3",
+      "title": "Arrête de fumer",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park090.mp3",
+      "title": "Babura 1",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park091.mp3",
+      "title": "Babura 2",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park092.mp3",
+      "title": "Babura 3",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park096.mp3",
+      "title": "Biche avec large canyon",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park114.mp3",
+      "title": "Boucher les toilettes",
+      "character": "Randy Marsh",
+      "episode": ""
+    },
+    {
+      "file": "south_park072.mp3",
+      "title": "C'est dégueulasse",
+      "character": "Stan",
+      "episode": ""
+    },
+    {
+      "file": "south_park119.mp3",
+      "title": "C'est pour ça ?",
+      "character": "Kyle",
+      "episode": ""
+    },
+    {
+      "file": "south_park024.mp3",
+      "title": "C'est à moi que tu parles ?",
+      "character": "M. Garisson",
+      "episode": ""
+    },
+    {
+      "file": "south_park082.mp3",
+      "title": "Cadeau pour gonzesse",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park028.mp3",
+      "title": "Ce que j'en pense",
+      "character": "Kyle",
+      "episode": ""
+    },
+    {
+      "file": "south_park016.mp3",
+      "title": "Censuré",
+      "character": "Kyle",
+      "episode": ""
+    },
+    {
+      "file": "south_park010.mp3",
+      "title": "Chanson Chef 1",
+      "character": "Chef",
+      "episode": ""
+    },
+    {
+      "file": "south_park077.mp3",
+      "title": "Chanson Chef 2",
+      "character": "Chef",
+      "episode": ""
+    },
+    {
+      "file": "south_park079.mp3",
+      "title": "Chanson M. Hankey",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park026.mp3",
+      "title": "Chasser sans bière",
+      "character": "Oncle Jimbo",
+      "episode": ""
+    },
+    {
+      "file": "south_park015.mp3",
+      "title": "Chat = godemichet",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park098.mp3",
+      "title": "Chimpanzé",
+      "character": "Terrance & Philippe",
+      "episode": ""
+    },
+    {
+      "file": "south_park017.mp3",
+      "title": "Chose ahurissante",
+      "character": "Chef",
+      "episode": ""
+    },
+    {
+      "file": "south_park008.mp3",
+      "title": "Complètement immature",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park054.mp3",
+      "title": "Conjonctivite !",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park107.mp3",
+      "title": "Connaissances en chirurgie",
+      "character": "Chef",
+      "episode": ""
+    },
+    {
+      "file": "south_park060.mp3",
+      "title": "Connard !",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park123.mp3",
+      "title": "Couper ton zizi",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park056.mp3",
+      "title": "Couverture de magazine",
+      "character": "Stan",
+      "episode": ""
+    },
+    {
+      "file": "south_park049.mp3",
+      "title": "De la compote",
+      "character": "M. Garisson",
+      "episode": ""
+    },
+    {
+      "file": "south_park058.mp3",
+      "title": "Dominus",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park076.mp3",
+      "title": "Dreydel toupie toupie",
+      "character": "Kyle",
+      "episode": ""
+    },
+    {
+      "file": "south_park093.mp3",
+      "title": "Duel",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park099.mp3",
+      "title": "Détends toi mec",
+      "character": "Saddam Hussein",
+      "episode": ""
+    },
+    {
+      "file": "south_park108.mp3",
+      "title": "Elle a une bite",
+      "character": "Chef",
+      "episode": ""
+    },
+    {
+      "file": "south_park027.mp3",
+      "title": "Elle fonce sur nous !",
+      "character": "Oncle Jimbo",
+      "episode": ""
+    },
+    {
+      "file": "south_park100.mp3",
+      "title": "Encore plus moche",
+      "character": "Terrance & Philippe",
+      "episode": ""
+    },
+    {
+      "file": "south_park059.mp3",
+      "title": "Enfoiré de merde",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park086.mp3",
+      "title": "Envoyé spécial 2",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park111.mp3",
+      "title": "Essayez encore",
+      "character": "M. Garisson",
+      "episode": ""
+    },
+    {
+      "file": "south_park129.mp3",
+      "title": "Est-tu gourmand ?",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park045.mp3",
+      "title": "Femmes blanches",
+      "character": "Chef",
+      "episode": ""
+    },
+    {
+      "file": "south_park043.mp3",
+      "title": "Ferme ta gueule",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park120.mp3",
+      "title": "Fumer c'est mal",
+      "character": "M. Mackey",
+      "episode": ""
+    },
+    {
+      "file": "south_park041.mp3",
+      "title": "Gros con mongolien",
+      "character": "Kyle",
+      "episode": ""
+    },
+    {
+      "file": "south_park097.mp3",
+      "title": "Gros tomawak",
+      "character": "Mme Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park094.mp3",
+      "title": "Grosse vache",
+      "character": "Stan",
+      "episode": ""
+    },
+    {
+      "file": "south_park001.mp3",
+      "title": "Générique",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park109.mp3",
+      "title": "Hermaprosite",
+      "character": "Stan",
+      "episode": ""
+    },
+    {
+      "file": "south_park074.mp3",
+      "title": "Howdy Ho !",
+      "character": "M. Hankey",
+      "episode": ""
+    },
+    {
+      "file": "south_park035.mp3",
+      "title": "Héritage de talent",
+      "character": "M. Garisson",
+      "episode": ""
+    },
+    {
+      "file": "south_park013.mp3",
+      "title": "Ils ont tué Kenny",
+      "character": "Kyle",
+      "episode": ""
+    },
+    {
+      "file": "south_park064.mp3",
+      "title": "Ils ont tué Kenny 2",
+      "character": "Stan",
+      "episode": ""
+    },
+    {
+      "file": "south_park124.mp3",
+      "title": "Individualité, tu vois",
+      "character": "M. Mackey",
+      "episode": ""
+    },
+    {
+      "file": "south_park126.mp3",
+      "title": "J'ai appris un truc 1",
+      "character": "Kyle",
+      "episode": ""
+    },
+    {
+      "file": "south_park069.mp3",
+      "title": "J'ai fait dans mon froc",
+      "character": "Terrance & Philippe",
+      "episode": ""
+    },
+    {
+      "file": "south_park066.mp3",
+      "title": "J'essaie d'écouter",
+      "character": "Stan",
+      "episode": ""
+    },
+    {
+      "file": "south_park007.mp3",
+      "title": "Je peux quitter la salle ?",
+      "character": "M. Garisson",
+      "episode": ""
+    },
+    {
+      "file": "south_park071.mp3",
+      "title": "Je suis pas gros",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park061.mp3",
+      "title": "Je te déteste",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park080.mp3",
+      "title": "Je vous emmerde...",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park122.mp3",
+      "title": "Joue pas les gonzesses",
+      "character": "M. Mackey",
+      "episode": ""
+    },
+    {
+      "file": "south_park032.mp3",
+      "title": "Jésus a les réponses",
+      "character": "Jésus",
+      "episode": ""
+    },
+    {
+      "file": "south_park029.mp3",
+      "title": "Kukrapok",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park042.mp3",
+      "title": "L'ADN du cochon",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park030.mp3",
+      "title": "La culture asiatique",
+      "character": "Stan",
+      "episode": ""
+    },
+    {
+      "file": "south_park078.mp3",
+      "title": "Le soleil est une tortue",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park018.mp3",
+      "title": "Les arc-en-ciels",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park031.mp3",
+      "title": "Les homosexuels",
+      "character": "M. Garisson",
+      "episode": ""
+    },
+    {
+      "file": "south_park125.mp3",
+      "title": "Les petits soldats",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park112.mp3",
+      "title": "Lion, Vache et Garderobe",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park113.mp3",
+      "title": "Matin et soir",
+      "character": "Officier Barbrady",
+      "episode": ""
+    },
+    {
+      "file": "south_park087.mp3",
+      "title": "Mauvaise excuse",
+      "character": "Barbady",
+      "episode": ""
+    },
+    {
+      "file": "south_park055.mp3",
+      "title": "Montrons le du doigt",
+      "character": "M. Garisson",
+      "episode": ""
+    },
+    {
+      "file": "south_park033.mp3",
+      "title": "Mort pour mes péchés",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park047.mp3",
+      "title": "Même pour 1 million",
+      "character": "M. Garisson",
+      "episode": ""
+    },
+    {
+      "file": "south_park048.mp3",
+      "title": "Même pour 10 millions",
+      "character": "Chef",
+      "episode": ""
+    },
+    {
+      "file": "south_park052.mp3",
+      "title": "Même pour 100 millions",
+      "character": "Jésus",
+      "episode": ""
+    },
+    {
+      "file": "south_park014.mp3",
+      "title": "Non le chat !",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park063.mp3",
+      "title": "Nous serions nous ?",
+      "character": "M. Garisson",
+      "episode": ""
+    },
+    {
+      "file": "south_park025.mp3",
+      "title": "Obésité...",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park104.mp3",
+      "title": "OMG ils ont tué...",
+      "character": "Kenny",
+      "episode": ""
+    },
+    {
+      "file": "south_park068.mp3",
+      "title": "Pas de question stupide",
+      "character": "M. Garisson",
+      "episode": ""
+    },
+    {
+      "file": "south_park070.mp3",
+      "title": "Pascal la dalle",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park021.mp3",
+      "title": "Peace & Love",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park046.mp3",
+      "title": "Petit enfoiré",
+      "character": "Grand père",
+      "episode": ""
+    },
+    {
+      "file": "south_park095.mp3",
+      "title": "Polka de la beuverie",
+      "character": "Oncle Jimbo",
+      "episode": ""
+    },
+    {
+      "file": "south_park065.mp3",
+      "title": "Prout délire",
+      "character": "Terrance & Philippe",
+      "episode": ""
+    },
+    {
+      "file": "south_park102.mp3",
+      "title": "Péteusement d'accord",
+      "character": "Terrance & Philippe",
+      "episode": ""
+    },
+    {
+      "file": "south_park005.mp3",
+      "title": "Qu'est ce que tu as dit 1",
+      "character": "Mme Crapsbee",
+      "episode": ""
+    },
+    {
+      "file": "south_park006.mp3",
+      "title": "Qu'est ce que tu as dit 2",
+      "character": "Mme Crapsbee",
+      "episode": ""
+    },
+    {
+      "file": "south_park053.mp3",
+      "title": "Qu'est ce que tu as dit 3",
+      "character": "Mme Crapsbee",
+      "episode": ""
+    },
+    {
+      "file": "south_park130.mp3",
+      "title": "Quand je t'aurai retrouvé",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park128.mp3",
+      "title": "Quand tu vas sucer...",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park088.mp3",
+      "title": "Quelle pétasse",
+      "character": "Barbady",
+      "episode": ""
+    },
+    {
+      "file": "south_park062.mp3",
+      "title": "Quelqu'un à dit un jour...",
+      "character": "Stan",
+      "episode": ""
+    },
+    {
+      "file": "south_park022.mp3",
+      "title": "Reflet de notre société",
+      "character": "M. Garisson",
+      "episode": ""
+    },
+    {
+      "file": "south_park118.mp3",
+      "title": "Respectez mon autorité",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park081.mp3",
+      "title": "Rires",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park106.mp3",
+      "title": "Réveille-toi !",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park051.mp3",
+      "title": "Sac à merde",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park101.mp3",
+      "title": "Sale gueule",
+      "character": "Terrance & Philippe",
+      "episode": ""
+    },
+    {
+      "file": "south_park009.mp3",
+      "title": "Salut chef",
+      "character": "Chef",
+      "episode": ""
+    },
+    {
+      "file": "south_park075.mp3",
+      "title": "Scatophile dépressif",
+      "character": "Kyle",
+      "episode": ""
+    },
+    {
+      "file": "south_park003.mp3",
+      "title": "Shoot dans le bébé",
+      "character": "Kyle",
+      "episode": ""
+    },
+    {
+      "file": "south_park038.mp3",
+      "title": "Si une nana 1",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park039.mp3",
+      "title": "Si une nana 2",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park040.mp3",
+      "title": "Si une nana 3",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park044.mp3",
+      "title": "Si une nana 4",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park083.mp3",
+      "title": "T'approches pas de mon mec",
+      "character": "Wendy",
+      "episode": ""
+    },
+    {
+      "file": "south_park116.mp3",
+      "title": "T'es beau gosse",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park012.mp3",
+      "title": "Ta gueule",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park020.mp3",
+      "title": "Ta gueule hippie !",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park073.mp3",
+      "title": "Ta mère est une conne",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park084.mp3",
+      "title": "Toujours pas lesbienne",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park085.mp3",
+      "title": "Tout ce que je rêve",
+      "character": "M. Garisson",
+      "episode": ""
+    },
+    {
+      "file": "south_park103.mp3",
+      "title": "Tu es un con",
+      "character": "Terrance & Philippe",
+      "episode": ""
+    },
+    {
+      "file": "south_park023.mp3",
+      "title": "Un aussi gros cul",
+      "character": "Kyle",
+      "episode": ""
+    },
+    {
+      "file": "south_park050.mp3",
+      "title": "Un coup d'enfer",
+      "character": "Grand père",
+      "episode": ""
+    },
+    {
+      "file": "south_park089.mp3",
+      "title": "Un homme avec des rêves",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park036.mp3",
+      "title": "Un juif qui court",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "south_park121.mp3",
+      "title": "Un temps et un endroit",
+      "character": "Chef",
+      "episode": ""
+    },
+    {
+      "file": "south_park105.mp3",
+      "title": "Une soustraction",
+      "character": "Officier Barbrady",
+      "episode": ""
+    },
+    {
+      "file": "south_park002.mp3",
+      "title": "Va-t'en !",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park067.mp3",
+      "title": "Vasodilatateur",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park034.mp3",
+      "title": "Vieux dicton",
+      "character": "Chef",
+      "episode": ""
+    },
+    {
+      "file": "south_park115.mp3",
+      "title": "Violer une volaille",
+      "character": "M. Garisson",
+      "episode": ""
+    },
+    {
+      "file": "south_park019.mp3",
+      "title": "Ça me troue le cul",
+      "character": "Cartman",
+      "episode": ""
+    },
+    {
+      "file": "south_park117.mp3",
+      "title": "Ça va sortir ?",
+      "character": "Kyle",
+      "episode": ""
+    },
+    {
+      "file": "south_park004.mp3",
+      "title": "Énorme appareil",
+      "character": "Chef",
+      "episode": ""
+    }
+  ]
+}

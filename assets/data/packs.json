@@ -65,6 +65,12 @@
       "name": "Les Kassos",
       "manifest": "packs/kassos/pack.json",
       "defaultTheme": "carmilla"
+    },
+    {
+      "id": "southpark",
+      "name": "South Park",
+      "manifest": "packs/southpark/pack.json",
+      "defaultTheme": "tarn"
     }
   ]
 }
