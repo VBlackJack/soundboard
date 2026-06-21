@@ -41,6 +41,12 @@
       "name": "OSS 117",
       "manifest": "packs/oss117/pack.json",
       "defaultTheme": "folio"
+    },
+    {
+      "id": "citedelapeur",
+      "name": "La Cité de la Peur",
+      "manifest": "packs/citedelapeur/pack.json",
+      "defaultTheme": "mortis"
     }
   ]
 }

@@ -1,0 +1,622 @@
+{
+  "id": "citedelapeur",
+  "name": "La Cité de la Peur",
+  "defaultTheme": "mortis",
+  "soundsBase": "sounds/citedelapeur/",
+  "characters": [
+    "Serge",
+    "Simon",
+    "Patrick",
+    "Odile",
+    "Emile"
+  ],
+  "count": 101,
+  "sounds": [
+    {
+      "file": "rid87.mp3",
+      "title": "Aréoport",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid03.mp3",
+      "title": "Attention Benjamin !",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid65.mp3",
+      "title": "Attention Emile !",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid98.mp3",
+      "title": "Banco",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid67.mp3",
+      "title": "Bouche fermée",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid57.mp3",
+      "title": "Bout de pomme de terre",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid88.mp3",
+      "title": "C'est elle !",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid70.mp3",
+      "title": "C'est une horreur",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid84.mp3",
+      "title": "Carioca",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid64.mp3",
+      "title": "Carioca - Intro",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid32.mp3",
+      "title": "Castors lapons",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid40.mp3",
+      "title": "Celles que j'ai escortées",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid79.mp3",
+      "title": "Chinois vs italien",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid23.mp3",
+      "title": "Choucroute interdite",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid06.mp3",
+      "title": "Chérie, ça va couper...",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid91.mp3",
+      "title": "Combien ?",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid30.mp3",
+      "title": "Cons de mimes",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid38.mp3",
+      "title": "Crème épaisse",
+      "character": "Patrick",
+      "episode": ""
+    },
+    {
+      "file": "rid18.mp3",
+      "title": "De bonnes gencives de porc",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid76.mp3",
+      "title": "Dites le !",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid75.mp3",
+      "title": "En fait, c'est moi !",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid58.mp3",
+      "title": "Enorme tapette à souris",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid21.mp3",
+      "title": "Entretien filmé",
+      "character": "Patrick",
+      "episode": ""
+    },
+    {
+      "file": "rid22.mp3",
+      "title": "Entretien pas filmé",
+      "character": "Patrick",
+      "episode": ""
+    },
+    {
+      "file": "rid41.mp3",
+      "title": "Escorte 1",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid42.mp3",
+      "title": "Escorte 2",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid43.mp3",
+      "title": "Escorte 3",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid12.mp3",
+      "title": "Et votre soeur ?",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid15.mp3",
+      "title": "Hyper content 1",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid19.mp3",
+      "title": "Hyper content 2",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid78.mp3",
+      "title": "Hyper content 3",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid11.mp3",
+      "title": "Il fallait que j'en prende ?",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid01.mp3",
+      "title": "Il ne peut plus rien nous arriver",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid07.mp3",
+      "title": "J'ai perdu ma mère ce matin",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid71.mp3",
+      "title": "J'ai plus de genou",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid10.mp3",
+      "title": "Je suis le Pape",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid05.mp3",
+      "title": "Je vous pisse à la raie",
+      "character": "Odile",
+      "episode": ""
+    },
+    {
+      "file": "rid16.mp3",
+      "title": "Jetez moi ici",
+      "character": "Odile",
+      "episode": ""
+    },
+    {
+      "file": "rid97.mp3",
+      "title": "Kinoton",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid02.mp3",
+      "title": "L'aspirateur !",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid56.mp3",
+      "title": "Laissez la police bla bla",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid20.mp3",
+      "title": "Laissez la police faire son travail",
+      "character": "Patrick",
+      "episode": ""
+    },
+    {
+      "file": "rid81.mp3",
+      "title": "Let the police",
+      "character": "Patrick",
+      "episode": ""
+    },
+    {
+      "file": "rid94.mp3",
+      "title": "Loulou ?",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid82.mp3",
+      "title": "Låt polisen",
+      "character": "Patrick",
+      "episode": ""
+    },
+    {
+      "file": "rid66.mp3",
+      "title": "Mange ça !",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid24.mp3",
+      "title": "Mangeage de choucroute prohibé",
+      "character": "Odile",
+      "episode": ""
+    },
+    {
+      "file": "rid08.mp3",
+      "title": "Mon chien est mort",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid36.mp3",
+      "title": "Moutarde et cinéma",
+      "character": "Odile",
+      "episode": ""
+    },
+    {
+      "file": "rid44.mp3",
+      "title": "Mozart",
+      "character": "Odile",
+      "episode": ""
+    },
+    {
+      "file": "rid50.mp3",
+      "title": "Musique 1",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid51.mp3",
+      "title": "Musique 2",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid52.mp3",
+      "title": "Musique 3",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid92.mp3",
+      "title": "Mélodie",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid37.mp3",
+      "title": "Ne me mange pas",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid31.mp3",
+      "title": "Nous finirons par le coincer",
+      "character": "Patrick",
+      "episode": ""
+    },
+    {
+      "file": "rid93.mp3",
+      "title": "Odile !",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid17.mp3",
+      "title": "On peut se tutoyer ?",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid74.mp3",
+      "title": "On peut tromper...",
+      "character": "Emile",
+      "episode": ""
+    },
+    {
+      "file": "rid35.mp3",
+      "title": "Parlez moi de vous plutôt",
+      "character": "Odile",
+      "episode": ""
+    },
+    {
+      "file": "rid73.mp3",
+      "title": "Parlez moi encore",
+      "character": "Odile",
+      "episode": ""
+    },
+    {
+      "file": "rid72.mp3",
+      "title": "Pastèque",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid29.mp3",
+      "title": "Pendant ce temps",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid25.mp3",
+      "title": "Personne n'a dit...",
+      "character": "Patrick",
+      "episode": ""
+    },
+    {
+      "file": "rid83.mp3",
+      "title": "Plic ploc",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid49.mp3",
+      "title": "Pour des raisons de budget...",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid04.mp3",
+      "title": "Pourriture communiste !",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid59.mp3",
+      "title": "Prenez un chewing gum",
+      "character": "Emile",
+      "episode": ""
+    },
+    {
+      "file": "rid47.mp3",
+      "title": "Pullover et moule",
+      "character": "Patrick",
+      "episode": ""
+    },
+    {
+      "file": "rid14.mp3",
+      "title": "Quand je suis content...",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid34.mp3",
+      "title": "Quelques clapiottes",
+      "character": "Patrick",
+      "episode": ""
+    },
+    {
+      "file": "rid62.mp3",
+      "title": "Remboursez !",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid100.mp3",
+      "title": "Revoilà la sous-préfète",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid39.mp3",
+      "title": "Rick Hunter",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid99.mp3",
+      "title": "Réponse : rien",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid80.mp3",
+      "title": "Safrane limitée",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid85.mp3",
+      "title": "Sandy ! Attention !",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid26.mp3",
+      "title": "Sarah Connor ?",
+      "character": "Odile",
+      "episode": ""
+    },
+    {
+      "file": "rid101.mp3",
+      "title": "Se faire dessus",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid55.mp3",
+      "title": "Serial Killer",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid48.mp3",
+      "title": "Si je la vois",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid89.mp3",
+      "title": "Skol Ofrenstrü",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid33.mp3",
+      "title": "Snow White",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid27.mp3",
+      "title": "Sécu !",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid28.mp3",
+      "title": "Séropositive",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid95.mp3",
+      "title": "Sûrement un musicien",
+      "character": "Patrick",
+      "episode": ""
+    },
+    {
+      "file": "rid68.mp3",
+      "title": "Tapette géante",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid61.mp3",
+      "title": "Tchut tchut",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid46.mp3",
+      "title": "Tu as une brosse ?",
+      "character": "Odile",
+      "episode": ""
+    },
+    {
+      "file": "rid69.mp3",
+      "title": "Tu bluffes",
+      "character": "Patrick",
+      "episode": ""
+    },
+    {
+      "file": "rid53.mp3",
+      "title": "Tu fais bien le chat",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid45.mp3",
+      "title": "Un Whisky ?",
+      "character": "Odile",
+      "episode": ""
+    },
+    {
+      "file": "rid60.mp3",
+      "title": "Une fois mille personnes",
+      "character": "Emile",
+      "episode": ""
+    },
+    {
+      "file": "rid13.mp3",
+      "title": "Vomissement",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid77.mp3",
+      "title": "Vomissement 2",
+      "character": "Simon",
+      "episode": ""
+    },
+    {
+      "file": "rid09.mp3",
+      "title": "Vous connaissez Cannes ?",
+      "character": "Serge",
+      "episode": ""
+    },
+    {
+      "file": "rid86.mp3",
+      "title": "Vous êtes ?",
+      "character": "Odile",
+      "episode": ""
+    },
+    {
+      "file": "rid96.mp3",
+      "title": "Véritable boucherie",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid63.mp3",
+      "title": "Ça tombe bien",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid54.mp3",
+      "title": "Ça va trancher",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "rid90.mp3",
+      "title": "Étrange légume",
+      "character": "",
+      "episode": ""
+    }
+  ]
+}
