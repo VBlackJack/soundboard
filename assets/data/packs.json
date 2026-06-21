@@ -59,6 +59,12 @@
       "name": "Le Dîner de Cons",
       "manifest": "packs/dinerdecons/pack.json",
       "defaultTheme": "whitby"
+    },
+    {
+      "id": "kassos",
+      "name": "Les Kassos",
+      "manifest": "packs/kassos/pack.json",
+      "defaultTheme": "carmilla"
     }
   ]
 }

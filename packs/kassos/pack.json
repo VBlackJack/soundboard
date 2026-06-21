@@ -1,0 +1,1830 @@
+{
+  "id": "kassos",
+  "name": "Les Kassos",
+  "defaultTheme": "carmilla",
+  "soundsBase": "sounds/kassos/",
+  "characters": [
+    "Teleboubizes",
+    "Aspégix et Grodébilix",
+    "Les Proumfs",
+    "Papy Fougasse",
+    "Alladech",
+    "C'est pas coupé",
+    "Dirty Fisting",
+    "Gadgette & Gora 2",
+    "Lieutenant Dirty Gadgette",
+    "Muldor & Scoully",
+    "Bagarre Club",
+    "Charles Ingalls de Ligones",
+    "Dessenaute",
+    "Fougasse 2.0",
+    "Hydroalcolix",
+    "La Famille Sodo",
+    "Lapin du métro",
+    "Les Daltonne",
+    "Bonne nuit les chiards",
+    "Expandehpad",
+    "Gadget & Gora",
+    "Glaviator",
+    "Hellbol",
+    "Les Chevaliers de l'Horoscope",
+    "Les Randonneurs Blancs",
+    "Les Tortues Clodo",
+    "Marius & Gigi",
+    "Moc & Darty 2",
+    "Monsieur Invisible",
+    "Naroute",
+    "Ptiripou",
+    "Sachatte & Pedro",
+    "Ariel & Sharon",
+    "Chasse Pêche & Predation",
+    "Coppycolo",
+    "Diesel & Sansplomb",
+    "Gaggum",
+    "Hello Kiki",
+    "La Casa du papier A4",
+    "La gène est dans le près",
+    "Le Pokémouille Légendaire",
+    "Les Canards Juniors",
+    "Petit Prince",
+    "Sandy",
+    "Serge le lapin",
+    "Super Smashos",
+    "Totogro",
+    "Diesel sans Sansplomb",
+    "Dr Mesboules",
+    "Dumboff",
+    "Fortnaze",
+    "Grumpy Chat",
+    "Jurasitcom",
+    "KK2000",
+    "Kiné le survivant",
+    "La Belle et la Belle Bête",
+    "Le Roi Fion",
+    "Les Elfen",
+    "Les I-Mens",
+    "Les Z'Amants",
+    "Moc & Darty",
+    "Monsieur Patatos",
+    "Nemo t'es ken",
+    "Ouai-ouai",
+    "Pirate des Antilles",
+    "Porkypute",
+    "Sex toy story",
+    "Totally Spé",
+    "Totof",
+    "Wilson et Chuck",
+    "50 nuances de Greyjoy",
+    "Captain Olivio",
+    "CoeurCourage",
+    "Daryl vs Wild",
+    "Frozen Yogourt",
+    "Gilles",
+    "ITI",
+    "Jackyra",
+    "Jimmy Lannister",
+    "Jokerini",
+    "Les Scrims",
+    "Matrice",
+    "Monsieur Man",
+    "Monsieur Zelda",
+    "Power Rogers",
+    "RFL",
+    "Scarla",
+    "Shaïning",
+    "Shrank & Sonya",
+    "Spideurman",
+    "Stranger Thin",
+    "Street Kasseur",
+    "T'es Net",
+    "The Cockring",
+    "Wall-A",
+    "Yu Gi Uno",
+    "Zizimir"
+  ],
+  "count": 287,
+  "sounds": [
+    {
+      "file": "kassos160.mp3",
+      "title": "1, 2, 3, respire !",
+      "character": "Gadgette & Gora 2",
+      "episode": ""
+    },
+    {
+      "file": "kassos229.mp3",
+      "title": "54 ans",
+      "character": "Les Daltonne",
+      "episode": ""
+    },
+    {
+      "file": "kassos161.mp3",
+      "title": "Adios Pepito",
+      "character": "Gadgette & Gora 2",
+      "episode": ""
+    },
+    {
+      "file": "kassos110.mp3",
+      "title": "Ah d'accord",
+      "character": "Frozen Yogourt",
+      "episode": ""
+    },
+    {
+      "file": "kassos233.mp3",
+      "title": "Ah ouais ouais ouais !",
+      "character": "Papy Fougasse",
+      "episode": ""
+    },
+    {
+      "file": "kassos153.mp3",
+      "title": "Alerte à Malibu",
+      "character": "KK2000",
+      "episode": ""
+    },
+    {
+      "file": "kassos234.mp3",
+      "title": "Allez vous faire...",
+      "character": "La Casa du papier A4",
+      "episode": ""
+    },
+    {
+      "file": "kassos192.mp3",
+      "title": "Antilopes et herbe",
+      "character": "Le Roi Fion",
+      "episode": ""
+    },
+    {
+      "file": "kassos47.mp3",
+      "title": "Aspifion",
+      "character": "Sachatte & Pedro",
+      "episode": ""
+    },
+    {
+      "file": "kassos226.mp3",
+      "title": "Attends ta gueule",
+      "character": "Teleboubizes",
+      "episode": ""
+    },
+    {
+      "file": "kassos138.mp3",
+      "title": "Attention Virginie",
+      "character": "La gène est dans le près",
+      "episode": ""
+    },
+    {
+      "file": "kassos51.mp3",
+      "title": "Au contact du vent",
+      "character": "Papy Fougasse",
+      "episode": ""
+    },
+    {
+      "file": "kassos115.mp3",
+      "title": "Baise ta fille",
+      "character": "Moc & Darty 2",
+      "episode": ""
+    },
+    {
+      "file": "kassos45.mp3",
+      "title": "Baise ta mère",
+      "character": "Moc & Darty",
+      "episode": ""
+    },
+    {
+      "file": "kassos44.mp3",
+      "title": "Bar mitzvâh",
+      "character": "Les Daltonne",
+      "episode": ""
+    },
+    {
+      "file": "kassos91.mp3",
+      "title": "Beauté intérieure",
+      "character": "La Belle et la Belle Bête",
+      "episode": ""
+    },
+    {
+      "file": "kassos236.mp3",
+      "title": "Bella Ciao",
+      "character": "La Casa du papier A4",
+      "episode": ""
+    },
+    {
+      "file": "kassos167.mp3",
+      "title": "Belle bête",
+      "character": "Chasse Pêche & Predation",
+      "episode": ""
+    },
+    {
+      "file": "kassos43.mp3",
+      "title": "Bismilha",
+      "character": "Les Daltonne",
+      "episode": ""
+    },
+    {
+      "file": "kassos232.mp3",
+      "title": "Bite ?",
+      "character": "Papy Fougasse",
+      "episode": ""
+    },
+    {
+      "file": "kassos258.mp3",
+      "title": "Blanc comme neige",
+      "character": "Fougasse 2.0",
+      "episode": ""
+    },
+    {
+      "file": "kassos11.mp3",
+      "title": "Boisson de moustachu",
+      "character": "Aspégix et Grodébilix",
+      "episode": ""
+    },
+    {
+      "file": "kassos215.mp3",
+      "title": "Bonjour madame",
+      "character": "Les Canards Juniors",
+      "episode": ""
+    },
+    {
+      "file": "kassos82.mp3",
+      "title": "Bonsoir les enfants",
+      "character": "Bonne nuit les chiards",
+      "episode": ""
+    },
+    {
+      "file": "kassos89.mp3",
+      "title": "Boules de feu",
+      "character": "CoeurCourage",
+      "episode": ""
+    },
+    {
+      "file": "kassos209.mp3",
+      "title": "Bug Arnaud",
+      "character": "Expandehpad",
+      "episode": ""
+    },
+    {
+      "file": "kassos227.mp3",
+      "title": "Buvons ensemble",
+      "character": "Pirate des Antilles",
+      "episode": ""
+    },
+    {
+      "file": "kassos247.mp3",
+      "title": "C'est bien Grocaillou",
+      "character": "Le Pokémouille Légendaire",
+      "episode": ""
+    },
+    {
+      "file": "kassos272.mp3",
+      "title": "C'est dégueulasse !",
+      "character": "Monsieur Invisible",
+      "episode": ""
+    },
+    {
+      "file": "kassos150.mp3",
+      "title": "C'est iodé",
+      "character": "Hydroalcolix",
+      "episode": ""
+    },
+    {
+      "file": "kassos278.mp3",
+      "title": "C'est la cata",
+      "character": "C'est pas coupé",
+      "episode": ""
+    },
+    {
+      "file": "kassos92.mp3",
+      "title": "C'est la hache",
+      "character": "Charles Ingalls de Ligones",
+      "episode": ""
+    },
+    {
+      "file": "kassos146.mp3",
+      "title": "C'est mon cahier !",
+      "character": "Dessenaute",
+      "episode": ""
+    },
+    {
+      "file": "kassos163.mp3",
+      "title": "C'est pas ta mère",
+      "character": "Shrank & Sonya",
+      "episode": ""
+    },
+    {
+      "file": "kassos176.mp3",
+      "title": "C'est pour ma poule",
+      "character": "Monsieur Zelda",
+      "episode": ""
+    },
+    {
+      "file": "kassos28.mp3",
+      "title": "C'est qui le patron ?!",
+      "character": "Lapin du métro",
+      "episode": ""
+    },
+    {
+      "file": "kassos144.mp3",
+      "title": "C'est qui qui t'embête ?",
+      "character": "Dessenaute",
+      "episode": ""
+    },
+    {
+      "file": "kassos143.mp3",
+      "title": "C'est quoi la mission ?",
+      "character": "Totally Spé",
+      "episode": ""
+    },
+    {
+      "file": "kassos165.mp3",
+      "title": "C'est toi va te faire !",
+      "character": "Diesel & Sansplomb",
+      "episode": ""
+    },
+    {
+      "file": "kassos243.mp3",
+      "title": "Ce que l'on fait dans sa vie",
+      "character": "Glaviator",
+      "episode": ""
+    },
+    {
+      "file": "kassos131.mp3",
+      "title": "Chanson pour ma bite",
+      "character": "Papy Fougasse",
+      "episode": ""
+    },
+    {
+      "file": "kassos279.mp3",
+      "title": "Chauffe Marcel !",
+      "character": "C'est pas coupé",
+      "episode": ""
+    },
+    {
+      "file": "kassos87.mp3",
+      "title": "Choqué",
+      "character": "Sex toy story",
+      "episode": ""
+    },
+    {
+      "file": "kassos211.mp3",
+      "title": "Clic",
+      "character": "Super Smashos",
+      "episode": ""
+    },
+    {
+      "file": "kassos276.mp3",
+      "title": "Comme une aspirine",
+      "character": "C'est pas coupé",
+      "episode": ""
+    },
+    {
+      "file": "kassos139.mp3",
+      "title": "Comme une reine",
+      "character": "La gène est dans le près",
+      "episode": ""
+    },
+    {
+      "file": "kassos03.mp3",
+      "title": "Comment ne pas perdre...",
+      "character": "Monsieur Patatos",
+      "episode": ""
+    },
+    {
+      "file": "kassos136.mp3",
+      "title": "Complètement con",
+      "character": "Dessenaute",
+      "episode": ""
+    },
+    {
+      "file": "kassos148.mp3",
+      "title": "Conarovirus",
+      "character": "Hydroalcolix",
+      "episode": ""
+    },
+    {
+      "file": "kassos71.mp3",
+      "title": "Contre Uno",
+      "character": "Yu Gi Uno",
+      "episode": ""
+    },
+    {
+      "file": "kassos125.mp3",
+      "title": "Couper des têtes",
+      "character": "Ptiripou",
+      "episode": ""
+    },
+    {
+      "file": "kassos203.mp3",
+      "title": "Couvert de mon ami",
+      "character": "Expandehpad",
+      "episode": ""
+    },
+    {
+      "file": "kassos101.mp3",
+      "title": "Coïncidence créole",
+      "character": "Pirate des Antilles",
+      "episode": ""
+    },
+    {
+      "file": "kassos182.mp3",
+      "title": "Cumulonimbus",
+      "character": "Sandy",
+      "episode": ""
+    },
+    {
+      "file": "kassos104.mp3",
+      "title": "Dannnny",
+      "character": "Shaïning",
+      "episode": ""
+    },
+    {
+      "file": "kassos164.mp3",
+      "title": "Dans le respect...",
+      "character": "Charles Ingalls de Ligones",
+      "episode": ""
+    },
+    {
+      "file": "kassos149.mp3",
+      "title": "Dans les muqueuses !",
+      "character": "Hydroalcolix",
+      "episode": ""
+    },
+    {
+      "file": "kassos208.mp3",
+      "title": "Darty papa",
+      "character": "Moc & Darty",
+      "episode": ""
+    },
+    {
+      "file": "kassos88.mp3",
+      "title": "Dehors vs dedans",
+      "character": "Sex toy story",
+      "episode": ""
+    },
+    {
+      "file": "kassos140.mp3",
+      "title": "Demonia",
+      "character": "Hellbol",
+      "episode": ""
+    },
+    {
+      "file": "kassos97.mp3",
+      "title": "Des filles et des voitures",
+      "character": "Diesel & Sansplomb",
+      "episode": ""
+    },
+    {
+      "file": "kassos42.mp3",
+      "title": "Des gens morts",
+      "character": "Monsieur Man",
+      "episode": ""
+    },
+    {
+      "file": "kassos40.mp3",
+      "title": "Des sacrés fachos",
+      "character": "Les Tortues Clodo",
+      "episode": ""
+    },
+    {
+      "file": "kassos64.mp3",
+      "title": "Descends de tes échavaux",
+      "character": "Aspégix et Grodébilix",
+      "episode": ""
+    },
+    {
+      "file": "kassos04.mp3",
+      "title": "Dis bonjour",
+      "character": "Muldor & Scoully",
+      "episode": ""
+    },
+    {
+      "file": "kassos200.mp3",
+      "title": "Dis bonjour Totogro",
+      "character": "Totogro",
+      "episode": ""
+    },
+    {
+      "file": "kassos53.mp3",
+      "title": "Dit comme ça",
+      "character": "Gilles",
+      "episode": ""
+    },
+    {
+      "file": "kassos56.mp3",
+      "title": "Donné à toi",
+      "character": "Wilson et Chuck",
+      "episode": ""
+    },
+    {
+      "file": "kassos218.mp3",
+      "title": "Douce mélodie",
+      "character": "Bonne nuit les chiards",
+      "episode": ""
+    },
+    {
+      "file": "kassos83.mp3",
+      "title": "Dédicasse",
+      "character": "Sachatte & Pedro",
+      "episode": ""
+    },
+    {
+      "file": "kassos239.mp3",
+      "title": "Déféquer sur ma moquette",
+      "character": "T'es Net",
+      "episode": ""
+    },
+    {
+      "file": "kassos50.mp3",
+      "title": "Dégage",
+      "character": "Hello Kiki",
+      "episode": ""
+    },
+    {
+      "file": "kassos112.mp3",
+      "title": "El Loucoum",
+      "character": "Totof",
+      "episode": ""
+    },
+    {
+      "file": "kassos152.mp3",
+      "title": "Elle réduit le pénis",
+      "character": "Ptiripou",
+      "episode": ""
+    },
+    {
+      "file": "kassos235.mp3",
+      "title": "En avant Guingamp",
+      "character": "La Casa du papier A4",
+      "episode": ""
+    },
+    {
+      "file": "kassos275.mp3",
+      "title": "En route Marcel !",
+      "character": "C'est pas coupé",
+      "episode": ""
+    },
+    {
+      "file": "kassos220.mp3",
+      "title": "Encore eux",
+      "character": "Gadget & Gora",
+      "episode": ""
+    },
+    {
+      "file": "kassos114.mp3",
+      "title": "Enorme mongole",
+      "character": "Moc & Darty 2",
+      "episode": ""
+    },
+    {
+      "file": "kassos18.mp3",
+      "title": "Enquiquinant !",
+      "character": "Monsieur Patatos",
+      "episode": ""
+    },
+    {
+      "file": "kassos31.mp3",
+      "title": "Et mon cul ?",
+      "character": "Aspégix et Grodébilix",
+      "episode": ""
+    },
+    {
+      "file": "kassos67.mp3",
+      "title": "Exciser sa grand mère",
+      "character": "Ptiripou",
+      "episode": ""
+    },
+    {
+      "file": "kassos39.mp3",
+      "title": "Facebook ça pue",
+      "character": "Les Proumfs",
+      "episode": ""
+    },
+    {
+      "file": "kassos74.mp3",
+      "title": "Faces cheloues",
+      "character": "Teleboubizes",
+      "episode": ""
+    },
+    {
+      "file": "kassos63.mp3",
+      "title": "Fais pas ta pute",
+      "character": "Aspégix et Grodébilix",
+      "episode": ""
+    },
+    {
+      "file": "kassos237.mp3",
+      "title": "Faut que ça imbibe",
+      "character": "Aspégix et Grodébilix",
+      "episode": ""
+    },
+    {
+      "file": "kassos175.mp3",
+      "title": "Faut vous détendre",
+      "character": "Sandy",
+      "episode": ""
+    },
+    {
+      "file": "kassos191.mp3",
+      "title": "Filament !",
+      "character": "Spideurman",
+      "episode": ""
+    },
+    {
+      "file": "kassos159.mp3",
+      "title": "Fils de pute",
+      "character": "Gadgette & Gora 2",
+      "episode": ""
+    },
+    {
+      "file": "kassos52.mp3",
+      "title": "Folindra",
+      "character": "Papy Fougasse",
+      "episode": ""
+    },
+    {
+      "file": "kassos183.mp3",
+      "title": "Gare à ton cul",
+      "character": "Naroute",
+      "episode": ""
+    },
+    {
+      "file": "kassos250.mp3",
+      "title": "Gogo gadget foreuse",
+      "character": "Dirty Fisting",
+      "episode": ""
+    },
+    {
+      "file": "kassos09.mp3",
+      "title": "Gogo Gadgeto 1",
+      "character": "Lieutenant Dirty Gadgette",
+      "episode": ""
+    },
+    {
+      "file": "kassos221.mp3",
+      "title": "Gogo Gadgeto 2",
+      "character": "Lieutenant Dirty Gadgette",
+      "episode": ""
+    },
+    {
+      "file": "kassos222.mp3",
+      "title": "Gogo Gadgeto 3",
+      "character": "Lieutenant Dirty Gadgette",
+      "episode": ""
+    },
+    {
+      "file": "kassos241.mp3",
+      "title": "Golum ! Golum !",
+      "character": "Gaggum",
+      "episode": ""
+    },
+    {
+      "file": "kassos59.mp3",
+      "title": "Grillée",
+      "character": "Ariel & Sharon",
+      "episode": ""
+    },
+    {
+      "file": "kassos246.mp3",
+      "title": "Grocaillou",
+      "character": "Le Pokémouille Légendaire",
+      "episode": ""
+    },
+    {
+      "file": "kassos23.mp3",
+      "title": "Gros dégueu",
+      "character": "La Famille Sodo",
+      "episode": ""
+    },
+    {
+      "file": "kassos198.mp3",
+      "title": "Grosse chéper",
+      "character": "Teleboubizes",
+      "episode": ""
+    },
+    {
+      "file": "kassos194.mp3",
+      "title": "Grow the fu** up",
+      "character": "Alladech",
+      "episode": ""
+    },
+    {
+      "file": "kassos261.mp3",
+      "title": "Génération d'hommes",
+      "character": "Bagarre Club",
+      "episode": ""
+    },
+    {
+      "file": "kassos00.mp3",
+      "title": "Générique",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "kassos195.mp3",
+      "title": "Harcèlement de rue",
+      "character": "Alladech",
+      "episode": ""
+    },
+    {
+      "file": "kassos38.mp3",
+      "title": "Hashtag abusé",
+      "character": "Les Proumfs",
+      "episode": ""
+    },
+    {
+      "file": "kassos37.mp3",
+      "title": "Hashtag l'hallu",
+      "character": "Les Proumfs",
+      "episode": ""
+    },
+    {
+      "file": "kassos36.mp3",
+      "title": "Hashtag ringard",
+      "character": "Les Proumfs",
+      "episode": ""
+    },
+    {
+      "file": "kassos285.mp3",
+      "title": "Histoire d'un Namek",
+      "character": "Coppycolo",
+      "episode": ""
+    },
+    {
+      "file": "kassos98.mp3",
+      "title": "Huitre fourrée",
+      "character": "Daryl vs Wild",
+      "episode": ""
+    },
+    {
+      "file": "kassos147.mp3",
+      "title": "Hydroalcolix",
+      "character": "Hydroalcolix",
+      "episode": ""
+    },
+    {
+      "file": "kassos214.mp3",
+      "title": "Hébreu",
+      "character": "Hellbol",
+      "episode": ""
+    },
+    {
+      "file": "kassos58.mp3",
+      "title": "Hôpital psychotique",
+      "character": "Ariel & Sharon",
+      "episode": ""
+    },
+    {
+      "file": "kassos77.mp3",
+      "title": "Il chipera plus personne",
+      "character": "Gadget & Gora",
+      "episode": ""
+    },
+    {
+      "file": "kassos168.mp3",
+      "title": "Il est pas épais",
+      "character": "Chasse Pêche & Predation",
+      "episode": ""
+    },
+    {
+      "file": "kassos99.mp3",
+      "title": "Il est quoi ?",
+      "character": "Dr Mesboules",
+      "episode": ""
+    },
+    {
+      "file": "kassos254.mp3",
+      "title": "Il fait chaud",
+      "character": "Matrice",
+      "episode": ""
+    },
+    {
+      "file": "kassos94.mp3",
+      "title": "Impie !",
+      "character": "Charles Ingalls de Ligones",
+      "episode": ""
+    },
+    {
+      "file": "kassos107.mp3",
+      "title": "Invasion hobbit",
+      "character": "Les Elfen",
+      "episode": ""
+    },
+    {
+      "file": "kassos108.mp3",
+      "title": "Invasion hobbit 2",
+      "character": "Les Elfen",
+      "episode": ""
+    },
+    {
+      "file": "kassos105.mp3",
+      "title": "Irito",
+      "character": "Les I-Mens",
+      "episode": ""
+    },
+    {
+      "file": "kassos291.mp3",
+      "title": "ITI",
+      "character": "ITI",
+      "episode": ""
+    },
+    {
+      "file": "kassos178.mp3",
+      "title": "J'en ai plus que le crétacé",
+      "character": "Jurasitcom",
+      "episode": ""
+    },
+    {
+      "file": "kassos228.mp3",
+      "title": "J'suis avec les cons",
+      "character": "La Famille Sodo",
+      "episode": ""
+    },
+    {
+      "file": "kassos267.mp3",
+      "title": "J'vais te buter commode",
+      "character": "Glaviator",
+      "episode": ""
+    },
+    {
+      "file": "kassos197.mp3",
+      "title": "Jackyra",
+      "character": "Jackyra",
+      "episode": ""
+    },
+    {
+      "file": "kassos46.mp3",
+      "title": "Je dois répondre",
+      "character": "Captain Olivio",
+      "episode": ""
+    },
+    {
+      "file": "kassos202.mp3",
+      "title": "Je dois répéter ?",
+      "character": "Expandehpad",
+      "episode": ""
+    },
+    {
+      "file": "kassos177.mp3",
+      "title": "Je le vois bien...",
+      "character": "Jurasitcom",
+      "episode": ""
+    },
+    {
+      "file": "kassos265.mp3",
+      "title": "Je me sens vivant",
+      "character": "Bagarre Club",
+      "episode": ""
+    },
+    {
+      "file": "kassos268.mp3",
+      "title": "Je sais que je suis mouillé",
+      "character": "Les Scrims",
+      "episode": ""
+    },
+    {
+      "file": "kassos157.mp3",
+      "title": "Je suis la carte",
+      "character": "Gadgette & Gora 2",
+      "episode": ""
+    },
+    {
+      "file": "kassos242.mp3",
+      "title": "Je suis Maximus",
+      "character": "Glaviator",
+      "episode": ""
+    },
+    {
+      "file": "kassos49.mp3",
+      "title": "Je veux de la bite",
+      "character": "Hello Kiki",
+      "episode": ""
+    },
+    {
+      "file": "kassos85.mp3",
+      "title": "Je vous enc*** tous",
+      "character": "Sachatte & Pedro",
+      "episode": ""
+    },
+    {
+      "file": "kassos20.mp3",
+      "title": "Je vous rejoins ?",
+      "character": "Marius & Gigi",
+      "episode": ""
+    },
+    {
+      "file": "kassos133.mp3",
+      "title": "Jimmy Lannister",
+      "character": "Jimmy Lannister",
+      "episode": ""
+    },
+    {
+      "file": "kassos109.mp3",
+      "title": "Jokerini !",
+      "character": "Jokerini",
+      "episode": ""
+    },
+    {
+      "file": "kassos286.mp3",
+      "title": "Kalimoucho",
+      "character": "Les Tortues Clodo",
+      "episode": ""
+    },
+    {
+      "file": "kassos145.mp3",
+      "title": "Kevin va mourrir",
+      "character": "Dessenaute",
+      "episode": ""
+    },
+    {
+      "file": "kassos231.mp3",
+      "title": "L'autre con",
+      "character": "Les Tortues Clodo",
+      "episode": ""
+    },
+    {
+      "file": "kassos116.mp3",
+      "title": "L'hiver...",
+      "character": "Moc & Darty 2",
+      "episode": ""
+    },
+    {
+      "file": "kassos41.mp3",
+      "title": "La boulette",
+      "character": "Les Tortues Clodo",
+      "episode": ""
+    },
+    {
+      "file": "kassos84.mp3",
+      "title": "La calotte de vos morts",
+      "character": "Sachatte & Pedro",
+      "episode": ""
+    },
+    {
+      "file": "kassos24.mp3",
+      "title": "La Force et tout le merdier",
+      "character": "La Famille Sodo",
+      "episode": ""
+    },
+    {
+      "file": "kassos93.mp3",
+      "title": "La hache a dit",
+      "character": "Charles Ingalls de Ligones",
+      "episode": ""
+    },
+    {
+      "file": "kassos134.mp3",
+      "title": "La maman du Corbeau",
+      "character": "Fortnaze",
+      "episode": ""
+    },
+    {
+      "file": "kassos08.mp3",
+      "title": "La racaille",
+      "character": "Lieutenant Dirty Gadgette",
+      "episode": ""
+    },
+    {
+      "file": "kassos283.mp3",
+      "title": "Laché de Saiyan",
+      "character": "Coppycolo",
+      "episode": ""
+    },
+    {
+      "file": "kassos81.mp3",
+      "title": "LAPIN",
+      "character": "Teleboubizes",
+      "episode": ""
+    },
+    {
+      "file": "kassos73.mp3",
+      "title": "Le bad...",
+      "character": "Teleboubizes",
+      "episode": ""
+    },
+    {
+      "file": "kassos66.mp3",
+      "title": "Le colonel me l'a dit",
+      "character": "Ptiripou",
+      "episode": ""
+    },
+    {
+      "file": "kassos193.mp3",
+      "title": "Le cycle de la vie",
+      "character": "Le Roi Fion",
+      "episode": ""
+    },
+    {
+      "file": "kassos245.mp3",
+      "title": "Le Jason bouge plus",
+      "character": "Le Pokémouille Légendaire",
+      "episode": ""
+    },
+    {
+      "file": "kassos02.mp3",
+      "title": "Le pipi",
+      "character": "Aspégix et Grodébilix",
+      "episode": ""
+    },
+    {
+      "file": "kassos284.mp3",
+      "title": "Les bons et les mauvais Freezer",
+      "character": "Coppycolo",
+      "episode": ""
+    },
+    {
+      "file": "kassos05.mp3",
+      "title": "Là je pense à quoi ?",
+      "character": "Muldor & Scoully",
+      "episode": ""
+    },
+    {
+      "file": "kassos29.mp3",
+      "title": "Là je suis bien",
+      "character": "Lapin du métro",
+      "episode": ""
+    },
+    {
+      "file": "kassos224.mp3",
+      "title": "Ma moquette !",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "kassos79.mp3",
+      "title": "Mauvaise influence",
+      "character": "Teleboubizes",
+      "episode": ""
+    },
+    {
+      "file": "kassos21.mp3",
+      "title": "Merci Papy",
+      "character": "La Famille Sodo",
+      "episode": ""
+    },
+    {
+      "file": "kassos274.mp3",
+      "title": "Mettez un slip",
+      "character": "Monsieur Invisible",
+      "episode": ""
+    },
+    {
+      "file": "kassos181.mp3",
+      "title": "Musique satanique",
+      "character": "Sandy",
+      "episode": ""
+    },
+    {
+      "file": "kassos122.mp3",
+      "title": "N'attache pas tes poils...",
+      "character": "Serge le lapin",
+      "episode": ""
+    },
+    {
+      "file": "kassos25.mp3",
+      "title": "Ne mets pas tes doigts...",
+      "character": "Lapin du métro",
+      "episode": ""
+    },
+    {
+      "file": "kassos27.mp3",
+      "title": "Ne mets pas tes testicules...",
+      "character": "Lapin du métro",
+      "episode": ""
+    },
+    {
+      "file": "kassos26.mp3",
+      "title": "Ne mets pas tes tétons...",
+      "character": "Lapin du métro",
+      "episode": ""
+    },
+    {
+      "file": "kassos123.mp3",
+      "title": "Ne mets pas ton prépuce...",
+      "character": "Serge le lapin",
+      "episode": ""
+    },
+    {
+      "file": "kassos124.mp3",
+      "title": "Ne remets pas tes testicules...",
+      "character": "Serge le lapin",
+      "episode": ""
+    },
+    {
+      "file": "kassos248.mp3",
+      "title": "Ne trempes pas...",
+      "character": "Dirty Fisting",
+      "episode": ""
+    },
+    {
+      "file": "kassos266.mp3",
+      "title": "Non (intense)",
+      "character": "Glaviator",
+      "episode": ""
+    },
+    {
+      "file": "kassos111.mp3",
+      "title": "Nordic Amouc",
+      "character": "Totof",
+      "episode": ""
+    },
+    {
+      "file": "kassos263.mp3",
+      "title": "Objets et possession",
+      "character": "Bagarre Club",
+      "episode": ""
+    },
+    {
+      "file": "kassos126.mp3",
+      "title": "Oh ça va !",
+      "character": "Teleboubizes",
+      "episode": ""
+    },
+    {
+      "file": "kassos121.mp3",
+      "title": "Okay",
+      "character": "Les Chevaliers de l'Horoscope",
+      "episode": ""
+    },
+    {
+      "file": "kassos01.mp3",
+      "title": "On est des boloss",
+      "character": "Les Canards Juniors",
+      "episode": ""
+    },
+    {
+      "file": "kassos156.mp3",
+      "title": "On fait tourner les nichons",
+      "character": "Dumboff",
+      "episode": ""
+    },
+    {
+      "file": "kassos188.mp3",
+      "title": "On fait un hug",
+      "character": "Les Randonneurs Blancs",
+      "episode": ""
+    },
+    {
+      "file": "kassos217.mp3",
+      "title": "On montre pas du doigt",
+      "character": "Bonne nuit les chiards",
+      "episode": ""
+    },
+    {
+      "file": "kassos240.mp3",
+      "title": "On sait que c'est bon",
+      "character": "Gaggum",
+      "episode": ""
+    },
+    {
+      "file": "kassos270.mp3",
+      "title": "On tourne on tourne",
+      "character": "Diesel sans Sansplomb",
+      "episode": ""
+    },
+    {
+      "file": "kassos190.mp3",
+      "title": "On va leur défoncer la gueule",
+      "character": "Les Randonneurs Blancs",
+      "episode": ""
+    },
+    {
+      "file": "kassos106.mp3",
+      "title": "Ostis d'mongoles",
+      "character": "Les I-Mens",
+      "episode": ""
+    },
+    {
+      "file": "kassos179.mp3",
+      "title": "Oups",
+      "character": "Les Proumfs",
+      "episode": ""
+    },
+    {
+      "file": "kassos264.mp3",
+      "title": "Où est mon esprit ?",
+      "character": "Bagarre Club",
+      "episode": ""
+    },
+    {
+      "file": "kassos158.mp3",
+      "title": "Pablo !",
+      "character": "Gadgette & Gora 2",
+      "episode": ""
+    },
+    {
+      "file": "kassos103.mp3",
+      "title": "Pain dans ta gueule",
+      "character": "Alladech",
+      "episode": ""
+    },
+    {
+      "file": "kassos185.mp3",
+      "title": "Pardon ?!",
+      "character": "Aspégix et Grodébilix",
+      "episode": ""
+    },
+    {
+      "file": "kassos253.mp3",
+      "title": "Pas assez de gadgets",
+      "character": "Dirty Fisting",
+      "episode": ""
+    },
+    {
+      "file": "kassos16.mp3",
+      "title": "Pas autant de chichis",
+      "character": "Marius & Gigi",
+      "episode": ""
+    },
+    {
+      "file": "kassos90.mp3",
+      "title": "Pas avant le mariage",
+      "character": "La Belle et la Belle Bête",
+      "episode": ""
+    },
+    {
+      "file": "kassos129.mp3",
+      "title": "Pas banal",
+      "character": "Nemo t'es ken",
+      "episode": ""
+    },
+    {
+      "file": "kassos216.mp3",
+      "title": "Pas dans la cave",
+      "character": "Les Canards Juniors",
+      "episode": ""
+    },
+    {
+      "file": "kassos162.mp3",
+      "title": "Pas la maréchaussée",
+      "character": "Street Kasseur",
+      "episode": ""
+    },
+    {
+      "file": "kassos142.mp3",
+      "title": "Pas net",
+      "character": "Hellbol",
+      "episode": ""
+    },
+    {
+      "file": "kassos169.mp3",
+      "title": "Pas une mauvaise idée",
+      "character": "Chasse Pêche & Predation",
+      "episode": ""
+    },
+    {
+      "file": "kassos118.mp3",
+      "title": "Passif aggressif",
+      "character": "Les Chevaliers de l'Horoscope",
+      "episode": ""
+    },
+    {
+      "file": "kassos212.mp3",
+      "title": "Pegging 18",
+      "character": "Super Smashos",
+      "episode": ""
+    },
+    {
+      "file": "kassos34.mp3",
+      "title": "Perdu",
+      "character": "Papy Fougasse",
+      "episode": ""
+    },
+    {
+      "file": "kassos259.mp3",
+      "title": "Perdu 2",
+      "character": "Fougasse 2.0",
+      "episode": ""
+    },
+    {
+      "file": "kassos271.mp3",
+      "title": "Pet d'assistante sociale",
+      "character": "Monsieur Invisible",
+      "episode": ""
+    },
+    {
+      "file": "kassos17.mp3",
+      "title": "Petit bambino",
+      "character": "Marius & Gigi",
+      "episode": ""
+    },
+    {
+      "file": "kassos120.mp3",
+      "title": "Poil de Pégase",
+      "character": "Les Chevaliers de l'Horoscope",
+      "episode": ""
+    },
+    {
+      "file": "kassos173.mp3",
+      "title": "Point de coté",
+      "character": "Naroute",
+      "episode": ""
+    },
+    {
+      "file": "kassos60.mp3",
+      "title": "Porkypute",
+      "character": "Porkypute",
+      "episode": ""
+    },
+    {
+      "file": "kassos62.mp3",
+      "title": "Porkypute 2",
+      "character": "Porkypute",
+      "episode": ""
+    },
+    {
+      "file": "kassos19.mp3",
+      "title": "Porte ouverte",
+      "character": "Marius & Gigi",
+      "episode": ""
+    },
+    {
+      "file": "kassos128.mp3",
+      "title": "Pour la Gaule !",
+      "character": "Aspégix et Grodébilix",
+      "episode": ""
+    },
+    {
+      "file": "kassos180.mp3",
+      "title": "Profonde douleur",
+      "character": "Les Proumfs",
+      "episode": ""
+    },
+    {
+      "file": "kassos86.mp3",
+      "title": "Puanteur",
+      "character": "50 nuances de Greyjoy",
+      "episode": ""
+    },
+    {
+      "file": "kassos95.mp3",
+      "title": "Punis la !",
+      "character": "Charles Ingalls de Ligones",
+      "episode": ""
+    },
+    {
+      "file": "kassos184.mp3",
+      "title": "Put**n de m*rde",
+      "character": "Les Daltonne",
+      "episode": ""
+    },
+    {
+      "file": "kassos205.mp3",
+      "title": "Pute à pois",
+      "character": "Totally Spé",
+      "episode": ""
+    },
+    {
+      "file": "kassos230.mp3",
+      "title": "Quatorzième chance",
+      "character": "Les Daltonne",
+      "episode": ""
+    },
+    {
+      "file": "kassos252.mp3",
+      "title": "Quelqu'un comme toi",
+      "character": "Dirty Fisting",
+      "episode": ""
+    },
+    {
+      "file": "kassos33.mp3",
+      "title": "Qui suis-je ?",
+      "character": "Papy Fougasse",
+      "episode": ""
+    },
+    {
+      "file": "kassos48.mp3",
+      "title": "Ras le cul",
+      "character": "Hello Kiki",
+      "episode": ""
+    },
+    {
+      "file": "kassos137.mp3",
+      "title": "Refaire ma vie",
+      "character": "La gène est dans le près",
+      "episode": ""
+    },
+    {
+      "file": "kassos14.mp3",
+      "title": "Refus de traitement",
+      "character": "Muldor & Scoully",
+      "episode": ""
+    },
+    {
+      "file": "kassos75.mp3",
+      "title": "Regarde tes pompes",
+      "character": "Scarla",
+      "episode": ""
+    },
+    {
+      "file": "kassos130.mp3",
+      "title": "Relâche le poisson",
+      "character": "Nemo t'es ken",
+      "episode": ""
+    },
+    {
+      "file": "kassos117.mp3",
+      "title": "Retraite",
+      "character": "Moc & Darty 2",
+      "episode": ""
+    },
+    {
+      "file": "kassos260.mp3",
+      "title": "RFL",
+      "character": "RFL",
+      "episode": ""
+    },
+    {
+      "file": "kassos273.mp3",
+      "title": "Rondelle sur le mobilier",
+      "character": "Monsieur Invisible",
+      "episode": ""
+    },
+    {
+      "file": "kassos262.mp3",
+      "title": "S'améliorer soi-même",
+      "character": "Bagarre Club",
+      "episode": ""
+    },
+    {
+      "file": "kassos32.mp3",
+      "title": "Sacré pétrin",
+      "character": "Zizimir",
+      "episode": ""
+    },
+    {
+      "file": "kassos155.mp3",
+      "title": "Salam Alaykoum",
+      "character": "Dumboff",
+      "episode": ""
+    },
+    {
+      "file": "kassos72.mp3",
+      "title": "Seigneur Marie Joseph",
+      "character": "Totogro",
+      "episode": ""
+    },
+    {
+      "file": "kassos61.mp3",
+      "title": "Seum",
+      "character": "Ariel & Sharon",
+      "episode": ""
+    },
+    {
+      "file": "kassos189.mp3",
+      "title": "Si t'as un dragon...",
+      "character": "Les Randonneurs Blancs",
+      "episode": ""
+    },
+    {
+      "file": "kassos78.mp3",
+      "title": "Si t'es sage...",
+      "character": "Gadget & Gora",
+      "episode": ""
+    },
+    {
+      "file": "kassos135.mp3",
+      "title": "SIDA",
+      "character": "Stranger Thin",
+      "episode": ""
+    },
+    {
+      "file": "kassos35.mp3",
+      "title": "So 2009",
+      "character": "Les Proumfs",
+      "episode": ""
+    },
+    {
+      "file": "kassos69.mp3",
+      "title": "Stop les mongoliens",
+      "character": "Grumpy Chat",
+      "episode": ""
+    },
+    {
+      "file": "kassos238.mp3",
+      "title": "Suce ma **** joufflue",
+      "character": "Gaggum",
+      "episode": ""
+    },
+    {
+      "file": "kassos210.mp3",
+      "title": "Super Smashos",
+      "character": "Super Smashos",
+      "episode": ""
+    },
+    {
+      "file": "kassos281.mp3",
+      "title": "Séance de kiné",
+      "character": "Kiné le survivant",
+      "episode": ""
+    },
+    {
+      "file": "kassos96.mp3",
+      "title": "T'approche pas",
+      "character": "Diesel & Sansplomb",
+      "episode": ""
+    },
+    {
+      "file": "kassos213.mp3",
+      "title": "T'as fait un pâté !",
+      "character": "Dessenaute",
+      "episode": ""
+    },
+    {
+      "file": "kassos251.mp3",
+      "title": "T'en veux encore ?",
+      "character": "Dirty Fisting",
+      "episode": ""
+    },
+    {
+      "file": "kassos15.mp3",
+      "title": "T'es en train de filmer ?",
+      "character": "Muldor & Scoully",
+      "episode": ""
+    },
+    {
+      "file": "kassos68.mp3",
+      "title": "T'es parano",
+      "character": "Power Rogers",
+      "episode": ""
+    },
+    {
+      "file": "kassos119.mp3",
+      "title": "T'es taré ?!",
+      "character": "Les Chevaliers de l'Horoscope",
+      "episode": ""
+    },
+    {
+      "file": "kassos55.mp3",
+      "title": "T'es une connasse !",
+      "character": "Petit Prince",
+      "episode": ""
+    },
+    {
+      "file": "kassos171.mp3",
+      "title": "T'étais roux",
+      "character": "Les Z'Amants",
+      "episode": ""
+    },
+    {
+      "file": "kassos06.mp3",
+      "title": "Ta gueule",
+      "character": "Lieutenant Dirty Gadgette",
+      "episode": ""
+    },
+    {
+      "file": "kassos76.mp3",
+      "title": "Taser dans tes burnes",
+      "character": "Gadget & Gora",
+      "episode": ""
+    },
+    {
+      "file": "kassos13.mp3",
+      "title": "Te mêle pas de ça",
+      "character": "Muldor & Scoully",
+      "episode": ""
+    },
+    {
+      "file": "kassos07.mp3",
+      "title": "Terroire",
+      "character": "Aspégix et Grodébilix",
+      "episode": ""
+    },
+    {
+      "file": "kassos196.mp3",
+      "title": "Terroristes de l'amour",
+      "character": "Alladech",
+      "episode": ""
+    },
+    {
+      "file": "kassos172.mp3",
+      "title": "Tokyo Hotel",
+      "character": "Naroute",
+      "episode": ""
+    },
+    {
+      "file": "kassos201.mp3",
+      "title": "Totogro",
+      "character": "Totogro",
+      "episode": ""
+    },
+    {
+      "file": "kassos151.mp3",
+      "title": "Toussez dans le coude !",
+      "character": "Hydroalcolix",
+      "episode": ""
+    },
+    {
+      "file": "kassos12.mp3",
+      "title": "Trop de questions",
+      "character": "Muldor & Scoully",
+      "episode": ""
+    },
+    {
+      "file": "kassos80.mp3",
+      "title": "Trop golri",
+      "character": "Teleboubizes",
+      "episode": ""
+    },
+    {
+      "file": "kassos277.mp3",
+      "title": "Très bonne question",
+      "character": "C'est pas coupé",
+      "episode": ""
+    },
+    {
+      "file": "kassos57.mp3",
+      "title": "Tu as été en moi",
+      "character": "Wilson et Chuck",
+      "episode": ""
+    },
+    {
+      "file": "kassos174.mp3",
+      "title": "Tu fais quoi maintenant ?",
+      "character": "Naroute",
+      "episode": ""
+    },
+    {
+      "file": "kassos187.mp3",
+      "title": "Tu fais quoi Tommy ?",
+      "character": "Les Randonneurs Blancs",
+      "episode": ""
+    },
+    {
+      "file": "kassos22.mp3",
+      "title": "Tu fermes bien ta gueule",
+      "character": "La Famille Sodo",
+      "episode": ""
+    },
+    {
+      "file": "kassos54.mp3",
+      "title": "Tu pues du cul",
+      "character": "Petit Prince",
+      "episode": ""
+    },
+    {
+      "file": "kassos199.mp3",
+      "title": "Tu sais faire ça ?",
+      "character": "Petit Prince",
+      "episode": ""
+    },
+    {
+      "file": "kassos141.mp3",
+      "title": "Tu te fous de qui ?",
+      "character": "Hellbol",
+      "episode": ""
+    },
+    {
+      "file": "kassos127.mp3",
+      "title": "Tu veux quoi ?",
+      "character": "Teleboubizes",
+      "episode": ""
+    },
+    {
+      "file": "kassos154.mp3",
+      "title": "Turbo boost",
+      "character": "KK2000",
+      "episode": ""
+    },
+    {
+      "file": "kassos166.mp3",
+      "title": "Tête de con",
+      "character": "Teleboubizes",
+      "episode": ""
+    },
+    {
+      "file": "kassos70.mp3",
+      "title": "Va te faire...",
+      "character": "Grumpy Chat",
+      "episode": ""
+    },
+    {
+      "file": "kassos207.mp3",
+      "title": "Vaurien !",
+      "character": "Alladech",
+      "episode": ""
+    },
+    {
+      "file": "kassos132.mp3",
+      "title": "Victime",
+      "character": "Fortnaze",
+      "episode": ""
+    },
+    {
+      "file": "kassos257.mp3",
+      "title": "Vieux barbu dégoutant",
+      "character": "Fougasse 2.0",
+      "episode": ""
+    },
+    {
+      "file": "kassos256.mp3",
+      "title": "Vieux steak",
+      "character": "Fougasse 2.0",
+      "episode": ""
+    },
+    {
+      "file": "kassos170.mp3",
+      "title": "Vif d'or",
+      "character": "Les Z'Amants",
+      "episode": ""
+    },
+    {
+      "file": "kassos225.mp3",
+      "title": "Vitesse 3",
+      "character": "Teleboubizes",
+      "episode": ""
+    },
+    {
+      "file": "kassos219.mp3",
+      "title": "Vous avez été sages ?",
+      "character": "Bonne nuit les chiards",
+      "episode": ""
+    },
+    {
+      "file": "kassos269.mp3",
+      "title": "Vroum vroum au paradis",
+      "character": "Diesel sans Sansplomb",
+      "episode": ""
+    },
+    {
+      "file": "kassos244.mp3",
+      "title": "WallA",
+      "character": "Wall-A",
+      "episode": ""
+    },
+    {
+      "file": "kassos249.mp3",
+      "title": "Y'a des nuggets",
+      "character": "Dirty Fisting",
+      "episode": ""
+    },
+    {
+      "file": "kassos204.mp3",
+      "title": "Yippee-ki-yay",
+      "character": "Expandehpad",
+      "episode": ""
+    },
+    {
+      "file": "kassos100.mp3",
+      "title": "Zut",
+      "character": "Dr Mesboules",
+      "episode": ""
+    },
+    {
+      "file": "kassos206.mp3",
+      "title": "À couvert !",
+      "character": "Gadgette & Gora 2",
+      "episode": ""
+    },
+    {
+      "file": "kassos255.mp3",
+      "title": "À la piscine...",
+      "character": "Fougasse 2.0",
+      "episode": ""
+    },
+    {
+      "file": "kassos280.mp3",
+      "title": "À la prochaine",
+      "character": "C'est pas coupé",
+      "episode": ""
+    },
+    {
+      "file": "kassos186.mp3",
+      "title": "Ça envoie !",
+      "character": "Ouai-ouai",
+      "episode": ""
+    },
+    {
+      "file": "kassos113.mp3",
+      "title": "Ça fait mal",
+      "character": "The Cockring",
+      "episode": ""
+    },
+    {
+      "file": "kassos223.mp3",
+      "title": "Ça l'a calmé",
+      "character": "Lieutenant Dirty Gadgette",
+      "episode": ""
+    },
+    {
+      "file": "kassos30.mp3",
+      "title": "Ça picote",
+      "character": "Les Proumfs",
+      "episode": ""
+    },
+    {
+      "file": "kassos65.mp3",
+      "title": "Ça sert à rien",
+      "character": "Ouai-ouai",
+      "episode": ""
+    },
+    {
+      "file": "kassos282.mp3",
+      "title": "Ça va déjà mieux",
+      "character": "Kiné le survivant",
+      "episode": ""
+    },
+    {
+      "file": "kassos102.mp3",
+      "title": "État d'urgence",
+      "character": "Alladech",
+      "episode": ""
+    }
+  ]
+}
