@@ -53,6 +53,12 @@
       "name": "Les Visiteurs",
       "manifest": "packs/visiteurs/pack.json",
       "defaultTheme": "bracken"
+    },
+    {
+      "id": "dinerdecons",
+      "name": "Le Dîner de Cons",
+      "manifest": "packs/dinerdecons/pack.json",
+      "defaultTheme": "whitby"
     }
   ]
 }

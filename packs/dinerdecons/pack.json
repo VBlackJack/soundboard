@@ -1,0 +1,400 @@
+{
+  "id": "dinerdecons",
+  "name": "Le Dîner de Cons",
+  "defaultTheme": "whitby",
+  "soundsBase": "sounds/dinerdecons/",
+  "characters": [
+    "François",
+    "Pierre",
+    "Cheval",
+    "Juste",
+    "Marlène"
+  ],
+  "count": 64,
+  "sounds": [
+    {
+      "file": "pignon20.mp3",
+      "title": "Accent belge ?",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon59.mp3",
+      "title": "Ah ouais, joli !",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon60.mp3",
+      "title": "Ah oui !",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon48.mp3",
+      "title": "Allez l'OM !",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon21.mp3",
+      "title": "Allô !",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon40.mp3",
+      "title": "Appeler Cheval",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon47.mp3",
+      "title": "Aux chiottes l'OM !",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon37.mp3",
+      "title": "Beau derrick",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon17.mp3",
+      "title": "Bougrement intelligent",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon28.mp3",
+      "title": "Boulette",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon04.mp3",
+      "title": "C'est pathétique",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon09.mp3",
+      "title": "C'est un c** !",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon31.mp3",
+      "title": "Champion du monde",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon50.mp3",
+      "title": "Cochon !",
+      "character": "Cheval",
+      "episode": ""
+    },
+    {
+      "file": "pignon08.mp3",
+      "title": "Combien d'allumettes ?",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon44.mp3",
+      "title": "Dans l'cul Lulu !",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon62.mp3",
+      "title": "De qui il parle ?",
+      "character": "Marlène",
+      "episode": ""
+    },
+    {
+      "file": "pignon43.mp3",
+      "title": "Des guignols !",
+      "character": "Cheval",
+      "episode": ""
+    },
+    {
+      "file": "pignon14.mp3",
+      "title": "Effrayant",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon58.mp3",
+      "title": "Elle est bretonne ?",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon54.mp3",
+      "title": "Il a compris",
+      "character": "Cheval",
+      "episode": ""
+    },
+    {
+      "file": "pignon27.mp3",
+      "title": "Il a marché à fond",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon18.mp3",
+      "title": "Il a pas de prénom !",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon53.mp3",
+      "title": "Il est con hein ?",
+      "character": "Cheval",
+      "episode": ""
+    },
+    {
+      "file": "pignon32.mp3",
+      "title": "Il est content",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon03.mp3",
+      "title": "Ils sont là pour ça",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon15.mp3",
+      "title": "Imbécile",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon16.mp3",
+      "title": "J'ai compris",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon61.mp3",
+      "title": "J'ai pas de soeur",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon38.mp3",
+      "title": "Je m'en fous",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon34.mp3",
+      "title": "Je vous em***de",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon10.mp3",
+      "title": "Jean-Patrice Benjamin",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon22.mp3",
+      "title": "Juste une fois",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon01.mp3",
+      "title": "L'historique de la louche",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon23.mp3",
+      "title": "Le petit cheval de manège",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon19.mp3",
+      "title": "Lui c'est pareil",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon42.mp3",
+      "title": "Monsieur l'Auxerrois",
+      "character": "Cheval",
+      "episode": ""
+    },
+    {
+      "file": "pignon56.mp3",
+      "title": "Méchant vs Mignon",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon06.mp3",
+      "title": "Ne m'invitez jamais à diner",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "pignon12.mp3",
+      "title": "Oh la la",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon26.mp3",
+      "title": "On a les droits !",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon30.mp3",
+      "title": "Pas de repos",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon11.mp3",
+      "title": "Peine à voir",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon24.mp3",
+      "title": "Pour le cinéma",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon52.mp3",
+      "title": "Prodigieux",
+      "character": "Juste",
+      "episode": ""
+    },
+    {
+      "file": "pignon46.mp3",
+      "title": "Quel c*nnard ce type !",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon02.mp3",
+      "title": "Regardez moi ce c**nard !",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon13.mp3",
+      "title": "Rilax",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon05.mp3",
+      "title": "Répondeur",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon63.mp3",
+      "title": "Saisi récemment ?",
+      "character": "Cheval",
+      "episode": ""
+    },
+    {
+      "file": "pignon33.mp3",
+      "title": "Sans me vanter",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon49.mp3",
+      "title": "T'es pas son genre",
+      "character": "Cheval",
+      "episode": ""
+    },
+    {
+      "file": "pignon51.mp3",
+      "title": "T'es vraiment chiant",
+      "character": "Cheval",
+      "episode": ""
+    },
+    {
+      "file": "pignon41.mp3",
+      "title": "Tout va s'arranger",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon39.mp3",
+      "title": "Toute la soirée avec ce con",
+      "character": "Juste",
+      "episode": ""
+    },
+    {
+      "file": "pignon57.mp3",
+      "title": "Un peu pressé",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon07.mp3",
+      "title": "Une belle tête",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon45.mp3",
+      "title": "Vas te faire !",
+      "character": "Cheval",
+      "episode": ""
+    },
+    {
+      "file": "pignon55.mp3",
+      "title": "Vengeance",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon36.mp3",
+      "title": "Vous allez nous lâcher ?",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon64.mp3",
+      "title": "Y'avait un bibelot",
+      "character": "Cheval",
+      "episode": ""
+    },
+    {
+      "file": "pignon25.mp3",
+      "title": "À demain",
+      "character": "François",
+      "episode": ""
+    },
+    {
+      "file": "pignon29.mp3",
+      "title": "Ça dépasse tout",
+      "character": "Pierre",
+      "episode": ""
+    },
+    {
+      "file": "pignon35.mp3",
+      "title": "Ça n'arrête pas",
+      "character": "François",
+      "episode": ""
+    }
+  ]
+}
