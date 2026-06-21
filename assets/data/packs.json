@@ -17,6 +17,18 @@
       "name": "Star Wars",
       "manifest": "packs/starwars/pack.json",
       "defaultTheme": "cinder"
+    },
+    {
+      "id": "7ecompagnie",
+      "name": "La 7e compagnie",
+      "manifest": "packs/7ecompagnie/pack.json",
+      "defaultTheme": "bracken"
+    },
+    {
+      "id": "classe_americaine",
+      "name": "La Classe Américaine",
+      "manifest": "packs/classe_americaine/pack.json",
+      "defaultTheme": "parchment"
     }
   ]
 }

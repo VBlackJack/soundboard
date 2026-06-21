@@ -12,18 +12,16 @@ Third-party content and attributions
    The color palettes shipped in assets/data/themes.json are generated from the
    ThemeForge framework (Julien Bombled, Apache 2.0). The canonical "Dracula"
    and "Drakul" palettes reproduce/derive from the Dracula Theme by Zeno Rocha
-   (https://draculatheme.com), licensed under the MIT License. See the
-   ThemeForge NOTICE file for the full canonical attribution record.
+   (https://draculatheme.com), licensed under the MIT License.
 
 2. Audio clips (Kaamelott)
    The .mp3 audio clips under sounds/ are excerpts from the French television
    series "Kaamelott", created by Alexandre Astier. They are the property of
    their respective rights holders (CALT / M6 / Alexandre Astier). They are NOT
    covered by the Apache 2.0 license of this repository and are included here
-   for personal, non-commercial, fan use only.
-
-   The sound registry (titles, characters, episodes) and the original clip
-   collection originate from the community project "kaamelott-soundboard"
+   for personal, non-commercial, fan use only. The sound registry (titles,
+   characters, episodes) and the original clip collection originate from the
+   community project "kaamelott-soundboard"
    (https://github.com/2ec0b4/kaamelott-soundboard).
 
 3. Audio clips (Dikkenek)
@@ -42,6 +40,29 @@ Third-party content and attributions
    covered by the Apache 2.0 license of this repository and are included here
    for personal, non-commercial, fan use only. The clip collection originates
    from the community fan project (https://github.com/tee0402/StarWarsSoundboard).
+
+5. Audio clips (La 7e compagnie)
+   The .mp3 audio clips under sounds/7ecompagnie/ are excerpts from the French
+   film trilogy "Mais ou est donc passee la 7e compagnie ?" and its sequels
+   (1973-1977, directed by Robert Lamoureux). They are the property of their
+   respective rights holders. They are NOT covered by the Apache 2.0 license of
+   this repository and are included here for personal, non-commercial, fan use
+   only. The clip collection originates from the community fan project
+   (https://github.com/ppnelles/Soundboard-7e-compagnie).
+
+6. Audio clips (Camera Cafe) -- scaffold only
+   When populated, the .mp3 audio clips under sounds/cameracafe/ will be
+   excerpts from the French series "Camera Cafe" (Calt / M6), included for
+   personal, non-commercial, fan use only.
+
+7. Audio clips (La Classe Americaine)
+   The .mp3 audio clips under sounds/classe_americaine/ are excerpts from the
+   French television film "La Classe americaine" (a.k.a. "Le Grand
+   Detournement", 1993, Canal+), built from re-dubbed Warner Bros. archive
+   footage. They are the property of their respective rights holders. They are
+   NOT covered by the Apache 2.0 license of this repository and are included
+   here for personal, non-commercial, fan use only. The clip collection
+   originates from the community soundboard https://ouich.es.
 
    If you are a rights holder and wish a clip to be removed, please open an
    issue on the repository.
