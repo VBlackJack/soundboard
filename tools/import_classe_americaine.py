@@ -28,6 +28,7 @@ import ssl
 import sys
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
+from html import unescape
 
 
 # Configuration constants
@@ -64,8 +65,8 @@ def scrape_tag_data(tag: str, ctx: ssl.SSLContext) -> dict[str, str]:
         citation_match = re.search(r'class="citation">(.*?)</div>', html, re.DOTALL)
         title = citation_match.group(1).strip() if citation_match else tag.replace("_", " ").capitalize()
         
-        # Clean HTML entities if any
-        title = title.replace("&#8217;", "'").replace("’", "'").replace("&nbsp;", " ")
+        # Decode every HTML entity, then normalize curly quotes and nbsp.
+        title = unescape(title).replace(chr(0x2019), "'").replace(chr(0xa0), " ").strip()
         
         # Try to identify character from citation text or default to Unknown
         character = "George Abitbol"

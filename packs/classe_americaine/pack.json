@@ -11,7 +11,7 @@
   "sounds": [
     {
       "file": "costume.mp3",
-      "title": "Actuellement j&#x27;ai un léger problème de costume, je crois que mon tailleur se fout de ma gueule.",
+      "title": "Actuellement j'ai un léger problème de costume, je crois que mon tailleur se fout de ma gueule.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -53,7 +53,7 @@
     },
     {
       "file": "grave.mp3",
-      "title": "Alors que moi, pendant c&#x27;temps-là, j&#x27;me la suis donné grave.",
+      "title": "Alors que moi, pendant c'temps-là, j'me la suis donné grave.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -71,19 +71,19 @@
     },
     {
       "file": "cyclimse.mp3",
-      "title": "Attention, ce flim n&#x27;est pas un flim sur le cyclimse. Merci de votre compréhension.",
+      "title": "Attention, ce flim n'est pas un flim sur le cyclimse. Merci de votre compréhension.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "bac.mp3",
-      "title": "Au revoir messieurs dames. C&#x27;est ça la puissance intellectuelle. Bac+2, les enfants.",
+      "title": "Au revoir messieurs dames. C'est ça la puissance intellectuelle. Bac+2, les enfants.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "bonbons.mp3",
-      "title": "Bababa baba baba. J&#x27;ai les bonbons qui collent au papier.",
+      "title": "Bababa baba baba. J'ai les bonbons qui collent au papier.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -101,19 +101,19 @@
     },
     {
       "file": "tete.mp3",
-      "title": "Bon ben lui il va m&#x27;prendre la tête.",
+      "title": "Bon ben lui il va m'prendre la tête.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "chier.mp3",
-      "title": "Bon ça va, on vous fait pas chier là ? Non c&#x27;est sûr ? Je rêve.",
+      "title": "Bon ça va, on vous fait pas chier là ? Non c'est sûr ? Je rêve.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "megachiasse.mp3",
-      "title": "Bon, m&#x27;emmerde pas avec tes histoires, j&#x27;te dis qu&#x27;j&#x27;ai mal au bide. J&#x27;ai la méga chiasse, putain la méga chiasse.",
+      "title": "Bon, m'emmerde pas avec tes histoires, j'te dis qu'j'ai mal au bide. J'ai la méga chiasse, putain la méga chiasse.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -131,37 +131,13 @@
     },
     {
       "file": "journalisme.mp3",
-      "title": "C&#x27;est du journalisme total.",
+      "title": "C'est du journalisme total.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "classe.mp3",
-      "title": "C&#x27;est la classe.",
-      "character": "George Abitbol",
-      "episode": ""
-    },
-    {
-      "file": "nom.mp3",
-      "title": "C&#x27;est sûrement un nom. Si c&#x27;est une femme, j&#x27;veux savoir quelle femme. Si c&#x27;est un cheval, je veux savoir dans quelle course.",
-      "character": "George Abitbol",
-      "episode": ""
-    },
-    {
-      "file": "battre.mp3",
-      "title": "C&#x27;est tout c&#x27;que t&#x27;as à dire ? Fais quelque chose.",
-      "character": "George Abitbol",
-      "episode": ""
-    },
-    {
-      "file": "comprendre.mp3",
-      "title": "C&#x27;est ça. C&#x27;est à n&#x27;y rien comprendre, même en y réfléchissant bien.",
-      "character": "George Abitbol",
-      "episode": ""
-    },
-    {
-      "file": "pins.mp3",
-      "title": "C&#x27;que j&#x27;arrête c&#x27;est les Pin&#x27;s vieux. Ça m&#x27;fait plus marrer.",
+      "title": "C'est la classe.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -174,6 +150,30 @@
     {
       "file": "cravate.mp3",
       "title": "C'est pas mal, ça, le pin's sur la cravate.",
+      "character": "George Abitbol",
+      "episode": ""
+    },
+    {
+      "file": "nom.mp3",
+      "title": "C'est sûrement un nom. Si c'est une femme, j'veux savoir quelle femme. Si c'est un cheval, je veux savoir dans quelle course.",
+      "character": "George Abitbol",
+      "episode": ""
+    },
+    {
+      "file": "battre.mp3",
+      "title": "C'est tout c'que t'as à dire ? Fais quelque chose.",
+      "character": "George Abitbol",
+      "episode": ""
+    },
+    {
+      "file": "comprendre.mp3",
+      "title": "C'est ça. C'est à n'y rien comprendre, même en y réfléchissant bien.",
+      "character": "George Abitbol",
+      "episode": ""
+    },
+    {
+      "file": "pins.mp3",
+      "title": "C'que j'arrête c'est les Pin's vieux. Ça m'fait plus marrer.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -215,13 +215,13 @@
     },
     {
       "file": "puissance.mp3",
-      "title": "En puissance intellectuelle, on va voir c&#x27;que tu vaux.",
+      "title": "En puissance intellectuelle, on va voir c'que tu vaux.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "string.mp3",
-      "title": "En string, vous d&#x27;vez être bonne.",
+      "title": "En string, vous d'vez être bonne.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -233,13 +233,13 @@
     },
     {
       "file": "divorce.mp3",
-      "title": "En y réflechissant bien, je pense que notre histoire n&#x27;a pas une chance sur cent de marcher. On divorce ?",
+      "title": "En y réflechissant bien, je pense que notre histoire n'a pas une chance sur cent de marcher. On divorce ?",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "encule.mp3",
-      "title": "Enculé d&#x27;ta race !",
+      "title": "Enculé d'ta race !",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -257,7 +257,7 @@
     },
     {
       "file": "ranch.mp3",
-      "title": "Et c&#x27;est façile de traiter les gens de pédés. Tout ça parce que deux garçons vivent ensemble dans un ranch et portent des pantalons en cuir.",
+      "title": "Et c'est façile de traiter les gens de pédés. Tout ça parce que deux garçons vivent ensemble dans un ranch et portent des pantalons en cuir.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -281,13 +281,13 @@
     },
     {
       "file": "droite.mp3",
-      "title": "Hé ben. J&#x27;ai connu un mec de droite, une fois. Il avait dix fois plus de classe.",
+      "title": "Hé ben. J'ai connu un mec de droite, une fois. Il avait dix fois plus de classe.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "tolerance.mp3",
-      "title": "Il paraît que t&#x27;as des propos intolérables. Où y&#x27;a pas d&#x27;tolérance ? Tu sais donc pas qu&#x27;c&#x27;est pas bien d&#x27;être raciste ? Que c&#x27;est mal ? On n&#x27;doit pas faire de discrimation raciale. C&#x27;est mal. Juger les gens sur leur religion c&#x27;est mal. Sur la couleur de leur peau, sur leurs origines sociales ou sur leur nationalité, c&#x27;est mal.",
+      "title": "Il paraît que t'as des propos intolérables. Où y'a pas d'tolérance ? Tu sais donc pas qu'c'est pas bien d'être raciste ? Que c'est mal ? On n'doit pas faire de discrimation raciale. C'est mal. Juger les gens sur leur religion c'est mal. Sur la couleur de leur peau, sur leurs origines sociales ou sur leur nationalité, c'est mal.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -299,37 +299,25 @@
     },
     {
       "file": "touffe.mp3",
-      "title": "Il était trop balourd, trop pataud. Il voulait pas m&#x27;lâcher la touffe.",
+      "title": "Il était trop balourd, trop pataud. Il voulait pas m'lâcher la touffe.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "hommes.mp3",
-      "title": "J&#x27;ai connu des hommes, mais jamais des comme vous.",
-      "character": "George Abitbol",
-      "episode": ""
-    },
-    {
-      "file": "voleurs.mp3",
-      "title": "J&#x27;aime pas trop les voleurs et... les fils de pute.",
-      "character": "George Abitbol",
-      "episode": ""
-    },
-    {
-      "file": "breakdown.mp3",
-      "title": "J&#x27;suis limite nervous breakdown.",
-      "character": "George Abitbol",
-      "episode": ""
-    },
-    {
-      "file": "qualite.mp3",
-      "title": "J&#x27;te dis ça en qualité d&#x27;homme le plus classe du monde.",
+      "title": "J'ai connu des hommes, mais jamais des comme vous.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "manchot.mp3",
       "title": "J'ai peut-être qu'un bras, mais… je suis pas manchot !",
+      "character": "George Abitbol",
+      "episode": ""
+    },
+    {
+      "file": "voleurs.mp3",
+      "title": "J'aime pas trop les voleurs et... les fils de pute.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -346,14 +334,26 @@
       "episode": ""
     },
     {
+      "file": "breakdown.mp3",
+      "title": "J'suis limite nervous breakdown.",
+      "character": "George Abitbol",
+      "episode": ""
+    },
+    {
+      "file": "qualite.mp3",
+      "title": "J'te dis ça en qualité d'homme le plus classe du monde.",
+      "character": "George Abitbol",
+      "episode": ""
+    },
+    {
       "file": "amour.mp3",
-      "title": "Je faisais l&#x27;amour avec lui depuis le samedi après-midi jusqu&#x27;au vendredi soir. À ce moment là c&#x27;était un bon compagnon.",
+      "title": "Je faisais l'amour avec lui depuis le samedi après-midi jusqu'au vendredi soir. À ce moment là c'était un bon compagnon.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "ouf.mp3",
-      "title": "Je pense que t&#x27;es un ouf toi. Un ouf malade.",
+      "title": "Je pense que t'es un ouf toi. Un ouf malade.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -371,7 +371,7 @@
     },
     {
       "file": "cons.mp3",
-      "title": "Je suis l&#x27;homme le plus classe du monde. Bande de cons.",
+      "title": "Je suis l'homme le plus classe du monde. Bande de cons.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -407,37 +407,37 @@
     },
     {
       "file": "prive.mp3",
-      "title": "Mais c&#x27;est privé et j&#x27;ai des principes.",
+      "title": "Mais c'est privé et j'ai des principes.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "surpuissant.mp3",
-      "title": "Mais j&#x27;suis pas super fort, j&#x27;suis mieux qu&#x27;ça même. J&#x27;suis surpuissant.",
+      "title": "Mais j'suis pas super fort, j'suis mieux qu'ça même. J'suis surpuissant.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "premier.mp3",
-      "title": "Mais j&#x27;te reconnais, toi ! J&#x27;t&#x27;ai déjà vu quelque part. Je suis sûr que j&#x27;te reconnais !",
+      "title": "Mais j'te reconnais, toi ! J't'ai déjà vu quelque part. Je suis sûr que j'te reconnais !",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "tronche.mp3",
-      "title": "Mais qu&#x27;est-ce qui t&#x27;arrive ? Pourquoi tu dis rien ? Tu fais la tronche ou quoi ?",
+      "title": "Mais qu'est-ce qui t'arrive ? Pourquoi tu dis rien ? Tu fais la tronche ou quoi ?",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "savoirvivre.mp3",
-      "title": "Merci m&#x27;sieur, c&#x27;est très gentil.",
+      "title": "Merci m'sieur, c'est très gentil.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "bienvenue.mp3",
-      "title": "Messieurs, permettez-moi de vous souhaiter la bienvenue. D&#x27;ailleurs, il faut pas rester debout, asseyez-vous, mettez-vous à l'aise.",
+      "title": "Messieurs, permettez-moi de vous souhaiter la bienvenue. D'ailleurs, il faut pas rester debout, asseyez-vous, mettez-vous à l'aise.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -449,7 +449,7 @@
     },
     {
       "file": "botter.mp3",
-      "title": "Moi c&#x27;que j&#x27;vois, c&#x27;est qu&#x27;dans deux secondes, j&#x27;vais t&#x27;botter le cul.",
+      "title": "Moi c'que j'vois, c'est qu'dans deux secondes, j'vais t'botter le cul.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -467,19 +467,19 @@
     },
     {
       "file": "bizarres.mp3",
-      "title": "Moi, j&#x27;aime pas les gens bizarres.",
+      "title": "Moi, j'aime pas les gens bizarres.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "celebre.mp3",
-      "title": "Moi, j&#x27;veux être connu, tu sais pouquoi ? Pour niquer les gonzesses. Quand t&#x27;es célèbre tu niques plein de gonzesses.",
+      "title": "Moi, j'veux être connu, tu sais pouquoi ? Pour niquer les gonzesses. Quand t'es célèbre tu niques plein de gonzesses.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "fesses.mp3",
-      "title": "Mon mari est absent. Vous voulez voir mes fesses ? Et ensuite j&#x27;vous roulerai une pelle.",
+      "title": "Mon mari est absent. Vous voulez voir mes fesses ? Et ensuite j'vous roulerai une pelle.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -509,13 +509,13 @@
     },
     {
       "file": "duel.mp3",
-      "title": "Ok, puisque j&#x27;vois qu&#x27;on peut pas discuter, on va faire un duel.",
+      "title": "Ok, puisque j'vois qu'on peut pas discuter, on va faire un duel.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "poudre.mp3",
-      "title": "OK. Tu veux pas me parler, hum ? Tu veux qu&#x27;j&#x27;fasse parler la poudre.",
+      "title": "OK. Tu veux pas me parler, hum ? Tu veux qu'j'fasse parler la poudre.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -527,19 +527,19 @@
     },
     {
       "file": "assassine.mp3",
-      "title": "On l&#x27;a retrouvé assassiné un jour. Il en est mort.",
+      "title": "On l'a retrouvé assassiné un jour. Il en est mort.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "chips.mp3",
-      "title": "On va manger... des chips. T&#x27;entends ? Des chips. C&#x27;est tout c&#x27;que ça t&#x27;fait quand j&#x27;te dis qu&#x27;on va manger des chips ?",
+      "title": "On va manger... des chips. T'entends ? Des chips. C'est tout c'que ça t'fait quand j'te dis qu'on va manger des chips ?",
       "character": "L'Indien",
       "episode": ""
     },
     {
       "file": "apresmidi.mp3",
-      "title": "On veut savoir si on peut prendre notre après-midi ? C&#x27;est à dire qu&#x27;on a un plan là.",
+      "title": "On veut savoir si on peut prendre notre après-midi ? C'est à dire qu'on a un plan là.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -557,13 +557,13 @@
     },
     {
       "file": "partouzeurs.mp3",
-      "title": "Paraît qu&#x27;on a repéré des animaux préhistoriques partouzeurs de droite dans les parages.",
+      "title": "Paraît qu'on a repéré des animaux préhistoriques partouzeurs de droite dans les parages.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "cheveux.mp3",
-      "title": "Parce que j&#x27;ai les cheveux longs tu flippes pour ton confort bourgeois. T&#x27;as un mauvais karma frêre, si tu supportes pas mes cheveux. Désolé papy, mais j&#x27;ai ma liberté d&#x27;expression capilaire.",
+      "title": "Parce que j'ai les cheveux longs tu flippes pour ton confort bourgeois. T'as un mauvais karma frêre, si tu supportes pas mes cheveux. Désolé papy, mais j'ai ma liberté d'expression capilaire.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -599,7 +599,7 @@
     },
     {
       "file": "demerder.mp3",
-      "title": "Putain, j&#x27;me suis mal démerdé. Pourtant, j&#x27;ai pas fait une concession.",
+      "title": "Putain, j'me suis mal démerdé. Pourtant, j'ai pas fait une concession.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -623,31 +623,31 @@
     },
     {
       "file": "con_.mp3",
-      "title": "Rassurez-moi. Vous seriez pas un peu en train d&#x27;me prendre pour un con des fois ?",
+      "title": "Rassurez-moi. Vous seriez pas un peu en train d'me prendre pour un con des fois ?",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "tomate.mp3",
-      "title": "Regarde, c&#x27;est lui, il est là.",
+      "title": "Regarde, c'est lui, il est là.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "menageres.mp3",
-      "title": "Sauf que moi j&#x27;les baise moi les ménagères.",
+      "title": "Sauf que moi j'les baise moi les ménagères.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "sexe.mp3",
-      "title": "Sexe + histoire de cul &#x3D; meurtre.",
+      "title": "Sexe + histoire de cul = meurtre.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "fax.mp3",
-      "title": "Si tu veux m&#x27;parler, envoie-moi un... fax.",
+      "title": "Si tu veux m'parler, envoie-moi un... fax.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -665,19 +665,19 @@
     },
     {
       "file": "reveil.mp3",
-      "title": "Sur mon front y&#x27;a pas marqué radio-réveil.",
+      "title": "Sur mon front y'a pas marqué radio-réveil.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "recommencer.mp3",
-      "title": "T&#x27;es lourde là.",
+      "title": "T'es lourde là.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "indiscret.mp3",
-      "title": "T&#x27;es pas indiscret. Je suis majeur et je fais c&#x27;que j&#x27;ai envie de faire avec mon p&#x27;tit corps.",
+      "title": "T'es pas indiscret. Je suis majeur et je fais c'que j'ai envie de faire avec mon p'tit corps.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -695,7 +695,7 @@
     },
     {
       "file": "discuter.mp3",
-      "title": "Toute façon ça sert à rien de discuter avec toi, t&#x27;as toujours raison.",
+      "title": "Toute façon ça sert à rien de discuter avec toi, t'as toujours raison.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -707,13 +707,13 @@
     },
     {
       "file": "aider.mp3",
-      "title": "Très bien. Puisque vous ne voulez pas m&#x27;aider, allez vous faire enculer !",
+      "title": "Très bien. Puisque vous ne voulez pas m'aider, allez vous faire enculer !",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "dring.mp3",
-      "title": "Tu connais l&#x27;effet spéciaux de la sonnette ? Dring. Tiens dring. Dring dring, tiens. Et dring dring.",
+      "title": "Tu connais l'effet spéciaux de la sonnette ? Dring. Tiens dring. Dring dring, tiens. Et dring dring.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -737,13 +737,13 @@
     },
     {
       "file": "injures.mp3",
-      "title": "Tu n&#x27;es vraiment pas très sympa. Mais le train de tes injures roule sur le rail de mon indifférence.",
+      "title": "Tu n'es vraiment pas très sympa. Mais le train de tes injures roule sur le rail de mon indifférence.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "content.mp3",
-      "title": "Tu peux rester. Pas de problème. J&#x27;suis même content qu&#x27;tu sois venu chez nous. J&#x27;aimerais bien qu&#x27;tu restes.",
+      "title": "Tu peux rester. Pas de problème. J'suis même content qu'tu sois venu chez nous. J'aimerais bien qu'tu restes.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -761,19 +761,19 @@
     },
     {
       "file": "elvis.mp3",
-      "title": "Un pour l&#x27;argent. Deux pour le spectacle. Et trois pour le caillou.",
+      "title": "Un pour l'argent. Deux pour le spectacle. Et trois pour le caillou.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "gene.mp3",
-      "title": "Vous arrivez vous êtes même pas chez vous. Vous vous pointez avec trois quarts d&#x27;heure d&#x27;retard. Pas bonjour, pas merci. Vous filez tout droit au frigo. Vous prenez la dernière bière. Ah ! Vous vous êtes un sacré sans-gêne.",
+      "title": "Vous arrivez vous êtes même pas chez vous. Vous vous pointez avec trois quarts d'heure d'retard. Pas bonjour, pas merci. Vous filez tout droit au frigo. Vous prenez la dernière bière. Ah ! Vous vous êtes un sacré sans-gêne.",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "foutre.mp3",
-      "title": "Vous dites que j&#x27;aille me faire foutre ? OK j&#x27;y vais.",
+      "title": "Vous dites que j'aille me faire foutre ? OK j'y vais.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -809,7 +809,7 @@
     },
     {
       "file": "pesant.mp3",
-      "title": "Ça commence à être pesant cette histoire de pédé. Tout l&#x27;monde s&#x27;acharne sur nous, alors qu&#x27;on n&#x27;est même pas pédés.",
+      "title": "Ça commence à être pesant cette histoire de pédé. Tout l'monde s'acharne sur nous, alors qu'on n'est même pas pédés.",
       "character": "George Abitbol",
       "episode": ""
     },
@@ -821,13 +821,13 @@
     },
     {
       "file": "chemin.mp3",
-      "title": "Ça fait plusieurs fois que j&#x27;te croise. T&#x27;es toujours sur mon chemin. Tu veux quoi ?",
+      "title": "Ça fait plusieurs fois que j'te croise. T'es toujours sur mon chemin. Tu veux quoi ?",
       "character": "George Abitbol",
       "episode": ""
     },
     {
       "file": "bordel.mp3",
-      "title": "Ça m&#x27;a l&#x27;air d&#x27;un bordel...",
+      "title": "Ça m'a l'air d'un bordel...",
       "character": "George Abitbol",
       "episode": ""
     },
