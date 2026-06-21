@@ -3,391 +3,379 @@
   "name": "La 7e compagnie",
   "defaultTheme": "bracken",
   "soundsBase": "sounds/7ecompagnie/",
-  "characters": [],
-  "count": 64,
+  "characters": [
+    "Pithiviers",
+    "Sergent Chaudard",
+    "Colonel Blanchet",
+    "Tassin",
+    "Capitaine Dumont",
+    "Colonel Bricard",
+    "Commandant Gilles",
+    "Gaston",
+    "Lambert",
+    "Lieutenant Duvauchel",
+    "Lieutenant Piquet"
+  ],
+  "count": 60,
   "sounds": [
     {
-      "file": "biniou.mp3",
-      "title": "Avoir l'air d'un chef",
-      "character": "",
+      "file": "compagnie033.mp3",
+      "title": "A manger pour 4",
+      "character": "Pithiviers",
       "episode": ""
     },
     {
-      "file": "kommand.mp3",
-      "title": "Besoin d'autre chose ?",
-      "character": "",
+      "file": "compagnie027.mp3",
+      "title": "Accélère",
+      "character": "Sergent Chaudard",
       "episode": ""
     },
     {
-      "file": "bateau.mp3",
-      "title": "Bien choisir son bateau",
-      "character": "",
+      "file": "compagnie051.mp3",
+      "title": "Ah tout de même !",
+      "character": "Colonel Bricard",
       "episode": ""
     },
     {
-      "file": "bonjour.mp3",
-      "title": "Bonjour chaudar !",
-      "character": "",
+      "file": "compagnie014.mp3",
+      "title": "Au chef !",
+      "character": "Tassin",
       "episode": ""
     },
     {
-      "file": "bouffe3.mp3",
-      "title": "Bouffe pour trois",
-      "character": "",
+      "file": "compagnie055.mp3",
+      "title": "Bonjour Chaudard",
+      "character": "Gaston",
       "episode": ""
     },
     {
-      "file": "automat.mp3",
-      "title": "C'est automatique",
-      "character": "",
+      "file": "compagnie007.mp3",
+      "title": "Bonne nuit",
+      "character": "Sergent Chaudard",
       "episode": ""
     },
     {
-      "file": "marre.mp3",
-      "title": "C'que j'en ai marre",
-      "character": "",
+      "file": "compagnie060.mp3",
+      "title": "Chateau vieux",
+      "character": "Capitaine Dumont",
       "episode": ""
     },
     {
-      "file": "chefnage.mp3",
-      "title": "C'que vous nagez bien, chef !",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "reseau.mp3",
-      "title": "Chacun son réseau",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "vous_ave.mp3",
-      "title": "Chaud ou froid ?",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "chezvous.mp3",
-      "title": "Chez vous / chez nous",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "chateau.mp3",
-      "title": "Château, vieux !",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "pantoufl.mp3",
-      "title": "Compagnie de pantouflards",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "pincer.mp3",
-      "title": "Des guerriers comme ça...",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "teissin.mp3",
-      "title": "Donne ton falzar !",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "unionjac.mp3",
-      "title": "Drapeau anglais ?!",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "alail.mp3",
+      "file": "compagnie044.mp3",
       "title": "Du à l'ail",
+      "character": "Pithiviers",
+      "episode": ""
+    },
+    {
+      "file": "compagnie045.mp3",
+      "title": "El hitelere",
+      "character": "Pithiviers",
+      "episode": ""
+    },
+    {
+      "file": "compagnie050.mp3",
+      "title": "Elle le ficherait dehors",
+      "character": "Pithiviers",
+      "episode": ""
+    },
+    {
+      "file": "compagnie054.mp3",
+      "title": "Fil rouge sur le bouton blanc",
+      "character": "Colonel Blanchet",
+      "episode": ""
+    },
+    {
+      "file": "compagnie047.mp3",
+      "title": "Fil rouge sur le bouton rouge",
       "character": "",
       "episode": ""
     },
     {
-      "file": "ex_con.mp3",
-      "title": "Exemple à la con",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "pasgener.mp3",
-      "title": "Faudra pas nous gêner",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "filvert.mp3",
-      "title": "Fil vert et fil rouge",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "finrouch.mp3",
-      "title": "Fin rouch",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "cote_ci.mp3",
+      "file": "compagnie049.mp3",
       "title": "Gentils allemands",
+      "character": "Pithiviers",
+      "episode": ""
+    },
+    {
+      "file": "compagnie058.mp3",
+      "title": "Générique",
       "character": "",
       "episode": ""
     },
     {
-      "file": "gowdas.mp3",
-      "title": "gowdass immense",
-      "character": "",
+      "file": "compagnie030.mp3",
+      "title": "Il en faut",
+      "character": "Pithiviers",
       "episode": ""
     },
     {
-      "file": "comprire.mp3",
-      "title": "Groupir ? Comprire !",
-      "character": "",
+      "file": "compagnie048.mp3",
+      "title": "Il m'a fait peur",
+      "character": "Tassin",
       "episode": ""
     },
     {
-      "file": "hello.mp3",
-      "title": "Helloooooww",
-      "character": "",
+      "file": "compagnie018.mp3",
+      "title": "J'ai glissé chef",
+      "character": "Pithiviers",
       "episode": ""
     },
     {
-      "file": "mirabell.mp3",
-      "title": "Ici Mirabelle",
-      "character": "",
+      "file": "compagnie042.mp3",
+      "title": "J'ai glissé chef 2",
+      "character": "Pithiviers",
       "episode": ""
     },
     {
-      "file": "payerca.mp3",
-      "title": "Ils vont nous payer ça !",
-      "character": "",
+      "file": "compagnie019.mp3",
+      "title": "Je m'entends encore",
+      "character": "Sergent Chaudard",
       "episode": ""
     },
     {
-      "file": "jaigliss.mp3",
-      "title": "J'ai glissé",
-      "character": "",
+      "file": "compagnie056.mp3",
+      "title": "Je n'aime que toi",
+      "character": "Commandant Gilles",
       "episode": ""
     },
     {
-      "file": "babaauzi.mp3",
-      "title": "Je suis papa",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "fachir.mp3",
+      "file": "compagnie035.mp3",
       "title": "Je vais me fachir",
+      "character": "Pithiviers",
+      "episode": ""
+    },
+    {
+      "file": "compagnie057.mp3",
+      "title": "Judéo maçonique",
+      "character": "Lambert",
+      "episode": ""
+    },
+    {
+      "file": "compagnie008.mp3",
+      "title": "La mère Crouzy",
       "character": "",
       "episode": ""
     },
     {
-      "file": "premserv.mp3",
-      "title": "L'avantage d'ouvrir la route",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "l_exemp.mp3",
-      "title": "L'exemple !",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "porte.mp3",
-      "title": "La forêt s'écroule",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "laguerre.mp3",
-      "title": "La guerre",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "tenaille.mp3",
+      "file": "compagnie031.mp3",
       "title": "La tenaille",
-      "character": "",
+      "character": "Sergent Chaudard",
       "episode": ""
     },
     {
-      "file": "tactique.mp3",
-      "title": "Le chef couvre, les autres sortent",
-      "character": "",
+      "file": "compagnie006.mp3",
+      "title": "La tenaille 2",
+      "character": "Sergent Chaudard",
       "episode": ""
     },
     {
-      "file": "chef_ser.mp3",
-      "title": "Le chef sert !",
-      "character": "",
+      "file": "compagnie020.mp3",
+      "title": "Le chef couvre",
+      "character": "Tassin",
       "episode": ""
     },
     {
-      "file": "courent.mp3",
-      "title": "Les allemands nous courrent après",
-      "character": "",
+      "file": "compagnie034.mp3",
+      "title": "On est pressés",
+      "character": "Pithiviers",
       "episode": ""
     },
     {
-      "file": "11h.mp3",
-      "title": "Les patins...",
-      "character": "",
+      "file": "compagnie029.mp3",
+      "title": "On la fait ou on la fait pas",
+      "character": "Sergent Chaudard",
       "episode": ""
     },
     {
-      "file": "egout.mp3",
-      "title": "Lâcher par les deux bouts",
-      "character": "",
+      "file": "compagnie037.mp3",
+      "title": "On n'est pas échauffé",
+      "character": "Sergent Chaudard",
       "episode": ""
     },
     {
-      "file": "pas_tout.mp3",
-      "title": "Manger ? Pas tout de suite !",
-      "character": "",
+      "file": "compagnie041.mp3",
+      "title": "On se lave",
+      "character": "Sergent Chaudard",
       "episode": ""
     },
     {
-      "file": "marremec.mp3",
-      "title": "Marre du lieutenant",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "deschefs.mp3",
-      "title": "Même qui en a qui disent",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "lebel.mp3",
-      "title": "Nous, Lebel",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "manoeufr.mp3",
+      "file": "compagnie059.mp3",
       "title": "On va manoeuvrer !",
-      "character": "",
+      "character": "Pithiviers",
       "episode": ""
     },
     {
-      "file": "onlesapu.mp3",
-      "title": "Où sont les allemands ?",
-      "character": "",
+      "file": "compagnie028.mp3",
+      "title": "Pas brillante votre affaire",
+      "character": "Lieutenant Duvauchel",
       "episode": ""
     },
     {
-      "file": "puctutu.mp3",
-      "title": "P'u qu'tu tues",
-      "character": "",
+      "file": "compagnie039.mp3",
+      "title": "Pas si vite !",
+      "character": "Colonel Blanchet",
       "episode": ""
     },
     {
-      "file": "fleur.mp3",
-      "title": "Petite fleur des champs",
-      "character": "",
+      "file": "compagnie026.mp3",
+      "title": "Paulette",
+      "character": "Sergent Chaudard",
       "episode": ""
     },
     {
-      "file": "lapins.mp3",
-      "title": "Pour les lapins",
-      "character": "",
+      "file": "compagnie025.mp3",
+      "title": "Plus tu tues...",
+      "character": "Pithiviers",
       "episode": ""
     },
     {
-      "file": "epices.mp3",
+      "file": "compagnie022.mp3",
       "title": "Préparez les épices",
+      "character": "Pithiviers",
+      "episode": ""
+    },
+    {
+      "file": "compagnie010.mp3",
+      "title": "Quels sont les ordres ?",
+      "character": "Colonel Blanchet",
+      "episode": ""
+    },
+    {
+      "file": "compagnie046.mp3",
+      "title": "Renoncule, ici coquelicot",
+      "character": "Colonel Blanchet",
+      "episode": ""
+    },
+    {
+      "file": "compagnie004.mp3",
+      "title": "Restez groupir",
+      "character": "Pithiviers",
+      "episode": ""
+    },
+    {
+      "file": "compagnie052.mp3",
+      "title": "Restez groupir !",
       "character": "",
       "episode": ""
     },
     {
-      "file": "puliler.mp3",
-      "title": "Puisse pu puliler",
-      "character": "",
+      "file": "compagnie036.mp3",
+      "title": "Réseau",
+      "character": "Sergent Chaudard",
       "episode": ""
     },
     {
-      "file": "raccroch.mp3",
-      "title": "raccroche / décroche",
-      "character": "",
+      "file": "compagnie053.mp3",
+      "title": "Salope",
+      "character": "Pithiviers",
       "episode": ""
     },
     {
-      "file": "gradresp.mp3",
-      "title": "Respect du grade",
-      "character": "",
+      "file": "compagnie012.mp3",
+      "title": "Suis pas le fil",
+      "character": "Sergent Chaudard",
       "episode": ""
     },
     {
-      "file": "groupir.mp3",
-      "title": "Reste Groupir",
-      "character": "",
+      "file": "compagnie017.mp3",
+      "title": "T'as fait du propre",
+      "character": "Sergent Chaudard",
       "episode": ""
     },
     {
-      "file": "con_pont.mp3",
-      "title": "sauter le pont",
-      "character": "",
+      "file": "compagnie032.mp3",
+      "title": "Tape au cul",
+      "character": "Sergent Chaudard",
       "episode": ""
     },
     {
-      "file": "schlusse.mp3",
-      "title": "Schraufschlüssel",
-      "character": "",
+      "file": "compagnie038.mp3",
+      "title": "Tremblez pas",
+      "character": "Colonel Blanchet",
       "episode": ""
     },
     {
-      "file": "tapaucul.mp3",
-      "title": "tape au cul !",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "boutique.mp3",
-      "title": "Tirer du canon",
-      "character": "",
-      "episode": ""
-    },
-    {
-      "file": "manger.mp3",
+      "file": "compagnie040.mp3",
       "title": "Trouver à manger",
-      "character": "",
+      "character": "Pithiviers",
       "episode": ""
     },
     {
-      "file": "amant.mp3",
-      "title": "Un amant dans la cave",
-      "character": "",
+      "file": "compagnie024.mp3",
+      "title": "Tu gagnes la guerre",
+      "character": "Sergent Chaudard",
       "episode": ""
     },
     {
-      "file": "unptibin.mp3",
-      "title": "Un petit bain pour le chef !",
-      "character": "",
+      "file": "compagnie005.mp3",
+      "title": "Un lapin, chef !",
+      "character": "Tassin",
       "episode": ""
     },
     {
-      "file": "famdext.mp3",
+      "file": "compagnie002.mp3",
+      "title": "Un p'tit bain pour le chef",
+      "character": "Tassin",
+      "episode": ""
+    },
+    {
+      "file": "compagnie013.mp3",
+      "title": "Un type formidable",
+      "character": "Pithiviers",
+      "episode": ""
+    },
+    {
+      "file": "compagnie009.mp3",
+      "title": "Un vrai con",
+      "character": "Lieutenant Piquet",
+      "episode": ""
+    },
+    {
+      "file": "compagnie011.mp3",
       "title": "Une femme d'extérieur",
-      "character": "",
+      "character": "Pithiviers",
       "episode": ""
     },
     {
-      "file": "vive.mp3",
+      "file": "compagnie021.mp3",
+      "title": "V'la le chef",
+      "character": "Pithiviers",
+      "episode": ""
+    },
+    {
+      "file": "compagnie016.mp3",
       "title": "Vive le chef",
+      "character": "Pithiviers",
+      "episode": ""
+    },
+    {
+      "file": "compagnie043.mp3",
+      "title": "Vouloir vin rouge",
+      "character": "Pithiviers",
+      "episode": ""
+    },
+    {
+      "file": "compagnie003.mp3",
+      "title": "Vous nagez bien",
+      "character": "Pithiviers",
+      "episode": ""
+    },
+    {
+      "file": "compagnie023.mp3",
+      "title": "Was ist das ?",
       "character": "",
       "episode": ""
     },
     {
-      "file": "evades.mp3",
-      "title": "ça y est chef",
-      "character": "",
+      "file": "compagnie015.mp3",
+      "title": "Ça c'est con",
+      "character": "Pithiviers",
+      "episode": ""
+    },
+    {
+      "file": "compagnie001.mp3",
+      "title": "Églantine, ici Mirabelle",
+      "character": "Colonel Blanchet",
       "episode": ""
     }
   ]
