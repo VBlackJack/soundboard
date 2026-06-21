@@ -302,9 +302,10 @@
   }
 
   function buildCard(sound) {
-    const card = document.createElement("button");
-    card.type = "button";
+    const card = document.createElement("div");
     card.className = "sound" + (sound.file === state.playingFile ? " playing" : "");
+    card.setAttribute("role", "button");
+    card.tabIndex = 0;
     card.dataset.file = sound.file;
     card.title = sound.episode ? `${sound.title}\n${sound.episode}` : sound.title;
     if (sound.character) {
@@ -314,8 +315,8 @@
     const isFav = state.favorites.has(sound.file);
     const playing = sound.file === state.playingFile;
     card.innerHTML = `
-      <span class="fav-btn" role="button" aria-pressed="${isFav}"
-            aria-label="Favori" title="Favori">${isFav ? "&#9733;" : "&#9734;"}</span>
+      <button type="button" class="fav-btn" aria-pressed="${isFav}"
+              aria-label="Favori" title="Favori">${isFav ? "&#9733;" : "&#9734;"}</button>
       <span class="sound-title">${escapeHtml(sound.title)}</span>
       <span class="sound-meta">
         <span class="char-dot" aria-hidden="true"></span>
@@ -327,6 +328,10 @@
     card.addEventListener("click", (ev) => {
       if (ev.target.closest(".fav-btn")) { toggleFavorite(sound.file); return; }
       play(sound);
+    });
+    card.addEventListener("keydown", (ev) => {
+      if (ev.target !== card) return; // let the favorite button handle its own keys
+      if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); play(sound); }
     });
     return card;
   }

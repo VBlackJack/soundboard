@@ -359,6 +359,7 @@ select:focus { outline: none; border-color: var(--accent); }
   position: absolute;
   top: var(--space-xs);
   right: var(--space-xs);
+  padding: 0;
   background: transparent;
   border: none;
   font-size: 15px;
