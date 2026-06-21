@@ -47,6 +47,12 @@
       "name": "La Cité de la Peur",
       "manifest": "packs/citedelapeur/pack.json",
       "defaultTheme": "mortis"
+    },
+    {
+      "id": "visiteurs",
+      "name": "Les Visiteurs",
+      "manifest": "packs/visiteurs/pack.json",
+      "defaultTheme": "bracken"
     }
   ]
 }

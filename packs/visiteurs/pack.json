@@ -1,0 +1,640 @@
+{
+  "id": "visiteurs",
+  "name": "Les Visiteurs",
+  "defaultTheme": "bracken",
+  "soundsBase": "sounds/visiteurs/",
+  "characters": [
+    "Jacquouille",
+    "Jacquard",
+    "Ginette",
+    "Godefroy",
+    "Béatrice"
+  ],
+  "count": 104,
+  "sounds": [
+    {
+      "file": "poncho16.mp3",
+      "title": "Abjecte dentition",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "poncho26.mp3",
+      "title": "Abruti qui aboie",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo22.mp3",
+      "title": "Abruti qui aboie 2",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho44.mp3",
+      "title": "Accidentée du travail",
+      "character": "Ginette",
+      "episode": ""
+    },
+    {
+      "file": "coupelo43.mp3",
+      "title": "Adieu gentes dames",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo31.mp3",
+      "title": "Arrêtez de gueuler !",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "coupelo05.mp3",
+      "title": "Beau poissonnet",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo32.mp3",
+      "title": "Bel exploit",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo28.mp3",
+      "title": "Bibine",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "poncho46.mp3",
+      "title": "Binz",
+      "character": "Jacquard",
+      "episode": ""
+    },
+    {
+      "file": "poncho53.mp3",
+      "title": "Binz 2",
+      "character": "Jacquard",
+      "episode": ""
+    },
+    {
+      "file": "poncho55.mp3",
+      "title": "C'est des malades",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "poncho02.mp3",
+      "title": "C'est diablerie",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho41.mp3",
+      "title": "C'est dingue",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "poncho37.mp3",
+      "title": "C'est OK",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo38.mp3",
+      "title": "C'est évident !",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "coupelo16.mp3",
+      "title": "Carrelage impec",
+      "character": "Béatrice",
+      "episode": ""
+    },
+    {
+      "file": "coupelo25.mp3",
+      "title": "Changé en merdasse",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho11.mp3",
+      "title": "Chochotte",
+      "character": "Ginette",
+      "episode": ""
+    },
+    {
+      "file": "coupelo13.mp3",
+      "title": "Clairon",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho34.mp3",
+      "title": "Clochards dans le salon",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "coupelo40.mp3",
+      "title": "Compliments",
+      "character": "Godefroy",
+      "episode": ""
+    },
+    {
+      "file": "poncho24.mp3",
+      "title": "Complètement cons",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "coupelo23.mp3",
+      "title": "Concone toi même",
+      "character": "Ginette",
+      "episode": ""
+    },
+    {
+      "file": "poncho62.mp3",
+      "title": "Coupez l'eau",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho20.mp3",
+      "title": "Cousin violent",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "poncho35.mp3",
+      "title": "Croutes de fromage",
+      "character": "Béatrice",
+      "episode": ""
+    },
+    {
+      "file": "poncho57.mp3",
+      "title": "Dame Béatrice",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo07.mp3",
+      "title": "De la grosse andouille",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho47.mp3",
+      "title": "Dehors les clodos",
+      "character": "Jacquard",
+      "episode": ""
+    },
+    {
+      "file": "poncho39.mp3",
+      "title": "Dehors les romanos",
+      "character": "Jacquard",
+      "episode": ""
+    },
+    {
+      "file": "poncho22.mp3",
+      "title": "Deux cinglés",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "coupelo29.mp3",
+      "title": "Défenestrer Derrick",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "poncho36.mp3",
+      "title": "Elle est ni**ée",
+      "character": "Jacquard",
+      "episode": ""
+    },
+    {
+      "file": "poncho60.mp3",
+      "title": "En l'an de grâce...",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "poncho58.mp3",
+      "title": "Et on lui pèlera le jonc",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo34.mp3",
+      "title": "Fais ton devoir",
+      "character": "Godefroy",
+      "episode": ""
+    },
+    {
+      "file": "coupelo24.mp3",
+      "title": "Grand merci",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho59.mp3",
+      "title": "Générique 1",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "coupelo01.mp3",
+      "title": "Générique 2",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "coupelo36.mp3",
+      "title": "Haut / Bas",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho25.mp3",
+      "title": "Hystéro",
+      "character": "Béatrice",
+      "episode": ""
+    },
+    {
+      "file": "poncho01.mp3",
+      "title": "Il est futé",
+      "character": "Godefroy",
+      "episode": ""
+    },
+    {
+      "file": "coupelo35.mp3",
+      "title": "Il faut couper la langue !",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo33.mp3",
+      "title": "Ils sont revenus les malades",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "poncho51.mp3",
+      "title": "J'en ai marre !",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "coupelo19.mp3",
+      "title": "J'ouis",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho48.mp3",
+      "title": "Je m'en fous",
+      "character": "Jacquard",
+      "episode": ""
+    },
+    {
+      "file": "poncho23.mp3",
+      "title": "Je n'en sais rien",
+      "character": "Béatrice",
+      "episode": ""
+    },
+    {
+      "file": "poncho17.mp3",
+      "title": "Je ne suis pas une mule",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho27.mp3",
+      "title": "Jour / Nuit",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo30.mp3",
+      "title": "La ferme",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "coupelo10.mp3",
+      "title": "La priorité",
+      "character": "Ginette",
+      "episode": ""
+    },
+    {
+      "file": "poncho18.mp3",
+      "title": "La septicémie n'est pas loin",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "poncho49.mp3",
+      "title": "Lâche la bête !",
+      "character": "Jacquard",
+      "episode": ""
+    },
+    {
+      "file": "coupelo08.mp3",
+      "title": "Mange ça !",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo02.mp3",
+      "title": "Merci Itineris",
+      "character": "Jacquard",
+      "episode": ""
+    },
+    {
+      "file": "poncho12.mp3",
+      "title": "Merci la gueuse",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho06.mp3",
+      "title": "Messire ! Un sarrasin !",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho52.mp3",
+      "title": "Moi je ne vous demande pas...",
+      "character": "Jacquard",
+      "episode": ""
+    },
+    {
+      "file": "coupelo09.mp3",
+      "title": "Molo",
+      "character": "Ginette",
+      "episode": ""
+    },
+    {
+      "file": "poncho56.mp3",
+      "title": "Non",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho21.mp3",
+      "title": "Odeur de bouc",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "poncho19.mp3",
+      "title": "Odeur insoutenable",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "poncho42.mp3",
+      "title": "Okay",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo06.mp3",
+      "title": "Okay 2",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo03.mp3",
+      "title": "On approche d'Aouste",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "poncho32.mp3",
+      "title": "On est en république",
+      "character": "Jacquard",
+      "episode": ""
+    },
+    {
+      "file": "coupelo41.mp3",
+      "title": "On te coupe la main ?",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho30.mp3",
+      "title": "Pas avec votre poncho",
+      "character": "Béatrice",
+      "episode": ""
+    },
+    {
+      "file": "coupelo11.mp3",
+      "title": "Peau de zobe",
+      "character": "Ginette",
+      "episode": ""
+    },
+    {
+      "file": "coupelo14.mp3",
+      "title": "Pitence et gîte",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo12.mp3",
+      "title": "Pizza Hut",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "poncho45.mp3",
+      "title": "Plus joli noeud pap",
+      "character": "Ginette",
+      "episode": ""
+    },
+    {
+      "file": "poncho40.mp3",
+      "title": "Point illuminé",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho09.mp3",
+      "title": "Prends ça et va ton chemin",
+      "character": "Godefroy",
+      "episode": ""
+    },
+    {
+      "file": "coupelo21.mp3",
+      "title": "Prosper le purineur",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "coupelo18.mp3",
+      "title": "Qu'est ce qu'ils ont foutu",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "poncho43.mp3",
+      "title": "Qu'est ce qui lui prend ?",
+      "character": "Jacquard",
+      "episode": ""
+    },
+    {
+      "file": "poncho38.mp3",
+      "title": "Qu'est que ça peut nous faire ?",
+      "character": "Jacquard",
+      "episode": ""
+    },
+    {
+      "file": "poncho63.mp3",
+      "title": "Quand tu te mouches",
+      "character": "Ginette",
+      "episode": ""
+    },
+    {
+      "file": "poncho50.mp3",
+      "title": "Que fait ton mari ?",
+      "character": "Godefroy",
+      "episode": ""
+    },
+    {
+      "file": "coupelo39.mp3",
+      "title": "Rendre gorge...",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho61.mp3",
+      "title": "Réfugiée politique",
+      "character": "Ginette",
+      "episode": ""
+    },
+    {
+      "file": "poncho54.mp3",
+      "title": "Saint Denis !",
+      "character": "Godefroy",
+      "episode": ""
+    },
+    {
+      "file": "poncho31.mp3",
+      "title": "Sale trogne",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo27.mp3",
+      "title": "Santé les gueux",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo17.mp3",
+      "title": "Satanerie !",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho08.mp3",
+      "title": "Silence !",
+      "character": "Godefroy",
+      "episode": ""
+    },
+    {
+      "file": "coupelo44.mp3",
+      "title": "Silence la gueuse",
+      "character": "Godefroy",
+      "episode": ""
+    },
+    {
+      "file": "poncho10.mp3",
+      "title": "Silence manante",
+      "character": "Godefroy",
+      "episode": ""
+    },
+    {
+      "file": "coupelo37.mp3",
+      "title": "Sur un autre ton !",
+      "character": "Ginette",
+      "episode": ""
+    },
+    {
+      "file": "poncho64.mp3",
+      "title": "T'as **qué la comtesse",
+      "character": "Ginette",
+      "episode": ""
+    },
+    {
+      "file": "coupelo04.mp3",
+      "title": "Tu comprends le Français ?",
+      "character": "Jacquard",
+      "episode": ""
+    },
+    {
+      "file": "poncho04.mp3",
+      "title": "Un drôle de goût",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho28.mp3",
+      "title": "Un mari sympa",
+      "character": "Béatrice",
+      "episode": ""
+    },
+    {
+      "file": "poncho07.mp3",
+      "title": "Une chariotte du diable",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho03.mp3",
+      "title": "Une grosse bête",
+      "character": "Godefroy",
+      "episode": ""
+    },
+    {
+      "file": "coupelo42.mp3",
+      "title": "Vigoureux puceau",
+      "character": "Godefroy",
+      "episode": ""
+    },
+    {
+      "file": "coupelo20.mp3",
+      "title": "Voilà l'eau !",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "coupelo15.mp3",
+      "title": "Volonté de dur labeur",
+      "character": "Jacquouille",
+      "episode": ""
+    },
+    {
+      "file": "poncho33.mp3",
+      "title": "Vous pétez les plombs",
+      "character": "Béatrice",
+      "episode": ""
+    },
+    {
+      "file": "coupelo26.mp3",
+      "title": "Ça nous fait des briques",
+      "character": "Ginette",
+      "episode": ""
+    },
+    {
+      "file": "poncho05.mp3",
+      "title": "Ça puire",
+      "character": "Jacquouille",
+      "episode": ""
+    }
+  ]
+}
