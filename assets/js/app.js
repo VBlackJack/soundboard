@@ -36,11 +36,13 @@
     themeSelect: document.getElementById("theme-select"),
     favToggle: document.getElementById("fav-toggle"),
     volume: document.getElementById("volume"),
+    mute: document.getElementById("mute"),
     stopAll: document.getElementById("stop-all"),
     charCombo: document.getElementById("char-combo"),
     board: document.getElementById("board"),
     emptyState: document.getElementById("empty-state"),
     resultCount: document.getElementById("result-count"),
+    header: document.querySelector(".app-header"),
   };
 
   const state = {
@@ -51,6 +53,7 @@
     favorites: new Set(),
     filters: { query: "", character: null, favOnly: false },
     audio: new Audio(),
+    lastVolume: 0.9,
     playingFile: null,
     rafId: 0,
     combo: null, // { trigger, panel, search, list, label }
@@ -82,6 +85,7 @@
 
       wireControls();
       restoreVolume();
+      trackHeaderHeight();
 
       const firstPack = state.packsIndex[0];
       if (!firstPack) throw new Error("No packs declared in packs.json");
@@ -98,6 +102,7 @@
     if (!entry) { log.warn("unknown pack", packId); return; }
 
     stopPlayback();
+    showLoading();
     state.pack = await fetchJson(entry.manifest);
     state.favorites = loadFavorites(state.pack.id);
     state.filters = { query: "", character: null, favOnly: false };
@@ -108,8 +113,7 @@
     el.packSubtitle.textContent = `${state.pack.count} répliques`;
     el.packSelect.value = state.pack.id;
 
-    const stored = localStorage.getItem(STORE.theme);
-    const themeId = state.themeById.has(stored) ? stored : entry.defaultTheme;
+    const themeId = preferredTheme(entry.defaultTheme);
     applyTheme(themeId);
     el.themeSelect.value = themeId;
 
@@ -207,18 +211,25 @@
     search.className = "combo-search";
     search.placeholder = "Filtrer un personnage…";
     search.setAttribute("aria-label", "Filtrer un personnage");
+    search.setAttribute("role", "combobox");
+    search.setAttribute("aria-controls", "combo-list");
+    search.setAttribute("aria-expanded", "true");
+    search.setAttribute("autocomplete", "off");
 
     const list = document.createElement("div");
     list.className = "combo-list";
+    list.id = "combo-list";
     list.setAttribute("role", "listbox");
 
     panel.append(search, list);
     el.charCombo.append(trigger, panel);
     state.combo = { trigger, panel, search, list, label: trigger.firstElementChild };
 
+    let optIndex = 0;
     const makeOption = (name, value, count, colorVar) => {
       const opt = document.createElement("button");
       opt.type = "button";
+      opt.id = `combo-opt-${optIndex++}`;
       opt.className = "combo-option";
       opt.setAttribute("role", "option");
       opt.dataset.value = value == null ? "" : value;
@@ -239,6 +250,7 @@
 
     trigger.addEventListener("click", () => toggleCombo());
     search.addEventListener("input", () => filterComboOptions(search.value.trim().toLowerCase()));
+    search.addEventListener("keydown", onComboKeydown);
   }
 
   function filterComboOptions(query) {
@@ -246,6 +258,46 @@
       const keep = !query || opt.dataset.value === "" || opt.dataset.name.includes(query);
       opt.style.display = keep ? "" : "none";
     });
+    setComboActive(0);
+  }
+
+  function comboVisibleOptions() {
+    return [...state.combo.list.querySelectorAll(".combo-option")]
+      .filter((opt) => opt.style.display !== "none");
+  }
+
+  function setComboActive(index) {
+    const opts = comboVisibleOptions();
+    state.combo.list.querySelectorAll(".combo-active")
+      .forEach((opt) => opt.classList.remove("combo-active"));
+    if (!opts.length) { state.combo.search.removeAttribute("aria-activedescendant"); return; }
+    const opt = opts[Math.max(0, Math.min(opts.length - 1, index))];
+    opt.classList.add("combo-active");
+    opt.scrollIntoView({ block: "nearest" });
+    state.combo.search.setAttribute("aria-activedescendant", opt.id);
+  }
+
+  function moveComboActive(delta) {
+    const opts = comboVisibleOptions();
+    const current = opts.findIndex((opt) => opt.classList.contains("combo-active"));
+    setComboActive(current < 0 ? 0 : current + delta);
+  }
+
+  // Arrow/Home/End/Enter navigation inside the open character combobox.
+  function onComboKeydown(event) {
+    switch (event.key) {
+      case "ArrowDown": event.preventDefault(); moveComboActive(1); break;
+      case "ArrowUp": event.preventDefault(); moveComboActive(-1); break;
+      case "Home": event.preventDefault(); setComboActive(0); break;
+      case "End": event.preventDefault(); setComboActive(comboVisibleOptions().length - 1); break;
+      case "Enter": {
+        event.preventDefault();
+        const active = state.combo.list.querySelector(".combo-active") || comboVisibleOptions()[0];
+        if (active) active.click();
+        break;
+      }
+      default: break;
+    }
   }
 
   function toggleCombo(forceOpen) {
@@ -297,8 +349,35 @@
     list.forEach((sound) => frag.appendChild(buildCard(sound)));
     el.board.appendChild(frag);
 
-    el.emptyState.hidden = list.length !== 0;
+    if (list.length === 0) {
+      el.emptyState.hidden = false;
+      el.emptyState.innerHTML = buildEmptyMessage();
+      const reset = el.emptyState.querySelector(".reset-filters");
+      if (reset) reset.addEventListener("click", resetFilters);
+    } else {
+      el.emptyState.hidden = true;
+    }
     el.resultCount.textContent = `${list.length} / ${state.pack.count}`;
+  }
+
+  function buildEmptyMessage() {
+    if (state.filters.favOnly && state.favorites.size === 0) {
+      return `<span>Aucun favori pour l'instant. Touchez l'étoile d'une réplique pour l'ajouter.</span>`;
+    }
+    if (state.filters.query || state.filters.character || state.filters.favOnly) {
+      return `<span>Aucune réplique ne correspond.</span>` +
+        `<button type="button" class="reset-filters">Réinitialiser les filtres</button>`;
+    }
+    return `<span>Aucune réplique disponible.</span>`;
+  }
+
+  function resetFilters() {
+    state.filters = { query: "", character: null, favOnly: false };
+    el.search.value = "";
+    el.favToggle.setAttribute("aria-pressed", "false");
+    updateComboSelection();
+    render();
+    el.search.focus();
   }
 
   function buildCard(sound) {
@@ -414,9 +493,10 @@
   // Controls wiring
   // ---------------------------------------------------------------------
   function wireControls() {
+    const renderSoon = debounce(render, 120);
     el.search.addEventListener("input", () => {
       state.filters.query = el.search.value.trim().toLowerCase();
-      render();
+      renderSoon();
     });
     el.themeSelect.addEventListener("change", () => applyTheme(el.themeSelect.value));
     el.packSelect.addEventListener("change", () => loadPack(el.packSelect.value));
@@ -426,10 +506,8 @@
       render();
     });
     el.stopAll.addEventListener("click", stopPlayback);
-    el.volume.addEventListener("input", () => {
-      state.audio.volume = Number(el.volume.value);
-      localStorage.setItem(STORE.volume, el.volume.value);
-    });
+    el.volume.addEventListener("input", () => setVolume(Number(el.volume.value)));
+    if (el.mute) el.mute.addEventListener("click", toggleMute);
     state.audio.addEventListener("ended", stopPlayback);
 
     document.addEventListener("click", (e) => {
@@ -450,13 +528,73 @@
   }
 
   function restoreVolume() {
-    const v = localStorage.getItem(STORE.volume);
-    if (v !== null) { el.volume.value = v; state.audio.volume = Number(v); }
+    const stored = localStorage.getItem(STORE.volume);
+    const volume = stored !== null ? Number(stored) : Number(el.volume.value);
+    if (volume > 0) state.lastVolume = volume;
+    setVolume(volume);
+  }
+
+  function setVolume(value) {
+    el.volume.value = String(value);
+    state.audio.volume = value;
+    if (value > 0) state.lastVolume = value;
+    localStorage.setItem(STORE.volume, String(value));
+    updateVolumeUi(value);
+  }
+
+  function toggleMute() {
+    setVolume(Number(el.volume.value) > 0 ? 0 : (state.lastVolume || 0.9));
+  }
+
+  function updateVolumeUi(value) {
+    el.volume.setAttribute("aria-valuetext", `${Math.round(value * 100)}%`);
+    if (!el.mute) return;
+    const muted = value === 0;
+    el.mute.setAttribute("aria-pressed", String(muted));
+    el.mute.title = muted ? "Réactiver le son" : "Couper le son";
+    el.mute.setAttribute("aria-label", el.mute.title);
+    const glyph = el.mute.firstElementChild;
+    if (glyph) glyph.innerHTML = muted ? "&#128263;" : "&#128266;";
   }
 
   // ---------------------------------------------------------------------
   // Utilities
   // ---------------------------------------------------------------------
+  function showLoading() {
+    el.emptyState.hidden = true;
+    el.board.innerHTML = `<p class="board-status" role="status">Chargement…</p>`;
+  }
+
+  // Publish the live header height so the sticky toolbar offsets correctly even
+  // when the header wraps onto several rows (narrow viewports, large text).
+  function trackHeaderHeight() {
+    if (!el.header) return;
+    const apply = () =>
+      document.documentElement.style.setProperty("--header-h", `${el.header.offsetHeight}px`);
+    apply();
+    if (window.ResizeObserver) new ResizeObserver(apply).observe(el.header);
+    else window.addEventListener("resize", apply);
+  }
+
+  // First visit (no stored choice) honours the OS light preference; otherwise
+  // the persisted theme wins, then the pack default.
+  function preferredTheme(fallbackId) {
+    const stored = localStorage.getItem(STORE.theme);
+    if (state.themeById.has(stored)) return stored;
+    const prefersLight = window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: light)").matches;
+    if (prefersLight) {
+      const light = state.themes.find((t) => t.family === "Light");
+      if (light) return light.id;
+    }
+    return fallbackId;
+  }
+
+  function debounce(fn, ms) {
+    let timer = 0;
+    return (...args) => { clearTimeout(timer); timer = setTimeout(() => fn(...args), ms); };
+  }
+
   function charColorVar(name) {
     let h = 0;
     for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0;

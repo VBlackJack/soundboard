@@ -32,8 +32,11 @@
         <span class="select-label">Thème</span>
         <select id="theme-select" aria-label="Choisir un thème"></select>
       </label>
-      <div class="volume-wrap" title="Volume">
-        <span class="vol-icon" aria-hidden="true">&#128266;</span>
+      <div class="volume-wrap">
+        <button id="mute" class="vol-mute" type="button"
+                aria-pressed="false" aria-label="Couper le son" title="Couper le son">
+          <span aria-hidden="true">&#128266;</span>
+        </button>
         <input id="volume" type="range" min="0" max="1" step="0.01" value="0.9"
                aria-label="Volume" />
       </div>
