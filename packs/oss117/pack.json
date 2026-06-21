@@ -1,0 +1,791 @@
+{
+  "id": "oss117",
+  "name": "OSS 117",
+  "defaultTheme": "folio",
+  "soundsBase": "sounds/oss117/",
+  "characters": [
+    "Hubert",
+    "Moëller",
+    "Bill",
+    "Chinois",
+    "Larmina",
+    "Armand"
+  ],
+  "count": 129,
+  "sounds": [
+    {
+      "file": "oss104.mp3",
+      "title": "68, année de la jeunesse",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss039.mp3",
+      "title": "Allahu akbar",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss096.mp3",
+      "title": "Amour vs guerre",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss080.mp3",
+      "title": "Arrogance, beauté, asperge",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss120.mp3",
+      "title": "Attention derrière toi",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss063.mp3",
+      "title": "Bambino",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss064.mp3",
+      "title": "Bambino - Instru",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "oss061.mp3",
+      "title": "Bambino - Intro",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "oss091.mp3",
+      "title": "Bananes flambées",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss058.mp3",
+      "title": "Bla bla bla",
+      "character": "Moëller",
+      "episode": ""
+    },
+    {
+      "file": "oss016.mp3",
+      "title": "C'est cocasse",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss013.mp3",
+      "title": "C'est ton ami",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss130.mp3",
+      "title": "Carlotta vs Flantier",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss103.mp3",
+      "title": "Changer le monde",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss053.mp3",
+      "title": "Chant des poulets",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "oss019.mp3",
+      "title": "Chargé / Déchargé",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss119.mp3",
+      "title": "Chauve qui peut",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss094.mp3",
+      "title": "Choux blanc",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss023.mp3",
+      "title": "Cigarette ?",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss043.mp3",
+      "title": "Cigarettes et n*chons",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss077.mp3",
+      "title": "Comme tu voudras",
+      "character": "Bill",
+      "episode": ""
+    },
+    {
+      "file": "oss072.mp3",
+      "title": "Comme un lundi",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss004.mp3",
+      "title": "Comment est votre blanquette ?",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss041.mp3",
+      "title": "Confiance et femme",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss011.mp3",
+      "title": "Coup de polish",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss015.mp3",
+      "title": "Curieuse odeure",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss123.mp3",
+      "title": "Des millions ?",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss057.mp3",
+      "title": "Deuxième chance",
+      "character": "Moëller",
+      "episode": ""
+    },
+    {
+      "file": "oss098.mp3",
+      "title": "Dictature",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss066.mp3",
+      "title": "Décapité / Plumé",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "oss049.mp3",
+      "title": "En toute amitié",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss081.mp3",
+      "title": "Enfiler du confortable",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss089.mp3",
+      "title": "Faces de quetsch",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss069.mp3",
+      "title": "Faisons comme ça",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss048.mp3",
+      "title": "Faut se réveiller",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss065.mp3",
+      "title": "Fonce Slimane !",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss042.mp3",
+      "title": "Forniquer avec un porc",
+      "character": "Larmina",
+      "episode": ""
+    },
+    {
+      "file": "oss070.mp3",
+      "title": "Froler la catastrophe",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss017.mp3",
+      "title": "Gratin Cairote",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss095.mp3",
+      "title": "Groupe hippie",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss073.mp3",
+      "title": "Guet-apens",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss087.mp3",
+      "title": "Habile",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss131.mp3",
+      "title": "Hello Mofo",
+      "character": "Bill",
+      "episode": ""
+    },
+    {
+      "file": "oss097.mp3",
+      "title": "Humour juif",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss122.mp3",
+      "title": "Humour juif 2",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss035.mp3",
+      "title": "Il va fermer sa gueule ?",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss084.mp3",
+      "title": "Il va les reconnaitre",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss045.mp3",
+      "title": "Inch' Allah",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss114.mp3",
+      "title": "J'ai raison sur tout",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss036.mp3",
+      "title": "J'aime beurrer",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss106.mp3",
+      "title": "J'aime ce qui se passe",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss046.mp3",
+      "title": "J'aime le bruit blanc",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss008.mp3",
+      "title": "J'aime les panoramas",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss018.mp3",
+      "title": "J'aime me battre",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss051.mp3",
+      "title": "J'aime qu'on m'enduise",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss082.mp3",
+      "title": "J'écoute",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss113.mp3",
+      "title": "Jaccadi a dit",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss093.mp3",
+      "title": "Je connais cette théorie",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss118.mp3",
+      "title": "Je dirais rien",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss054.mp3",
+      "title": "Je m'en moque",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss112.mp3",
+      "title": "Je suis une aventure",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss088.mp3",
+      "title": "Juifs & argent",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss078.mp3",
+      "title": "Kiss my *ss",
+      "character": "Bill",
+      "episode": ""
+    },
+    {
+      "file": "oss067.mp3",
+      "title": "La piquette",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss007.mp3",
+      "title": "Le problème avec l'Arabe",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss009.mp3",
+      "title": "Mon père est mort",
+      "character": "Larmina",
+      "episode": ""
+    },
+    {
+      "file": "oss012.mp3",
+      "title": "Monsieur René Coty",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss062.mp3",
+      "title": "Musiciens folkloriques",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss100.mp3",
+      "title": "Mères de famille",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss021.mp3",
+      "title": "Naine et myope",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss006.mp3",
+      "title": "Ne pas fumer me tue",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss037.mp3",
+      "title": "Ne perdons pas de temps",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss115.mp3",
+      "title": "Noël 1",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss116.mp3",
+      "title": "Noël 2",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss125.mp3",
+      "title": "On va boire un verre ?",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "oss022.mp3",
+      "title": "Pas d'alcool",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss003.mp3",
+      "title": "Pas envie",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss024.mp3",
+      "title": "Philo 01",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss025.mp3",
+      "title": "Philo 02",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss026.mp3",
+      "title": "Philo 03",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "oss027.mp3",
+      "title": "Philo 04",
+      "character": "Moëller",
+      "episode": ""
+    },
+    {
+      "file": "oss028.mp3",
+      "title": "Philo 05",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "oss029.mp3",
+      "title": "Philo 06",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "oss030.mp3",
+      "title": "Philo 07",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss031.mp3",
+      "title": "Philo 08",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "oss032.mp3",
+      "title": "Philo 09",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "oss034.mp3",
+      "title": "Philo 10",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss033.mp3",
+      "title": "Philo 11",
+      "character": "Moëller",
+      "episode": ""
+    },
+    {
+      "file": "oss099.mp3",
+      "title": "Pose ce transistor",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss117.mp3",
+      "title": "Postiche",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss001.mp3",
+      "title": "Pour vous servir",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss071.mp3",
+      "title": "Pédalo canard",
+      "character": "",
+      "episode": ""
+    },
+    {
+      "file": "oss086.mp3",
+      "title": "Quelle histoire...",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss085.mp3",
+      "title": "Quelque chose de lourd",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss102.mp3",
+      "title": "Quiches lorraines",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss129.mp3",
+      "title": "Raccourcissez cette jupe",
+      "character": "Bill",
+      "episode": ""
+    },
+    {
+      "file": "oss074.mp3",
+      "title": "Raciste",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss002.mp3",
+      "title": "Rires 1",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss014.mp3",
+      "title": "Rires 2",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss005.mp3",
+      "title": "Rires interminables",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss079.mp3",
+      "title": "Rosée du matin",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss050.mp3",
+      "title": "S'agirait de grandir",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss075.mp3",
+      "title": "Sacré Hubert",
+      "character": "Bill",
+      "episode": ""
+    },
+    {
+      "file": "oss047.mp3",
+      "title": "Sang royal",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss076.mp3",
+      "title": "Son of a b*tch",
+      "character": "Bill",
+      "episode": ""
+    },
+    {
+      "file": "oss107.mp3",
+      "title": "Sorti du contexte",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss052.mp3",
+      "title": "Soviet éponge",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss101.mp3",
+      "title": "T'as pas honte ?",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss068.mp3",
+      "title": "T'es mauvais",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss055.mp3",
+      "title": "Traitre de petite taille",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss060.mp3",
+      "title": "Tripoter les kikis",
+      "character": "Moëller",
+      "episode": ""
+    },
+    {
+      "file": "oss020.mp3",
+      "title": "Très belle",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss108.mp3",
+      "title": "Tu as tué mon frère 1",
+      "character": "Chinois",
+      "episode": ""
+    },
+    {
+      "file": "oss109.mp3",
+      "title": "Tu as tué mon frère 2",
+      "character": "Chinois",
+      "episode": ""
+    },
+    {
+      "file": "oss110.mp3",
+      "title": "Tu as tué mon frère 3",
+      "character": "Chinois",
+      "episode": ""
+    },
+    {
+      "file": "oss056.mp3",
+      "title": "Tu es quoi ?",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss059.mp3",
+      "title": "Tu te tais",
+      "character": "Moëller",
+      "episode": ""
+    },
+    {
+      "file": "oss090.mp3",
+      "title": "Têtes de prune",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss092.mp3",
+      "title": "Un club, un association",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss038.mp3",
+      "title": "Un deux trois...",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss127.mp3",
+      "title": "Un grand brun",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss121.mp3",
+      "title": "Une bonne couverture",
+      "character": "Armand",
+      "episode": ""
+    },
+    {
+      "file": "oss044.mp3",
+      "title": "Virer ma cuti",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss126.mp3",
+      "title": "Voilà, c'est ça",
+      "character": "Moëller",
+      "episode": ""
+    },
+    {
+      "file": "oss010.mp3",
+      "title": "Voiture propre",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss105.mp3",
+      "title": "Vrai monde",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss040.mp3",
+      "title": "Wahid... Six",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss128.mp3",
+      "title": "Ça cuit pas",
+      "character": "Hubert",
+      "episode": ""
+    },
+    {
+      "file": "oss124.mp3",
+      "title": "Ça ne sert à rien",
+      "character": "Hubert",
+      "episode": ""
+    }
+  ]
+}
