@@ -71,6 +71,12 @@
       "name": "South Park",
       "manifest": "packs/southpark/pack.json",
       "defaultTheme": "tarn"
+    },
+    {
+      "id": "starwarssfx",
+      "name": "Star Wars (sons & répliques VF)",
+      "manifest": "packs/starwarssfx/pack.json",
+      "defaultTheme": "vesper"
     }
   ]
 }

@@ -1,0 +1,219 @@
+{
+  "id": "starwarssfx",
+  "name": "Star Wars (sons & répliques VF)",
+  "defaultTheme": "vesper",
+  "soundsBase": "sounds/starwarssfx/",
+  "characters": [
+    "Vaisseaux",
+    "Yoda",
+    "C-3PO",
+    "Leia & Han",
+    "Yoda & Luke",
+    "Armes",
+    "Dark Vador",
+    "Dark Vador & Boba Fett",
+    "Dark Vador & Palpatine",
+    "Obi-Wan Kenobi"
+  ],
+  "count": 33,
+  "sounds": [
+    {
+      "file": "a_wing.mp3",
+      "title": "A-Wing",
+      "character": "Vaisseaux",
+      "episode": ""
+    },
+    {
+      "file": "b_wing.mp3",
+      "title": "B-Wing",
+      "character": "Vaisseaux",
+      "episode": ""
+    },
+    {
+      "file": "blaster.mp3",
+      "title": "Blaster",
+      "character": "Armes",
+      "episode": ""
+    },
+    {
+      "file": "c3po_han.mp3",
+      "title": "C-3PO & Han",
+      "character": "C-3PO",
+      "episode": ""
+    },
+    {
+      "file": "c3po_leia.mp3",
+      "title": "C-3PO & Leia",
+      "character": "C-3PO",
+      "episode": ""
+    },
+    {
+      "file": "n1_naboo.mp3",
+      "title": "Chasseur N-1 (Naboo)",
+      "character": "Vaisseaux",
+      "episode": ""
+    },
+    {
+      "file": "tie.mp3",
+      "title": "Chasseur TIE",
+      "character": "Vaisseaux",
+      "episode": ""
+    },
+    {
+      "file": "faucon_millenium.mp3",
+      "title": "Faucon Millenium",
+      "character": "Vaisseaux",
+      "episode": ""
+    },
+    {
+      "file": "leia_han.mp3",
+      "title": "Leia & Han",
+      "character": "Leia & Han",
+      "episode": ""
+    },
+    {
+      "file": "leia_han_6po.mp3",
+      "title": "Leia, Han & C-3PO",
+      "character": "Leia & Han",
+      "episode": ""
+    },
+    {
+      "file": "luke_yoda_2.mp3",
+      "title": "Luke & Yoda (2)",
+      "character": "Yoda & Luke",
+      "episode": ""
+    },
+    {
+      "file": "moteur_de_tie.mp3",
+      "title": "Moteur de TIE",
+      "character": "Vaisseaux",
+      "episode": ""
+    },
+    {
+      "file": "navette_imperiale.mp3",
+      "title": "Navette imperiale",
+      "character": "Vaisseaux",
+      "episode": ""
+    },
+    {
+      "file": "obiwan.mp3",
+      "title": "Obi-Wan",
+      "character": "Obi-Wan Kenobi",
+      "episode": ""
+    },
+    {
+      "file": "respiration_dark_vador.mp3",
+      "title": "Respiration de Dark Vador",
+      "character": "Dark Vador",
+      "episode": ""
+    },
+    {
+      "file": "slave_1.mp3",
+      "title": "Slave 1",
+      "character": "Vaisseaux",
+      "episode": ""
+    },
+    {
+      "file": "snowspeeder.mp3",
+      "title": "Snowspeeder",
+      "character": "Vaisseaux",
+      "episode": ""
+    },
+    {
+      "file": "tie_x1.mp3",
+      "title": "TIE Advanced x1",
+      "character": "Vaisseaux",
+      "episode": ""
+    },
+    {
+      "file": "vador_fett.mp3",
+      "title": "Vador & Boba Fett",
+      "character": "Dark Vador & Boba Fett",
+      "episode": ""
+    },
+    {
+      "file": "vador_palpatine.mp3",
+      "title": "Vador & Palpatine",
+      "character": "Dark Vador & Palpatine",
+      "episode": ""
+    },
+    {
+      "file": "vol_au_milieu_de_tie.mp3",
+      "title": "Vol au milieu des TIE",
+      "character": "Vaisseaux",
+      "episode": ""
+    },
+    {
+      "file": "vol_en_snowspeeder.mp3",
+      "title": "Vol en Snowspeeder",
+      "character": "Vaisseaux",
+      "episode": ""
+    },
+    {
+      "file": "x_wing.mp3",
+      "title": "X-Wing",
+      "character": "Vaisseaux",
+      "episode": ""
+    },
+    {
+      "file": "y_wing.mp3",
+      "title": "Y-Wing",
+      "character": "Vaisseaux",
+      "episode": ""
+    },
+    {
+      "file": "yoda.mp3",
+      "title": "Yoda",
+      "character": "Yoda",
+      "episode": ""
+    },
+    {
+      "file": "yoda_luke.mp3",
+      "title": "Yoda & Luke",
+      "character": "Yoda & Luke",
+      "episode": ""
+    },
+    {
+      "file": "yoda_2.mp3",
+      "title": "Yoda (2)",
+      "character": "Yoda",
+      "episode": ""
+    },
+    {
+      "file": "yoda_3.mp3",
+      "title": "Yoda (3)",
+      "character": "Yoda",
+      "episode": ""
+    },
+    {
+      "file": "yoda_5.mp3",
+      "title": "Yoda (5)",
+      "character": "Yoda",
+      "episode": ""
+    },
+    {
+      "file": "yoda_6.mp3",
+      "title": "Yoda (6)",
+      "character": "Yoda",
+      "episode": ""
+    },
+    {
+      "file": "yoda_7.mp3",
+      "title": "Yoda (7)",
+      "character": "Yoda",
+      "episode": ""
+    },
+    {
+      "file": "yoda_8.mp3",
+      "title": "Yoda (8)",
+      "character": "Yoda",
+      "episode": ""
+    },
+    {
+      "file": "yoda_9.mp3",
+      "title": "Yoda (9)",
+      "character": "Yoda",
+      "episode": ""
+    }
+  ]
+}
